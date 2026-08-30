@@ -26,13 +26,14 @@ class LanguageView extends GetView<LanguageController> {
             SizedBox(height: AppDimensions.paddingLg),
             SelectionCard(
               title: Keys.bangla.tr,
-              highlighted: true,
+              highlighted: controller.currentLanguage == 'bn',
               leading: Text('বা', style: TextStyle(fontSize: 28.sp, color: AppColors.primary)),
               onTap: () => controller.selectLanguage('bn'),
             ),
             SizedBox(height: AppDimensions.paddingMd),
             SelectionCard(
               title: Keys.english.tr,
+              highlighted: controller.currentLanguage == 'en',
               leading: Text('En', style: TextStyle(fontSize: 24.sp, color: AppColors.primary)),
               onTap: () => controller.selectLanguage('en'),
             ),

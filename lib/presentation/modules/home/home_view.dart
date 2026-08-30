@@ -32,9 +32,11 @@ class HomeView extends GetView<HomeController> {
         ),
       ),
       actions: [
-        // TODO Phase 7: wire to Settings.
         IconButton(
-          onPressed: () {},
+          onPressed: () async {
+            await Get.toNamed(Routes.settings);
+            controller.load();
+          },
           icon: const Icon(Icons.settings, color: AppColors.textPrimary),
         ),
       ],

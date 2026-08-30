@@ -59,7 +59,7 @@ class ChapterController extends GetxController {
     await _progress.markCompleted(_journey, chapter.id);
     if (chapter.story != null) {
       // Replaces the chapter route so there's no flash of it on return.
-      Get.offNamed(Routes.story, arguments: chapter);
+      Get.offNamed(Routes.story, arguments: {'chapter': chapter, 'review': false});
     } else {
       Get.back(result: true);
     }

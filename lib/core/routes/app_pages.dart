@@ -10,6 +10,8 @@ import '../../presentation/modules/language/language_binding.dart';
 import '../../presentation/modules/language/language_view.dart';
 import '../../presentation/modules/onboarding/onboarding_binding.dart';
 import '../../presentation/modules/onboarding/onboarding_view.dart';
+import '../../presentation/modules/settings/settings_binding.dart';
+import '../../presentation/modules/settings/settings_view.dart';
 import '../../presentation/modules/splash/splash_binding.dart';
 import '../../presentation/modules/splash/splash_view.dart';
 import '../../presentation/modules/story/story_binding.dart';
@@ -54,6 +56,11 @@ abstract class AppPages {
       name: Routes.story,
       page: () => const StoryView(),
       binding: StoryBinding(),
+    ),
+    GetPage(
+      name: Routes.settings,
+      page: () => const SettingsView(),
+      binding: SettingsBinding(),
     ),
   ];
 }

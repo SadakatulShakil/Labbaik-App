@@ -44,4 +44,29 @@ abstract class Keys {
   static const alreadyDone = 'alreadyDone';
   static const nextUnlocked = 'nextUnlocked';
   static const journeyDone = 'journeyDone';
+  static const viewStory = 'viewStory';
+  static const back = 'back';
+
+  static const cancel = 'cancel';
+  static const language = 'language';
+  static const textSize = 'textSize';
+  static const sizeSmall = 'sizeSmall';
+  static const sizeMedium = 'sizeMedium';
+  static const sizeLarge = 'sizeLarge';
+  static const sizeXLarge = 'sizeXLarge';
+  static const preview = 'preview';
+  static const audioNarration = 'audioNarration';
+  static const speed = 'speed';
+  static const speedSlow = 'speedSlow';
+  static const speedNormal = 'speedNormal';
+  static const speedFast = 'speedFast';
+  static const test = 'test';
+  static const resetProgress = 'resetProgress';
+  static const resetConfirmTitle = 'resetConfirmTitle';
+  static const resetConfirmBody = 'resetConfirmBody';
+  static const resetDone = 'resetDone';
+  static const reset = 'reset';
+  static const about = 'about';
+  static const developedBy = 'developedBy';
+  static const disclaimer = 'disclaimer';
 }

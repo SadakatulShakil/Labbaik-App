@@ -50,6 +50,14 @@ class StoryView extends GetView<StoryController> {
         ? controller.chapter.titleBn
         : controller.chapter.titleEn;
 
+    if (controller.isReview) {
+      return Text(
+        chapterTitle,
+        textAlign: TextAlign.center,
+        style: Theme.of(context).textTheme.headlineMedium,
+      );
+    }
+
     return Column(
       children: [
         TweenAnimationBuilder<double>(
@@ -153,6 +161,13 @@ class StoryView extends GetView<StoryController> {
   }
 
   Widget _buildBottomAction(BuildContext context) {
+    if (controller.isReview) {
+      return ElevatedButton(
+        onPressed: controller.dismiss,
+        child: Text(Keys.back.tr),
+      );
+    }
+
     return Obx(() {
       return Column(
         mainAxisSize: MainAxisSize.min,
@@ -166,7 +181,7 @@ class StoryView extends GetView<StoryController> {
             SizedBox(height: AppDimensions.paddingMd),
           ],
           ElevatedButton(
-            onPressed: controller.goHome,
+            onPressed: controller.dismiss,
             child: Text(Keys.continueBtn.tr),
           ),
         ],

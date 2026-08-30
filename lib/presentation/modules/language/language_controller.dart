@@ -12,6 +12,9 @@ class LanguageController extends GetxController {
 
   late final bool fromSettings = Get.arguments == true;
 
+  String get currentLanguage =>
+      _storage.languageCode ?? Get.locale?.languageCode ?? 'bn';
+
   Future<void> selectLanguage(String code) async {
     await _storage.setLanguageCode(code);
     Get.updateLocale(Locale(code));

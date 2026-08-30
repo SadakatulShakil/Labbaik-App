@@ -5,6 +5,7 @@ import 'package:get/get.dart';
 import '../../../core/constants/app_colors.dart';
 import '../../../core/constants/app_dimensions.dart';
 import '../../../core/localization/locale_keys.dart';
+import '../../../core/routes/app_routes.dart';
 import '../../../core/utils/icon_from_name.dart';
 import '../../../domain/entities/content_section.dart';
 import '../../widgets/app_scaffold.dart';
@@ -259,11 +260,16 @@ class ChapterView extends GetView<ChapterController> {
                 ),
               ],
             ),
-            SizedBox(height: AppDimensions.paddingMd),
-            OutlinedButton(
-              onPressed: Get.back,
-              child: Text(Keys.review.tr),
-            ),
+            if (controller.chapter.story != null) ...[
+              SizedBox(height: AppDimensions.paddingMd),
+              OutlinedButton(
+                onPressed: () => Get.toNamed(
+                  Routes.story,
+                  arguments: {'chapter': controller.chapter, 'review': true},
+                ),
+                child: Text(Keys.viewStory.tr),
+              ),
+            ],
           ],
         );
       }

@@ -9,7 +9,9 @@ import '../../../domain/entities/story_content.dart';
 import '../../../domain/repositories/content_repository.dart';
 
 class StoryController extends GetxController {
-  final ChapterContent chapter = Get.arguments as ChapterContent;
+  final Map _args = Get.arguments as Map;
+  late final ChapterContent chapter = _args['chapter'] as ChapterContent;
+  late final bool isReview = _args['review'] == true;
 
   final StorageService _storage = Get.find<StorageService>();
   final ContentRepository _content = Get.find<ContentRepository>();
@@ -63,6 +65,14 @@ class StoryController extends GetxController {
 
   void goHome() {
     Get.until((route) => route.settings.name == Routes.home);
+  }
+
+  void dismiss() {
+    if (isReview) {
+      Get.back();
+    } else {
+      goHome();
+    }
   }
 
   @override
