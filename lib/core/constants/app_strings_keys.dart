@@ -24,4 +24,13 @@ abstract class Keys {
   static const selectJourney = 'selectJourney';
   static const umrahDesc = 'umrahDesc';
   static const hajjDesc = 'hajjDesc';
+
+  static const phasePreparation = 'phasePreparation';
+  static const phaseRites = 'phaseRites';
+  static const phaseAfter = 'phaseAfter';
+  static const completed = 'completed';
+  static const startHere = 'startHere';
+  static const lockedHint = 'lockedHint';
+  static const markCompleteTemp = 'markCompleteTemp';
+  static const cancel = 'cancel';
 }
