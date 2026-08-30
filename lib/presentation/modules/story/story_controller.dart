@@ -1,20 +1,24 @@
 import 'package:get/get.dart';
 
+import '../../../core/constants/app_strings_keys.dart';
 import '../../../core/routes/app_routes.dart';
 import '../../../core/services/storage_service.dart';
 import '../../../core/services/tts_service.dart';
 import '../../../domain/entities/chapter_content.dart';
-import '../../../domain/repositories/progress_repository.dart';
+import '../../../domain/entities/story_content.dart';
+import '../../../domain/repositories/content_repository.dart';
 
-class ChapterController extends GetxController {
+class StoryController extends GetxController {
   final ChapterContent chapter = Get.arguments as ChapterContent;
 
-  final ProgressRepository _progress = Get.find<ProgressRepository>();
   final StorageService _storage = Get.find<StorageService>();
+  final ContentRepository _content = Get.find<ContentRepository>();
   final TtsService _tts = Get.find<TtsService>();
 
-  final isCompleted = false.obs;
+  StoryContent? get story => chapter.story;
+
   final isNarrating = false.obs;
+  final isLastChapter = false.obs;
 
   bool get isBn => (Get.locale?.languageCode ?? 'bn') == 'bn';
 
@@ -22,24 +26,26 @@ class ChapterController extends GetxController {
 
   double get textScale => _storage.textScale;
 
+  String get journeyTitleKey => _journey == 'hajj' ? Keys.hajj : Keys.umrah;
+
   String get _journey => _storage.selectedJourney ?? 'umrah';
 
   @override
   void onInit() {
     super.onInit();
-    _loadCompletion();
+    _checkLastChapter();
   }
 
-  Future<void> _loadCompletion() async {
-    final completed = await _progress.completedChapterIds(_journey);
-    isCompleted.value = completed.contains(chapter.id);
+  Future<void> _checkLastChapter() async {
+    final chapters = await _content.getChapters(_journey);
+    isLastChapter.value = chapter.order == chapters.length;
   }
 
-  Future<void> narrateChapter() async {
-    final sections = [...chapter.sections]
-      ..sort((a, b) => a.order.compareTo(b.order));
-    final text =
-        sections.map((s) => isBn ? s.bodyBn : s.bodyEn).join('. ');
+  Future<void> narrateStory() async {
+    final s = story;
+    if (s == null) return;
+
+    final text = isBn ? s.bodyBn : s.bodyEn;
     if (text.trim().isEmpty) return;
 
     isNarrating.value = true;
@@ -55,14 +61,8 @@ class ChapterController extends GetxController {
     isNarrating.value = false;
   }
 
-  Future<void> complete() async {
-    await _progress.markCompleted(_journey, chapter.id);
-    if (chapter.story != null) {
-      // Replaces the chapter route so there's no flash of it on return.
-      Get.offNamed(Routes.story, arguments: chapter);
-    } else {
-      Get.back(result: true);
-    }
+  void goHome() {
+    Get.until((route) => route.settings.name == Routes.home);
   }
 
   @override

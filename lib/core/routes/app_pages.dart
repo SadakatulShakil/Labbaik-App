@@ -12,6 +12,8 @@ import '../../presentation/modules/onboarding/onboarding_binding.dart';
 import '../../presentation/modules/onboarding/onboarding_view.dart';
 import '../../presentation/modules/splash/splash_binding.dart';
 import '../../presentation/modules/splash/splash_view.dart';
+import '../../presentation/modules/story/story_binding.dart';
+import '../../presentation/modules/story/story_view.dart';
 import 'app_routes.dart';
 
 /// Registered GetPage routes with their bindings. Add one entry per screen
@@ -47,6 +49,11 @@ abstract class AppPages {
       name: Routes.chapter,
       page: () => const ChapterView(),
       binding: ChapterBinding(),
+    ),
+    GetPage(
+      name: Routes.story,
+      page: () => const StoryView(),
+      binding: StoryBinding(),
     ),
   ];
 }

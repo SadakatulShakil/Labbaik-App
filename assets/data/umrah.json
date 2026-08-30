@@ -14,7 +14,14 @@
         { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
       ],
       "duas": [],
-      "story": null
+      "story": {
+        "titleBn": "শিক্ষণীয় গল্প",
+        "titleEn": "A Story to Reflect On",
+        "bodyBn": "[story content in Phase 8]",
+        "bodyEn": "[story content in Phase 8]",
+        "imageAsset": null,
+        "audioAsset": null
+      }
     },
     {
       "id": "umrah_ch2",

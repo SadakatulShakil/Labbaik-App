@@ -6,4 +6,5 @@ abstract class Routes {
   static const journeySelect = '/journey-select';
   static const home = '/home';
   static const chapter = '/chapter';
+  static const story = '/story';
 }

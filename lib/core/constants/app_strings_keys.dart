@@ -42,4 +42,6 @@ abstract class Keys {
   static const markComplete = 'markComplete';
   static const review = 'review';
   static const alreadyDone = 'alreadyDone';
+  static const nextUnlocked = 'nextUnlocked';
+  static const journeyDone = 'journeyDone';
 }

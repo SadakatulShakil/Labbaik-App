@@ -47,6 +47,8 @@ class AppTranslations extends Translations {
           Keys.markComplete: 'Mark Chapter Complete',
           Keys.review: 'Review',
           Keys.alreadyDone: 'Completed',
+          Keys.nextUnlocked: 'Next chapter unlocked!',
+          Keys.journeyDone: 'You have completed your @journey!',
         },
         'bn': {
           Keys.appName: 'লাব্বাইক · Labbaik',
@@ -89,6 +91,8 @@ class AppTranslations extends Translations {
           Keys.markComplete: 'অধ্যায় সম্পন্ন করুন',
           Keys.review: 'আবার দেখুন',
           Keys.alreadyDone: 'সম্পন্ন হয়েছে',
+          Keys.nextUnlocked: 'পরবর্তী অধ্যায় আনলক হলো!',
+          Keys.journeyDone: '@journey সম্পন্ন হয়েছে!',
         },
       };
 }
