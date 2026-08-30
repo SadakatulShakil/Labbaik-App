@@ -1,0 +1,150 @@
+{
+  "journey": "umrah",
+  "titleBn": "উমরাহ",
+  "titleEn": "Umrah",
+  "chapters": [
+    {
+      "id": "umrah_ch1",
+      "order": 1,
+      "phase": "preparation",
+      "titleBn": "উমরাহ কী?",
+      "titleEn": "What is Umrah?",
+      "icon": "help_outline",
+      "sections": [
+        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+      ],
+      "duas": [],
+      "story": null
+    },
+    {
+      "id": "umrah_ch2",
+      "order": 2,
+      "phase": "preparation",
+      "titleBn": "যাত্রার প্রস্তুতি",
+      "titleEn": "Getting Ready",
+      "icon": "luggage",
+      "sections": [
+        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+      ],
+      "duas": [],
+      "story": null
+    },
+    {
+      "id": "umrah_ch3",
+      "order": 3,
+      "phase": "preparation",
+      "titleBn": "পবিত্র স্থানসমূহ চেনা",
+      "titleEn": "Know the Holy Places",
+      "icon": "map",
+      "sections": [
+        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+      ],
+      "duas": [],
+      "story": null
+    },
+    {
+      "id": "umrah_ch4",
+      "order": 4,
+      "phase": "rites",
+      "titleBn": "ইহরাম",
+      "titleEn": "Ihram",
+      "icon": "checkroom",
+      "sections": [
+        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+      ],
+      "duas": [],
+      "story": null
+    },
+    {
+      "id": "umrah_ch5",
+      "order": 5,
+      "phase": "rites",
+      "titleBn": "তালবিয়াহ",
+      "titleEn": "Talbiyah",
+      "icon": "record_voice_over",
+      "sections": [
+        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+      ],
+      "duas": [],
+      "story": null
+    },
+    {
+      "id": "umrah_ch6",
+      "order": 6,
+      "phase": "rites",
+      "titleBn": "মসজিদুল হারামে প্রবেশ ও কাবা দর্শন",
+      "titleEn": "Entering the Haram",
+      "icon": "mosque",
+      "sections": [
+        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+      ],
+      "duas": [],
+      "story": null
+    },
+    {
+      "id": "umrah_ch7",
+      "order": 7,
+      "phase": "rites",
+      "titleBn": "তাওয়াফ",
+      "titleEn": "Tawaf",
+      "icon": "rotate_right",
+      "sections": [
+        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+      ],
+      "duas": [],
+      "story": null
+    },
+    {
+      "id": "umrah_ch8",
+      "order": 8,
+      "phase": "rites",
+      "titleBn": "তাওয়াফের পর",
+      "titleEn": "After Tawaf",
+      "icon": "local_drink",
+      "sections": [
+        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+      ],
+      "duas": [],
+      "story": null
+    },
+    {
+      "id": "umrah_ch9",
+      "order": 9,
+      "phase": "rites",
+      "titleBn": "সাঈ",
+      "titleEn": "Sa'i",
+      "icon": "directions_walk",
+      "sections": [
+        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+      ],
+      "duas": [],
+      "story": null
+    },
+    {
+      "id": "umrah_ch10",
+      "order": 10,
+      "phase": "rites",
+      "titleBn": "হালক / তাকসীর",
+      "titleEn": "Halq or Taqsir",
+      "icon": "content_cut",
+      "sections": [
+        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+      ],
+      "duas": [],
+      "story": null
+    },
+    {
+      "id": "umrah_ch11",
+      "order": 11,
+      "phase": "after",
+      "titleBn": "মদিনা যিয়ারত",
+      "titleEn": "Visiting Madinah",
+      "icon": "star",
+      "sections": [
+        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+      ],
+      "duas": [],
+      "story": null
+    }
+  ]
+}

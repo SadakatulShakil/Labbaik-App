@@ -1,0 +1,163 @@
+{
+  "journey": "hajj",
+  "titleBn": "হজ",
+  "titleEn": "Hajj",
+  "chapters": [
+    {
+      "id": "hajj_ch1",
+      "order": 1,
+      "phase": "preparation",
+      "titleBn": "হজ কী?",
+      "titleEn": "What is Hajj?",
+      "icon": "help_outline",
+      "sections": [
+        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+      ],
+      "duas": [],
+      "story": null
+    },
+    {
+      "id": "hajj_ch2",
+      "order": 2,
+      "phase": "preparation",
+      "titleBn": "হজের প্রকারভেদ",
+      "titleEn": "Types of Hajj",
+      "icon": "category",
+      "sections": [
+        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+      ],
+      "duas": [],
+      "story": null
+    },
+    {
+      "id": "hajj_ch3",
+      "order": 3,
+      "phase": "preparation",
+      "titleBn": "বাংলাদেশ থেকে হজ নিবন্ধন",
+      "titleEn": "Registration from Bangladesh",
+      "icon": "how_to_reg",
+      "sections": [
+        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+      ],
+      "duas": [],
+      "story": null
+    },
+    {
+      "id": "hajj_ch4",
+      "order": 4,
+      "phase": "preparation",
+      "titleBn": "যাত্রার প্রস্তুতি",
+      "titleEn": "Getting Ready",
+      "icon": "luggage",
+      "sections": [
+        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+      ],
+      "duas": [],
+      "story": null
+    },
+    {
+      "id": "hajj_ch5",
+      "order": 5,
+      "phase": "preparation",
+      "titleBn": "পবিত্র স্থানসমূহ ও সময়সূচি",
+      "titleEn": "Places & Timeline",
+      "icon": "map",
+      "sections": [
+        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+      ],
+      "duas": [],
+      "story": null
+    },
+    {
+      "id": "hajj_ch6",
+      "order": 6,
+      "phase": "rites",
+      "titleBn": "উমরাহ (তামাত্তুর জন্য)",
+      "titleEn": "Umrah (for Tamattu)",
+      "icon": "brightness_3",
+      "sections": [
+        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+      ],
+      "duas": [],
+      "story": null
+    },
+    {
+      "id": "hajj_ch7",
+      "order": 7,
+      "phase": "rites",
+      "titleBn": "৮ জিলহজ: তারবিয়াহর দিন",
+      "titleEn": "8th: Tarwiyah",
+      "icon": "looks_one",
+      "sections": [
+        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+      ],
+      "duas": [],
+      "story": null
+    },
+    {
+      "id": "hajj_ch8",
+      "order": 8,
+      "phase": "rites",
+      "titleBn": "৯ জিলহজ: আরাফাহর দিন",
+      "titleEn": "9th: Day of Arafah",
+      "icon": "looks_two",
+      "sections": [
+        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+      ],
+      "duas": [],
+      "story": null
+    },
+    {
+      "id": "hajj_ch9",
+      "order": 9,
+      "phase": "rites",
+      "titleBn": "১০ জিলহজ: কোরবানি ও ঈদ",
+      "titleEn": "10th: Day of Sacrifice",
+      "icon": "looks_3",
+      "sections": [
+        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+      ],
+      "duas": [],
+      "story": null
+    },
+    {
+      "id": "hajj_ch10",
+      "order": 10,
+      "phase": "rites",
+      "titleBn": "১১–১৩ জিলহজ: তাশরিকের দিন",
+      "titleEn": "Days of Tashreeq",
+      "icon": "looks_4",
+      "sections": [
+        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+      ],
+      "duas": [],
+      "story": null
+    },
+    {
+      "id": "hajj_ch11",
+      "order": 11,
+      "phase": "rites",
+      "titleBn": "বিদায়ী তাওয়াফ",
+      "titleEn": "Farewell Tawaf",
+      "icon": "waving_hand",
+      "sections": [
+        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+      ],
+      "duas": [],
+      "story": null
+    },
+    {
+      "id": "hajj_ch12",
+      "order": 12,
+      "phase": "after",
+      "titleBn": "মদিনা যিয়ারত",
+      "titleEn": "Visiting Madinah",
+      "icon": "star",
+      "sections": [
+        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+      ],
+      "duas": [],
+      "story": null
+    }
+  ]
+}

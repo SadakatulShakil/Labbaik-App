@@ -9,10 +9,15 @@ import 'core/routes/app_pages.dart';
 import 'core/routes/app_routes.dart';
 import 'core/services/storage_service.dart';
 import 'core/theme/app_theme.dart';
+import 'data/datasources/local/app_database.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await GetStorage.init();
+
+  final db = await $FloorAppDatabase.databaseBuilder('labbaik.db').build();
+  Get.put<AppDatabase>(db, permanent: true);
+
   runApp(const LabbaikApp());
 }
 
