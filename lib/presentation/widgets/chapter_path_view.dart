@@ -37,7 +37,10 @@ class ChapterPathView extends StatelessWidget {
     final nodeWidth = _nodeWidth.w;
     final step = ChapterNode.nodeSize.w + 96.h;
     final topPadding = 72.h;
-    final bottomPadding = 140.h;
+    // Clears the system navigation bar (drawn under, in edge-to-edge mode)
+    // plus a little breathing room below the last node.
+    final navBarInset = MediaQuery.of(context).padding.bottom;
+    final bottomPadding = 140.h + navBarInset + 24.h;
     final totalHeight =
         topPadding + step * (chapters.length - 1) + ringSize + bottomPadding;
 

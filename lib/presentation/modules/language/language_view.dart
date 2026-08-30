@@ -16,25 +16,27 @@ class LanguageView extends GetView<LanguageController> {
     return Scaffold(
       backgroundColor: AppColors.background,
       appBar: AppBar(title: Text(Keys.selectLanguage.tr)),
-      body: Padding(
-        padding: EdgeInsets.all(AppDimensions.paddingLg),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            SizedBox(height: AppDimensions.paddingLg),
-            SelectionCard(
-              title: Keys.bangla.tr,
-              highlighted: true,
-              leading: Text('বা', style: TextStyle(fontSize: 28.sp, color: AppColors.primary)),
-              onTap: () => controller.selectLanguage('bn'),
-            ),
-            SizedBox(height: AppDimensions.paddingMd),
-            SelectionCard(
-              title: Keys.english.tr,
-              leading: Text('En', style: TextStyle(fontSize: 24.sp, color: AppColors.primary)),
-              onTap: () => controller.selectLanguage('en'),
-            ),
-          ],
+      body: SafeArea(
+        child: Padding(
+          padding: EdgeInsets.all(AppDimensions.paddingLg),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              SizedBox(height: AppDimensions.paddingLg),
+              SelectionCard(
+                title: Keys.bangla.tr,
+                highlighted: true,
+                leading: Text('বা', style: TextStyle(fontSize: 28.sp, color: AppColors.primary)),
+                onTap: () => controller.selectLanguage('bn'),
+              ),
+              SizedBox(height: AppDimensions.paddingMd),
+              SelectionCard(
+                title: Keys.english.tr,
+                leading: Text('En', style: TextStyle(fontSize: 24.sp, color: AppColors.primary)),
+                onTap: () => controller.selectLanguage('en'),
+              ),
+            ],
+          ),
         ),
       ),
     );
