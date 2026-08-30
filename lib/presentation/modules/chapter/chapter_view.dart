@@ -7,6 +7,7 @@ import '../../../core/constants/app_dimensions.dart';
 import '../../../core/localization/locale_keys.dart';
 import '../../../core/utils/icon_from_name.dart';
 import '../../../domain/entities/content_section.dart';
+import '../../widgets/app_scaffold.dart';
 import '../../widgets/dua_card.dart';
 import 'chapter_controller.dart';
 
@@ -15,35 +16,37 @@ class ChapterView extends GetView<ChapterController> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: AppColors.background,
-      appBar: AppBar(),
-      body: SafeArea(
-        child: MediaQuery(
-          data: MediaQuery.of(context)
-              .copyWith(textScaler: TextScaler.linear(controller.textScale)),
-          child: Column(
-            children: [
-              Expanded(
-                child: SingleChildScrollView(
-                  padding: EdgeInsets.all(AppDimensions.paddingLg),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.stretch,
-                    children: [
-                      _buildHeader(context),
-                      SizedBox(height: AppDimensions.paddingXl),
-                      _buildSections(context),
-                      _buildDuas(context),
-                    ],
-                  ),
+    final title =
+        controller.isBn ? controller.chapter.titleBn : controller.chapter.titleEn;
+
+    return AppScaffold(
+      title: Text(title),
+      showBack: true,
+      scrimAlpha: 0.7,
+      body: MediaQuery(
+        data: MediaQuery.of(context)
+            .copyWith(textScaler: TextScaler.linear(controller.textScale)),
+        child: Column(
+          children: [
+            Expanded(
+              child: SingleChildScrollView(
+                padding: EdgeInsets.all(AppDimensions.paddingLg),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    _buildHeader(context),
+                    SizedBox(height: AppDimensions.paddingXl),
+                    _buildSections(context),
+                    _buildDuas(context),
+                  ],
                 ),
               ),
-              Padding(
-                padding: EdgeInsets.all(AppDimensions.paddingLg),
-                child: _buildBottomAction(context),
-              ),
-            ],
-          ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(AppDimensions.paddingLg),
+              child: _buildBottomAction(context),
+            ),
+          ],
         ),
       ),
     );

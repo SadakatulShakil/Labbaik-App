@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
@@ -9,8 +8,8 @@ import '../../../core/constants/app_strings_keys.dart';
 import '../../../core/routes/app_routes.dart';
 import '../../../core/utils/to_local_digits.dart';
 import '../../../domain/entities/chapter_content.dart';
+import '../../widgets/app_scaffold.dart';
 import '../../widgets/chapter_path_view.dart';
-import '../../widgets/pilgrim_background.dart';
 import 'chapter_state.dart';
 import 'home_controller.dart';
 
@@ -19,105 +18,57 @@ import 'home_controller.dart';
 class HomeView extends GetView<HomeController> {
   const HomeView({super.key});
 
-  static const _statusBarStyle = SystemUiOverlayStyle(
-    statusBarColor: Colors.transparent,
-    statusBarIconBrightness: Brightness.dark,
-    statusBarBrightness: Brightness.light,
-    systemNavigationBarColor: Colors.transparent,
-    systemNavigationBarIconBrightness: Brightness.dark,
-  );
-
   @override
   Widget build(BuildContext context) {
-    return AnnotatedRegion<SystemUiOverlayStyle>(
-      value: _statusBarStyle,
-      child: Scaffold(
-        backgroundColor: AppColors.background,
-        body: Stack(
+    return AppScaffold(
+      title: Obx(
+        () => Text(
+          controller.journeyTitleKey.tr,
+          style: TextStyle(
+            fontSize: 22.sp,
+            fontWeight: FontWeight.bold,
+            color: AppColors.textPrimary,
+          ),
+        ),
+      ),
+      actions: [
+        // TODO Phase 7: wire to Settings.
+        IconButton(
+          onPressed: () {},
+          icon: const Icon(Icons.settings, color: AppColors.textPrimary),
+        ),
+      ],
+      body: Obx(() {
+        if (controller.loading.value) {
+          return const Center(
+            child: CircularProgressIndicator(color: AppColors.primary),
+          );
+        }
+
+        return Column(
           children: [
-            const PilgrimBackground(),
-            SafeArea(
-              bottom: false,
-              child: Obx(() {
-                if (controller.loading.value) {
-                  return const Center(
-                    child: CircularProgressIndicator(color: AppColors.primary),
-                  );
-                }
-
-                return Column(
-                  children: [
-                    _buildHeader(),
-                    Padding(
-                      padding: EdgeInsets.fromLTRB(
-                        AppDimensions.paddingMd,
-                        AppDimensions.paddingMd,
-                        AppDimensions.paddingMd,
-                        0,
-                      ),
-                      child: _buildJourneyToggle(),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.all(AppDimensions.paddingMd),
-                      child: _buildProgressRow(context),
-                    ),
-                    Expanded(
-                      child: ChapterPathView(
-                        chapters: controller.chapters,
-                        stateOf: controller.stateOf,
-                        isCurrent: controller.isCurrent,
-                        onChapterTap: _onChapterTap,
-                      ),
-                    ),
-                  ],
-                );
-              }),
+            Padding(
+              padding: EdgeInsets.symmetric(horizontal: AppDimensions.paddingMd),
+              child: _buildJourneyToggle(),
             ),
-          ],
-        ),
-      ),
-    );
-  }
-
-  Widget _buildHeader() {
-    return Container(
-      padding: EdgeInsets.fromLTRB(
-        AppDimensions.paddingLg,
-        AppDimensions.paddingMd,
-        AppDimensions.paddingSm,
-        AppDimensions.paddingLg,
-      ),
-      decoration: BoxDecoration(
-        gradient: LinearGradient(
-          begin: Alignment.topCenter,
-          end: Alignment.bottomCenter,
-          colors: [
-            AppColors.background.withValues(alpha: 0.5),
-            AppColors.background.withValues(alpha: 0),
-          ],
-        ),
-      ),
-      child: Row(
-        children: [
-          Expanded(
-            child: Obx(
-              () => Text(
-                controller.journeyTitleKey.tr,
-                style: TextStyle(
-                  fontSize: 22.sp,
-                  fontWeight: FontWeight.bold,
-                  color: AppColors.textPrimary,
-                ),
+            Padding(
+              padding: EdgeInsets.symmetric(
+                horizontal: AppDimensions.paddingMd,
+                vertical: AppDimensions.paddingSm,
+              ),
+              child: _buildProgressRow(context),
+            ),
+            Expanded(
+              child: ChapterPathView(
+                chapters: controller.chapters,
+                stateOf: controller.stateOf,
+                isCurrent: controller.isCurrent,
+                onChapterTap: _onChapterTap,
               ),
             ),
-          ),
-          // TODO Phase 7: wire to Settings.
-          IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.settings, color: AppColors.textPrimary),
-          ),
-        ],
-      ),
+          ],
+        );
+      }),
     );
   }
 

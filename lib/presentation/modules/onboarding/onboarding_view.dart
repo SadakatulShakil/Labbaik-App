@@ -5,6 +5,7 @@ import 'package:get/get.dart';
 import '../../../core/constants/app_colors.dart';
 import '../../../core/constants/app_dimensions.dart';
 import '../../../core/localization/locale_keys.dart';
+import '../../widgets/app_scaffold.dart';
 import 'onboarding_controller.dart';
 
 class _Slide {
@@ -38,72 +39,69 @@ class OnboardingView extends GetView<OnboardingController> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: AppColors.background,
-      body: SafeArea(
-        child: Column(
-          children: [
-            Align(
-              alignment: Alignment.topRight,
-              child: Obx(
-                () => Opacity(
-                  opacity: controller.currentPage.value < _slides.length - 1 ? 1 : 0,
-                  child: Padding(
-                    padding: EdgeInsets.all(AppDimensions.paddingMd),
-                    child: TextButton(
-                      onPressed: controller.currentPage.value < _slides.length - 1
-                          ? controller.skip
-                          : null,
-                      child: Text(
-                        Keys.skip.tr,
-                        style: TextStyle(fontSize: 16.sp, color: AppColors.textSecondary),
-                      ),
+    return AppScaffold(
+      body: Column(
+        children: [
+          Align(
+            alignment: Alignment.topRight,
+            child: Obx(
+              () => Opacity(
+                opacity: controller.currentPage.value < _slides.length - 1 ? 1 : 0,
+                child: Padding(
+                  padding: EdgeInsets.all(AppDimensions.paddingMd),
+                  child: TextButton(
+                    onPressed: controller.currentPage.value < _slides.length - 1
+                        ? controller.skip
+                        : null,
+                    child: Text(
+                      Keys.skip.tr,
+                      style: TextStyle(fontSize: 16.sp, color: AppColors.textSecondary),
                     ),
                   ),
                 ),
               ),
             ),
-            Expanded(
-              child: PageView.builder(
-                controller: controller.pageController,
-                itemCount: _slides.length,
-                onPageChanged: controller.onPageChanged,
-                itemBuilder: (context, index) => _SlideContent(slide: _slides[index]),
-              ),
+          ),
+          Expanded(
+            child: PageView.builder(
+              controller: controller.pageController,
+              itemCount: _slides.length,
+              onPageChanged: controller.onPageChanged,
+              itemBuilder: (context, index) => _SlideContent(slide: _slides[index]),
             ),
-            Obx(
-              () => Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: List.generate(_slides.length, (index) {
-                  final active = controller.currentPage.value == index;
-                  return AnimatedContainer(
-                    duration: const Duration(milliseconds: 250),
-                    margin: EdgeInsets.symmetric(horizontal: 4.w),
-                    width: active ? 24.w : 8.w,
-                    height: 8.h,
-                    decoration: BoxDecoration(
-                      color: active ? AppColors.accentGold : AppColors.locked,
-                      borderRadius: BorderRadius.circular(4.r),
-                    ),
-                  );
-                }),
-              ),
-            ),
-            Padding(
-              padding: EdgeInsets.all(AppDimensions.paddingLg),
-              child: Obx(
-                () => ElevatedButton(
-                  onPressed: controller.next,
-                  child: Text(
-                    controller.currentPage.value == _slides.length - 1
-                        ? Keys.getStarted.tr
-                        : Keys.next.tr,
+          ),
+          Obx(
+            () => Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: List.generate(_slides.length, (index) {
+                final active = controller.currentPage.value == index;
+                return AnimatedContainer(
+                  duration: const Duration(milliseconds: 250),
+                  margin: EdgeInsets.symmetric(horizontal: 4.w),
+                  width: active ? 24.w : 8.w,
+                  height: 8.h,
+                  decoration: BoxDecoration(
+                    color: active ? AppColors.accentGold : AppColors.locked,
+                    borderRadius: BorderRadius.circular(4.r),
                   ),
+                );
+              }),
+            ),
+          ),
+          Padding(
+            padding: EdgeInsets.all(AppDimensions.paddingLg),
+            child: Obx(
+              () => ElevatedButton(
+                onPressed: controller.next,
+                child: Text(
+                  controller.currentPage.value == _slides.length - 1
+                      ? Keys.getStarted.tr
+                      : Keys.next.tr,
                 ),
               ),
             ),
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }

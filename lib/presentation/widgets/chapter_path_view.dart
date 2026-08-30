@@ -36,7 +36,7 @@ class ChapterPathView extends StatelessWidget {
     final ringSize = ChapterNode.nodeSize.w;
     final nodeWidth = _nodeWidth.w;
     final step = ChapterNode.nodeSize.w + 96.h;
-    final topPadding = 72.h;
+    final topPadding = 56.h;
     // Clears the system navigation bar (drawn under, in edge-to-edge mode)
     // plus a little breathing room below the last node.
     final navBarInset = MediaQuery.of(context).padding.bottom;
@@ -84,12 +84,21 @@ class ChapterPathView extends StatelessWidget {
       if (i == 0 || chapter.phase != chapters[i - 1].phase) {
         final labelY =
             i == 0 ? topPadding * 0.5 : (centers[i - 1].dy + center.dy) / 2;
+        final chip = _PhaseLabelChip(phase: chapter.phase);
         children.add(
           Positioned(
             top: labelY - 12.h,
             left: 0,
             right: 0,
-            child: Center(child: _PhaseLabelChip(phase: chapter.phase)),
+            child: chapter.phase == 'preparation'
+                ? Align(
+                    alignment: Alignment.centerLeft,
+                    child: Padding(
+                      padding: EdgeInsets.only(left: AppDimensions.paddingLg),
+                      child: chip,
+                    ),
+                  )
+                : Center(child: chip),
           ),
         );
       }
