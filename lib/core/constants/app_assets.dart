@@ -7,5 +7,7 @@ class AppAssets {
   static const imagesBasePath = 'assets/images';
   static const dataBasePath = 'assets/data';
 
+  static const background = '$imagesBasePath/background_image.png';
+
   // TODO: Arabic font in content phase.
 }

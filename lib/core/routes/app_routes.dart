@@ -5,4 +5,5 @@ abstract class Routes {
   static const onboarding = '/onboarding';
   static const journeySelect = '/journey-select';
   static const home = '/home';
+  static const chapter = '/chapter';
 }

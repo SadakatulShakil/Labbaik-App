@@ -5,9 +5,11 @@ import 'package:get/get.dart';
 import '../../../core/constants/app_colors.dart';
 import '../../../core/constants/app_dimensions.dart';
 import '../../../core/constants/app_strings_keys.dart';
+import '../../../core/routes/app_routes.dart';
 import '../../../core/utils/to_local_digits.dart';
 import '../../../domain/entities/chapter_content.dart';
-import '../../widgets/chapter_node.dart';
+import '../../widgets/chapter_path_view.dart';
+import '../../widgets/pilgrim_background.dart';
 import 'chapter_state.dart';
 import 'home_controller.dart';
 
@@ -50,14 +52,16 @@ class HomeView extends GetView<HomeController> {
               child: _buildProgressRow(context),
             ),
             Expanded(
-              child: ListView(
-                padding: EdgeInsets.fromLTRB(
-                  AppDimensions.paddingLg,
-                  0,
-                  AppDimensions.paddingLg,
-                  AppDimensions.paddingLg,
-                ),
-                children: _buildPath(context),
+              child: Stack(
+                children: [
+                  const PilgrimBackground(),
+                  ChapterPathView(
+                    chapters: controller.chapters,
+                    stateOf: controller.stateOf,
+                    isCurrent: controller.isCurrent,
+                    onChapterTap: _onChapterTap,
+                  ),
+                ],
               ),
             ),
           ],
@@ -146,56 +150,7 @@ class HomeView extends GetView<HomeController> {
     );
   }
 
-  List<Widget> _buildPath(BuildContext context) {
-    final items = <Widget>[];
-    final chapters = controller.chapters;
-    String? lastPhase;
-
-    for (var i = 0; i < chapters.length; i++) {
-      final chapter = chapters[i];
-      if (chapter.phase != lastPhase) {
-        items.add(_buildPhaseHeader(context, chapter.phase));
-        lastPhase = chapter.phase;
-      }
-
-      final state = controller.stateOf(chapter);
-      items.add(
-        ChapterNode(
-          chapter: chapter,
-          state: state,
-          isCurrent: controller.isCurrent(chapter),
-          showConnector: i != chapters.length - 1,
-          onTap: () => _onChapterTap(context, chapter, state),
-        ),
-      );
-    }
-    return items;
-  }
-
-  Widget _buildPhaseHeader(BuildContext context, String phase) {
-    final key = switch (phase) {
-      'preparation' => Keys.phasePreparation,
-      'rites' => Keys.phaseRites,
-      'after' => Keys.phaseAfter,
-      _ => Keys.phasePreparation,
-    };
-    return Padding(
-      padding: EdgeInsets.symmetric(vertical: AppDimensions.paddingSm),
-      child: Text(
-        key.tr,
-        style: Theme.of(context).textTheme.labelLarge?.copyWith(
-              color: AppColors.textSecondary,
-              letterSpacing: 1.1,
-            ),
-      ),
-    );
-  }
-
-  void _onChapterTap(
-    BuildContext context,
-    ChapterContent chapter,
-    ChapterState state,
-  ) {
+  Future<void> _onChapterTap(ChapterContent chapter, ChapterState state) async {
     if (state == ChapterState.locked) {
       Get.snackbar(
         '',
@@ -209,26 +164,7 @@ class HomeView extends GetView<HomeController> {
       return;
     }
 
-    final isBn = (Get.locale?.languageCode ?? 'bn') == 'bn';
-    final title = isBn ? chapter.titleBn : chapter.titleEn;
-
-    // TODO Phase 5: replace this dialog with
-    // Get.toNamed(Routes.chapter, arguments: chapter).
-    Get.defaultDialog(
-      title: title,
-      titleStyle: Theme.of(context).textTheme.titleLarge,
-      content: const SizedBox.shrink(),
-      confirm: ElevatedButton(
-        onPressed: () {
-          controller.markCompleteTemp(chapter);
-          Get.back();
-        },
-        child: Text(Keys.markCompleteTemp.tr),
-      ),
-      cancel: OutlinedButton(
-        onPressed: Get.back,
-        child: Text(Keys.cancel.tr),
-      ),
-    );
+    await Get.toNamed(Routes.chapter, arguments: chapter);
+    controller.load();
   }
 }

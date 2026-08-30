@@ -1,5 +1,7 @@
 import 'package:get/get.dart';
 
+import '../../presentation/modules/chapter/chapter_binding.dart';
+import '../../presentation/modules/chapter/chapter_view.dart';
 import '../../presentation/modules/home/home_binding.dart';
 import '../../presentation/modules/home/home_view.dart';
 import '../../presentation/modules/journey_select/journey_select_binding.dart';
@@ -40,6 +42,11 @@ abstract class AppPages {
       name: Routes.home,
       page: () => const HomeView(),
       binding: HomeBinding(),
+    ),
+    GetPage(
+      name: Routes.chapter,
+      page: () => const ChapterView(),
+      binding: ChapterBinding(),
     ),
   ];
 }

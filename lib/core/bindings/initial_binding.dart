@@ -8,6 +8,7 @@ import '../../domain/repositories/checklist_repository.dart';
 import '../../domain/repositories/content_repository.dart';
 import '../../domain/repositories/progress_repository.dart';
 import '../services/storage_service.dart';
+import '../services/tts_service.dart';
 
 /// Registers app-wide singletons available for the lifetime of the app.
 /// Add further shared services here as phases land.
@@ -15,6 +16,7 @@ class InitialBinding extends Bindings {
   @override
   void dependencies() {
     Get.put<StorageService>(StorageService(), permanent: true);
+    Get.put<TtsService>(TtsService(), permanent: true);
 
     final db = Get.find<AppDatabase>();
     Get.put<ContentRepository>(ContentRepositoryImpl(), permanent: true);

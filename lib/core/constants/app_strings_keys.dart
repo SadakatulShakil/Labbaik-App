@@ -29,8 +29,17 @@ abstract class Keys {
   static const phaseRites = 'phaseRites';
   static const phaseAfter = 'phaseAfter';
   static const completed = 'completed';
+  static const completedExclaim = 'completedExclaim';
   static const startHere = 'startHere';
   static const lockedHint = 'lockedHint';
-  static const markCompleteTemp = 'markCompleteTemp';
-  static const cancel = 'cancel';
+
+  static const sectionInShort = 'sectionInShort';
+  static const sectionSteps = 'sectionSteps';
+  static const sectionTips = 'sectionTips';
+  static const sectionDuas = 'sectionDuas';
+  static const listen = 'listen';
+  static const stop = 'stop';
+  static const markComplete = 'markComplete';
+  static const review = 'review';
+  static const alreadyDone = 'alreadyDone';
 }

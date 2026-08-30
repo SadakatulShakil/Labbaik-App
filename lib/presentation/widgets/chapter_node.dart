@@ -9,28 +9,80 @@ import '../../core/utils/icon_from_name.dart';
 import '../../domain/entities/chapter_content.dart';
 import '../modules/home/chapter_state.dart';
 
-/// One node on the Home chapter path: a large circular badge plus title,
-/// colored by [state], with a short connector line to the next node.
-class ChapterNode extends StatelessWidget {
+/// One node on the Home chapter trail: a large ring-style circle with the
+/// chapter icon, colored by [state], plus a centered title below it.
+/// Connectors between nodes are drawn by the trail painter, not here.
+class ChapterNode extends StatefulWidget {
   const ChapterNode({
     super.key,
     required this.chapter,
     required this.state,
     required this.isCurrent,
     required this.onTap,
-    this.showConnector = true,
   });
 
   final ChapterContent chapter;
   final ChapterState state;
   final bool isCurrent;
   final VoidCallback onTap;
-  final bool showConnector;
 
-  static const _badgeSize = 68.0;
+  /// Ring diameter in design pixels (scale with `.w` at call sites).
+  static const double nodeSize = 120.0;
 
-  Color get _badgeColor {
-    switch (state) {
+  @override
+  State<ChapterNode> createState() => _ChapterNodeState();
+}
+
+class _ChapterNodeState extends State<ChapterNode>
+    with SingleTickerProviderStateMixin {
+  AnimationController? _pulseController;
+
+  bool get _shouldPulse =>
+      widget.isCurrent && widget.state == ChapterState.unlocked;
+
+  @override
+  void initState() {
+    super.initState();
+    if (_shouldPulse) _startPulse();
+  }
+
+  @override
+  void didUpdateWidget(covariant ChapterNode oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (_shouldPulse && _pulseController == null) {
+      _startPulse();
+    } else if (!_shouldPulse && _pulseController != null) {
+      _pulseController!.dispose();
+      _pulseController = null;
+    }
+  }
+
+  void _startPulse() {
+    _pulseController = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 1600),
+    )..repeat(reverse: true);
+  }
+
+  @override
+  void dispose() {
+    _pulseController?.dispose();
+    super.dispose();
+  }
+
+  Color get _ringColor {
+    switch (widget.state) {
+      case ChapterState.locked:
+        return AppColors.locked;
+      case ChapterState.unlocked:
+        return AppColors.primary;
+      case ChapterState.completed:
+        return AppColors.accentGold;
+    }
+  }
+
+  Color get _iconColor {
+    switch (widget.state) {
       case ChapterState.locked:
         return AppColors.locked;
       case ChapterState.unlocked:
@@ -43,119 +95,138 @@ class ChapterNode extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final isBn = (Get.locale?.languageCode ?? 'bn') == 'bn';
-    final title = isBn ? chapter.titleBn : chapter.titleEn;
+    final title = isBn ? widget.chapter.titleBn : widget.chapter.titleEn;
+    final isLocked = widget.state == ChapterState.locked;
 
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        InkWell(
-          onTap: onTap,
-          borderRadius: BorderRadius.circular(AppDimensions.radiusLg),
-          child: Padding(
-            padding: EdgeInsets.symmetric(vertical: AppDimensions.paddingSm),
-            child: Row(
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                _buildBadge(),
-                SizedBox(width: AppDimensions.paddingMd),
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Text(
-                        title,
-                        style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                              color: state == ChapterState.locked
-                                  ? AppColors.textSecondary
-                                  : AppColors.textPrimary,
-                            ),
-                      ),
-                      if (isCurrent) ...[
-                        SizedBox(height: 4.h),
-                        _buildStartHerePill(),
-                      ],
-                    ],
-                  ),
+    return GestureDetector(
+      onTap: widget.onTap,
+      behavior: HitTestBehavior.opaque,
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          _buildRing(),
+          SizedBox(height: 10.h),
+          Text(
+            title,
+            textAlign: TextAlign.center,
+            maxLines: 2,
+            overflow: TextOverflow.ellipsis,
+            style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                  fontWeight: FontWeight.bold,
+                  color: isLocked
+                      ? AppColors.textSecondary
+                      : AppColors.textPrimary,
                 ),
-              ],
-            ),
           ),
-        ),
-        if (showConnector)
-          Padding(
-            padding: EdgeInsets.only(left: (_badgeSize.w / 2) - 1.5.w),
-            child: Container(
-              width: 3.w,
-              height: AppDimensions.paddingLg,
-              color: state == ChapterState.completed
-                  ? AppColors.accentGold
-                  : AppColors.divider,
-            ),
-          ),
-      ],
+          if (widget.state == ChapterState.completed) ...[
+            SizedBox(height: 6.h),
+            _buildPill(Keys.completedExclaim.tr, AppColors.accentGold),
+          ] else if (_shouldPulse) ...[
+            SizedBox(height: 6.h),
+            _buildPill(Keys.startHere.tr, AppColors.primary),
+          ],
+        ],
+      ),
     );
   }
 
-  Widget _buildBadge() {
-    return SizedBox(
-      width: _badgeSize.w,
-      height: _badgeSize.w,
-      child: Stack(
-        clipBehavior: Clip.none,
-        children: [
-          Container(
+  Widget _buildRing() {
+    final size = ChapterNode.nodeSize.w;
+    final isLocked = widget.state == ChapterState.locked;
+
+    Widget ring = Container(
+      width: size,
+      height: size,
+      decoration: BoxDecoration(
+        shape: BoxShape.circle,
+        color: AppColors.surface,
+        border: Border.all(color: _ringColor, width: 6.w),
+      ),
+      child: Center(
+        // TODO: swap Material icon for a per-chapter illustration asset later.
+        child: Icon(
+          iconFromName(widget.chapter.icon),
+          size: 44.sp,
+          color: _iconColor,
+        ),
+      ),
+    );
+
+    if (isLocked) {
+      ring = Opacity(opacity: 0.55, child: ring);
+    }
+
+    if (_pulseController != null) {
+      ring = AnimatedBuilder(
+        animation: _pulseController!,
+        builder: (context, child) {
+          final t = _pulseController!.value;
+          return DecoratedBox(
             decoration: BoxDecoration(
               shape: BoxShape.circle,
-              color: _badgeColor,
-              border: state == ChapterState.unlocked
-                  ? Border.all(color: AppColors.accentGold, width: 2.5)
-                  : null,
+              boxShadow: [
+                BoxShadow(
+                  color: AppColors.accentGold.withValues(
+                    alpha: 0.22 + 0.22 * t,
+                  ),
+                  blurRadius: 14 + 12 * t,
+                  spreadRadius: 1 + 4 * t,
+                ),
+              ],
             ),
-            child: Icon(
-              iconFromName(chapter.icon),
-              color: AppColors.surface,
-              size: 30.sp,
-            ),
-          ),
-          if (state == ChapterState.locked)
+            child: child,
+          );
+        },
+        child: ring,
+      );
+    }
+
+    return SizedBox(
+      width: size + 16.w,
+      height: size + 16.w,
+      child: Stack(
+        clipBehavior: Clip.none,
+        alignment: Alignment.center,
+        children: [
+          ring,
+          if (widget.state == ChapterState.completed)
             Positioned(
-              right: -2,
-              bottom: -2,
-              child: _buildOverlayDot(Icons.lock, AppColors.textSecondary),
+              top: 0,
+              right: 0,
+              child: _buildBadge(Icons.check, AppColors.success),
             ),
-          if (state == ChapterState.completed)
+          if (isLocked)
             Positioned(
-              right: -2,
-              bottom: -2,
-              child: _buildOverlayDot(Icons.check, AppColors.success),
+              top: 0,
+              right: 0,
+              child: _buildBadge(Icons.lock, AppColors.textSecondary),
             ),
         ],
       ),
     );
   }
 
-  Widget _buildOverlayDot(IconData icon, Color color) {
+  Widget _buildBadge(IconData icon, Color color) {
     return Container(
-      padding: EdgeInsets.all(3.w),
+      padding: EdgeInsets.all(5.w),
       decoration: BoxDecoration(
         shape: BoxShape.circle,
         color: AppColors.surface,
-        border: Border.all(color: color, width: 1.5),
+        border: Border.all(color: color, width: 2.w),
       ),
-      child: Icon(icon, size: 14.sp, color: color),
+      child: Icon(icon, size: 16.sp, color: color),
     );
   }
 
-  Widget _buildStartHerePill() {
+  Widget _buildPill(String label, Color color) {
     return Container(
-      padding: EdgeInsets.symmetric(horizontal: 10.w, vertical: 4.h),
+      padding: EdgeInsets.symmetric(horizontal: 12.w, vertical: 4.h),
       decoration: BoxDecoration(
-        color: AppColors.accentGold,
+        color: color,
         borderRadius: BorderRadius.circular(AppDimensions.radiusLg),
       ),
       child: Text(
-        Keys.startHere.tr,
+        label,
         style: TextStyle(
           color: AppColors.surface,
           fontSize: 12.sp,

@@ -73,11 +73,4 @@ class HomeController extends GetxController {
 
   String get journeyTitleKey =>
       journey.value == 'hajj' ? Keys.hajj : Keys.umrah;
-
-  // TODO Phase 5: remove — real completion happens on the chapter screen.
-  Future<void> markCompleteTemp(ChapterContent c) async {
-    await _progress.markCompleted(journey.value, c.id);
-    completed.add(c.id);
-    completed.refresh();
-  }
 }
