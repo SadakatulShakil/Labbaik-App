@@ -63,15 +63,17 @@ class StoryController extends GetxController {
     isNarrating.value = false;
   }
 
-  void goHome() {
+  Future<void> goHome() async {
+    await _tts.stop();
     Get.until((route) => route.settings.name == Routes.home);
   }
 
-  void dismiss() {
+  Future<void> dismiss() async {
+    await _tts.stop();
     if (isReview) {
       Get.back();
     } else {
-      goHome();
+      Get.until((route) => route.settings.name == Routes.home);
     }
   }
 

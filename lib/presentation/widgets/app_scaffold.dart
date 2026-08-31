@@ -5,6 +5,7 @@ import 'package:get/get.dart';
 
 import '../../core/constants/app_colors.dart';
 import '../../core/constants/app_dimensions.dart';
+import '../../core/routes/app_routes.dart';
 import 'pilgrim_background.dart';
 
 /// Shared full-screen scaffold used by every page: the bundled pilgrimage
@@ -15,6 +16,7 @@ class AppScaffold extends StatelessWidget {
     super.key,
     this.title,
     this.showBack = false,
+    this.showHome = false,
     this.actions,
     this.scrimAlpha = 0.15,
     required this.body,
@@ -25,6 +27,9 @@ class AppScaffold extends StatelessWidget {
 
   /// Shows a back button in the header that calls `Get.back()`.
   final bool showBack;
+
+  /// Shows a home button in the header that jumps straight to Home.
+  final bool showHome;
 
   /// Header trailing widgets (e.g. a settings icon).
   final List<Widget>? actions;
@@ -42,7 +47,8 @@ class AppScaffold extends StatelessWidget {
     systemNavigationBarIconBrightness: Brightness.dark,
   );
 
-  bool get _hasHeader => title != null || showBack || actions != null;
+  bool get _hasHeader =>
+      title != null || showBack || actions != null || showHome;
 
   @override
   Widget build(BuildContext context) {
@@ -106,6 +112,20 @@ class AppScaffold extends StatelessWidget {
                   ),
           ),
           if (actions != null) ...actions!,
+          if (showHome)
+            IconButton(
+              onPressed: () =>
+                  Get.until((route) => route.settings.name == Routes.home),
+              icon: Container(
+                decoration: BoxDecoration(
+                  color: AppColors.accentGold.withValues(alpha: 0.5),
+                  shape: BoxShape.circle,
+                ),
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: const Icon(Icons.home_rounded, color: AppColors.textPrimary),
+                  )),
+            ),
         ],
       ),
     );

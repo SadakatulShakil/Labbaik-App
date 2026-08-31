@@ -16,6 +16,7 @@ class StoryView extends GetView<StoryController> {
   @override
   Widget build(BuildContext context) {
     return AppScaffold(
+      showHome: true,
       scrimAlpha: 0.5,
       body: MediaQuery(
         data: MediaQuery.of(context)
@@ -29,6 +30,10 @@ class StoryView extends GetView<StoryController> {
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
                     _buildHeader(context),
+                    if (controller.ttsEnabled) ...[
+                      SizedBox(height: AppDimensions.paddingMd),
+                      _buildListenButton(),
+                    ],
                     SizedBox(height: AppDimensions.paddingXl),
                     _buildStoryCard(context),
                   ],
@@ -139,10 +144,6 @@ class StoryView extends GetView<StoryController> {
           ],
           SizedBox(height: AppDimensions.paddingMd),
           Text(storyBody, style: Theme.of(context).textTheme.bodyLarge),
-          if (controller.ttsEnabled) ...[
-            SizedBox(height: AppDimensions.paddingMd),
-            _buildListenButton(),
-          ],
         ],
       ),
     );

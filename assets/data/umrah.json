@@ -11,14 +11,31 @@
       "titleEn": "What is Umrah?",
       "icon": "help_outline",
       "sections": [
-        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+        {
+          "type": "intro",
+          "order": 1,
+          "bodyBn": "উমরাহ হলো পবিত্র মক্কা নগরীতে বায়তুল্লাহ শরীফ (কাবা) যিয়ারত করে নির্দিষ্ট কয়েকটি আমল পালন করা, যা বছরের যেকোনো সময় আদায় করা যায়। একে \"ছোট হজ\"ও বলা হয়। হজ যেখানে নির্দিষ্ট দিনে (জিলহজ মাসে) পালন করতে হয়, উমরাহর জন্য তেমন কোনো নির্দিষ্ট সময় নেই। হানাফি মাযহাব অনুযায়ী উমরাহ সুন্নতে মুয়াক্কাদা — অর্থাৎ অত্যন্ত গুরুত্বপূর্ণ সুন্নত। রাসূলুল্লাহ ﷺ বলেছেন: \"এক উমরাহ থেকে পরবর্তী উমরাহ পর্যন্ত সময়ের গুনাহসমূহের কাফফারা।\" (সহিহ বুখারি ও মুসলিম)",
+          "bodyEn": "Umrah is the visit to the Sacred House (the Ka'bah) in Makkah to perform a specific set of rites, and it may be done at any time of the year. It is often called the \"lesser pilgrimage.\" Unlike Hajj, which must be performed on fixed days in the month of Dhul-Hijjah, Umrah has no fixed time. In the Hanafi school it is a strongly emphasised Sunnah (Sunnah Mu'akkadah). The Prophet \u0635\u0644\u0649 \u0627\u0644\u0644\u0647 \u0639\u0644\u064a\u0647 \u0648\u0633\u0644\u0645 said: \"From one Umrah to the next is an expiation for the sins between them.\" (Sahih al-Bukhari & Muslim)"
+        },
+        {
+          "type": "steps",
+          "order": 2,
+          "bodyBn": "ইহরাম — নির্দিষ্ট মিকাত থেকে উমরাহর নিয়ত করে ইহরামের কাপড় পরিধান করা।\nতাওয়াফ — কাবা শরীফের চারপাশে সাতবার প্রদক্ষিণ করা।\nসাঈ — সাফা ও মারওয়া পাহাড়ের মাঝে সাতবার আসা-যাওয়া করা।\nহালক বা তাকসীর — মাথার চুল মুণ্ডানো বা ছোট করা, যার মাধ্যমে উমরাহ সম্পন্ন হয়।",
+          "bodyEn": "Ihram — entering the sacred state with the intention and garments, from the Miqat.\nTawaf — circling the Ka'bah seven times.\nSa'i — walking seven times between the hills of Safa and Marwah.\nHalq or Taqsir — shaving or trimming the hair, which completes the Umrah."
+        },
+        {
+          "type": "tip",
+          "order": 3,
+          "bodyBn": "উমরাহর আসল প্রাণ হলো ইখলাস — একমাত্র আল্লাহর সন্তুষ্টির জন্য এই সফর করা, লোক দেখানো বা গর্বের জন্য নয়। যাত্রার আগে খাঁটি নিয়ত করুন, বেশি বেশি তওবা করুন এবং হালাল উপার্জন দিয়ে সফরের ব্যবস্থা করুন।",
+          "bodyEn": "The heart of Umrah is sincerity (ikhlas) — making this journey purely to please Allah, not for show or status. Before you travel, renew a sincere intention, turn to Allah in repentance, and fund the journey with lawful (halal) earnings."
+        }
       ],
       "duas": [],
       "story": {
-        "titleBn": "শিক্ষণীয় গল্প",
-        "titleEn": "A Story to Reflect On",
-        "bodyBn": "[story content in Phase 8]",
-        "bodyEn": "[story content in Phase 8]",
+        "titleBn": "লাব্বাইক — যে ডাকের উত্তর",
+        "titleEn": "Labbaik — Answering the Call",
+        "bodyBn": "আল্লাহ তায়ালা যখন ইবরাহিম (আঃ)-কে মানুষের কাছে হজের ঘোষণা দিতে আদেশ দিলেন, তিনি বললেন, \"হে আমার রব, আমার কণ্ঠ তো এত দূর পৌঁছাবে না।\" আল্লাহ বললেন, \"তুমি ঘোষণা দাও, পৌঁছে দেওয়ার দায়িত্ব আমার।\" ইবরাহিম (আঃ) এক উঁচু স্থানে দাঁড়িয়ে ডাক দিলেন: \"হে মানুষ! তোমাদের রবের ঘরে হজ করতে এসো!\" বর্ণিত আছে, কিয়ামত পর্যন্ত যারা হজ ও উমরাহ করবে, সেদিন তাদের প্রত্যেকের রূহ সেই ডাকের উত্তরে বলেছিল — \"লাব্বাইক!\" (আমি হাজির)। আজ আপনি যখন এই সফরের নিয়ত করছেন, আপনি সেই চিরন্তন ডাকেরই উত্তর দিচ্ছেন। (সূত্র: সূরা আল-হজ, ২২:২৭ এবং তাফসির গ্রন্থসমূহ)",
+        "bodyEn": "When Allah commanded Ibrahim (peace be upon him) to proclaim the pilgrimage to mankind, he asked, \"My Lord, how will my voice reach them?\" Allah replied, \"Call out, and it is for Us to convey it.\" Standing on a high place, Ibrahim called: \"O people! Come to the House of your Lord!\" It is narrated that every soul who would ever perform Hajj or Umrah until the end of time answered that call, saying \u2014 \"Labbaik!\" (Here I am). Today, as you intend this journey, you are answering that same timeless call. (See Qur'an, Surah Al-Hajj 22:27, and the works of tafsir)",
         "imageAsset": null,
         "audioAsset": null
       }
