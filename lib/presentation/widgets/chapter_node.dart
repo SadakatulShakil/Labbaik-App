@@ -144,11 +144,11 @@ class _ChapterNodeState extends State<ChapterNode>
       ),
       child: Center(
         // TODO: swap Material icon for a per-chapter illustration asset later.
-        child: Icon(
-          iconFromName(widget.chapter.icon),
-          size: 44.sp,
-          color: _iconColor,
-        ),
+        child: Image.asset(
+          'assets/images/chapters/${widget.chapter.id}.png',
+          width: 56.w, height: 56.w,
+          errorBuilder: (_, __, ___) => Icon(iconFromName(widget.chapter.icon)), // fallback
+        )
       ),
     );
 
