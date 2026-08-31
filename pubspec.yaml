@@ -71,6 +71,7 @@ flutter:
 
   assets:
     - assets/images/
+    - assets/images/stories/
     - assets/data/
 
   # Bundled Bangla font (Hind Siliguri, SIL OFL 1.1 — see assets/fonts/OFL.txt).

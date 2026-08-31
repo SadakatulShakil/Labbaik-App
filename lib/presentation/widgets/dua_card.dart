@@ -9,14 +9,40 @@ import '../../domain/entities/dua_content.dart';
 
 /// A single dua: Arabic text large and RTL, Bangla transliteration, the
 /// meaning (bn/en), and a play button that narrates it via TTS.
-class DuaCard extends StatelessWidget {
+class DuaCard extends StatefulWidget {
   const DuaCard({super.key, required this.dua, required this.isBn});
 
   final DuaContent dua;
   final bool isBn;
 
   @override
+  State<DuaCard> createState() => _DuaCardState();
+}
+
+class _DuaCardState extends State<DuaCard> {
+  bool _isNarrating = false;
+
+  Future<void> _toggleNarration() async {
+    final tts = Get.find<TtsService>();
+    if (_isNarrating) {
+      await tts.stop();
+      if (mounted) setState(() => _isNarrating = false);
+      return;
+    }
+
+    final meaning = widget.isBn ? widget.dua.meaningBn : widget.dua.meaningEn;
+    setState(() => _isNarrating = true);
+    try {
+      await tts.speak('${widget.dua.translitBn}. $meaning');
+    } finally {
+      if (mounted) setState(() => _isNarrating = false);
+    }
+  }
+
+  @override
   Widget build(BuildContext context) {
+    final dua = widget.dua;
+    final isBn = widget.isBn;
     final meaning = isBn ? dua.meaningBn : dua.meaningEn;
 
     return Container(
@@ -55,9 +81,10 @@ class DuaCard extends StatelessWidget {
             alignment: Alignment.centerLeft,
             child: IconButton(
               // TODO: play dua.audioAsset (real recitation) once bundled.
-              onPressed: () =>
-                  Get.find<TtsService>().speak('${dua.translitBn}. $meaning'),
-              icon: const Icon(Icons.play_circle_fill),
+              onPressed: _toggleNarration,
+              icon: Icon(
+                _isNarrating ? Icons.stop_circle : Icons.play_circle_fill,
+              ),
               iconSize: 36.sp,
               color: AppColors.primary,
             ),

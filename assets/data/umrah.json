@@ -36,7 +36,7 @@
         "titleEn": "Labbaik — Answering the Call",
         "bodyBn": "আল্লাহ তায়ালা যখন ইবরাহিম (আঃ)-কে মানুষের কাছে হজের ঘোষণা দিতে আদেশ দিলেন, তিনি বললেন, \"হে আমার রব, আমার কণ্ঠ তো এত দূর পৌঁছাবে না।\" আল্লাহ বললেন, \"তুমি ঘোষণা দাও, পৌঁছে দেওয়ার দায়িত্ব আমার।\" ইবরাহিম (আঃ) এক উঁচু স্থানে দাঁড়িয়ে ডাক দিলেন: \"হে মানুষ! তোমাদের রবের ঘরে হজ করতে এসো!\" বর্ণিত আছে, কিয়ামত পর্যন্ত যারা হজ ও উমরাহ করবে, সেদিন তাদের প্রত্যেকের রূহ সেই ডাকের উত্তরে বলেছিল — \"লাব্বাইক!\" (আমি হাজির)। আজ আপনি যখন এই সফরের নিয়ত করছেন, আপনি সেই চিরন্তন ডাকেরই উত্তর দিচ্ছেন। (সূত্র: সূরা আল-হজ, ২২:২৭ এবং তাফসির গ্রন্থসমূহ)",
         "bodyEn": "When Allah commanded Ibrahim (peace be upon him) to proclaim the pilgrimage to mankind, he asked, \"My Lord, how will my voice reach them?\" Allah replied, \"Call out, and it is for Us to convey it.\" Standing on a high place, Ibrahim called: \"O people! Come to the House of your Lord!\" It is narrated that every soul who would ever perform Hajj or Umrah until the end of time answered that call, saying \u2014 \"Labbaik!\" (Here I am). Today, as you intend this journey, you are answering that same timeless call. (See Qur'an, Surah Al-Hajj 22:27, and the works of tafsir)",
-        "imageAsset": null,
+        "imageAsset": "assets/images/stories/ch1.png",
         "audioAsset": null
       }
     },
@@ -48,10 +48,43 @@
       "titleEn": "Getting Ready",
       "icon": "luggage",
       "sections": [
-        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+        {
+          "type": "intro",
+          "order": 1,
+          "bodyBn": "উমরাহর সফর শুরু হয় ভালো প্রস্তুতির মধ্য দিয়ে। যাত্রার আগে দুই ধরনের প্রস্তুতি নিতে হয় — আত্মিক ও ব্যবহারিক। আত্মিক প্রস্তুতি: খাঁটি তওবা করা, কারও হক বা ঋণ থাকলে তা মিটিয়ে দেওয়া, এবং পরিবার-পরিজনের কাছ থেকে বিদায় ও দোয়া নেওয়া। ব্যবহারিক প্রস্তুতি: কাগজপত্র ঠিক করা, নুসুক অ্যাপে নিবন্ধন, স্বাস্থ্য পরীক্ষা ও টিকা, এবং প্রয়োজনীয় জিনিসপত্র গুছিয়ে নেওয়া। এই অধ্যায়ে দুটোই ধাপে ধাপে দেখানো হলো।",
+          "bodyEn": "The Umrah journey begins with good preparation. Before you travel there are two kinds of readiness — spiritual and practical. Spiritual: make sincere repentance, settle any debts or dues you owe others, and take leave and prayers from your family. Practical: sort out your documents, register on the Nusuk app, complete your health checks and vaccines, and pack your essentials. This chapter walks through both, step by step."
+        },
+        {
+          "type": "steps",
+          "order": 2,
+          "bodyBn": "পাসপোর্ট ও ভিসা — অন্তত ৬ মাস মেয়াদ আছে এমন পাসপোর্ট এবং বৈধ উমরাহ ভিসা সঙ্গে রাখুন।\nনুসুক অ্যাপে নিবন্ধন — নুসুক (Nusuk) অ্যাপে অ্যাকাউন্ট খুলে উমরাহর অনুমতি (পারমিট) নিন। মনে রাখবেন, হারাম শরীফের গেটে এই পারমিটের QR কোড স্ক্যান করা হয় — শুধু ভিসা থাকলেই প্রবেশ করা যায় না।\nইহরামের কাপড় ও পোশাক — পুরুষদের জন্য দুই টুকরা সাদা ইহরামের কাপড়; নারীদের জন্য শালীন ঢিলেঢালা পোশাক। সঙ্গে আরামদায়ক স্যান্ডেল রাখুন।\nস্বাস্থ্য ও টিকা — মেনিনজাইটিস টিকা (বাধ্যতামূলক) নিন এবং প্রয়োজনীয় ওষুধ ও প্রেসক্রিপশন সঙ্গে রাখুন।\nটাকা ও প্রয়োজনীয় জিনিস — কিছু সৌদি রিয়াল, গন্ধহীন সাবান-টুথপেস্ট (ইহরামে সুগন্ধি নিষেধ), এবং জরুরি কাগজপত্রের জন্য একটি ছোট ব্যাগ রাখুন।\nপরিবারকে জানিয়ে যান — সফরের তথ্য পরিবারকে দিয়ে যান এবং তাদের দোয়া নিয়ে রওনা দিন।",
+          "bodyEn": "Passport & visa — carry a passport valid for at least 6 months and a valid Umrah visa.\nRegister on Nusuk — create an account in the Nusuk app and obtain your Umrah permit. Remember: the permit's QR code is scanned at the gates of the Haram — a visa alone does not grant entry.\nIhram garments & clothing — for men, two pieces of white ihram cloth; for women, modest loose clothing. Bring comfortable sandals.\nHealth & vaccines — get the meningitis vaccine (mandatory) and carry any needed medicines with their prescriptions.\nMoney & essentials — some Saudi riyals, unscented soap and toothpaste (perfume is not allowed in ihram), and a small bag for your important documents.\nInform your family — leave your travel details with family and set out with their prayers."
+        },
+        {
+          "type": "tip",
+          "order": 3,
+          "bodyBn": "নারীদের জন্য সাধারণত একজন মাহরাম (স্বামী, অথবা যাদের সাথে বিবাহ চিরতরে হারাম — যেমন পিতা, ভাই, ছেলে) সঙ্গে থাকা জরুরি। সফরের আগে এ বিষয়ে নিজ মাযহাব অনুযায়ী একজন নির্ভরযোগ্য আলেমের পরামর্শ নিন, কারণ বর্তমান নিয়মে কিছু ক্ষেত্রে ভিন্নতা রয়েছে। মনে রাখবেন — ইহরাম অবস্থায় সুগন্ধি ব্যবহার নিষেধ, তাই আগেই গন্ধহীন প্রসাধনী গুছিয়ে নিন। আর নুসুক পারমিটের QR কোড ফোনে সহজে খুঁজে পাওয়া যায় এমন জায়গায় সেভ করে রাখুন।",
+          "bodyEn": "For women, a mahram (a husband, or a man she can never marry — such as father, brother, or son) is generally required to accompany her. Consult a reliable scholar according to your school before travelling, as current regulations vary in some cases. Remember — perfume is not allowed in ihram, so pack unscented toiletries in advance. And keep your Nusuk permit QR code saved somewhere easy to find on your phone."
+        }
       ],
-      "duas": [],
-      "story": null
+      "duas": [
+        {
+          "id": "umrah_ch2_dua_safar",
+          "arabic": "سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَٰذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ وَإِنَّا إِلَىٰ رَبِّنَا لَمُنْقَلِبُونَ",
+          "translitBn": "সুবহা-নাল্লাযী সাখখারা লানা- হা-যা- ওয়ামা- কুন্না- লাহু মুক্বরিনীন, ওয়া ইন্না- ইলা- রাব্বিনা- লামুনক্বালিবূন।",
+          "meaningBn": "পবিত্র সেই সত্তা, যিনি এই (বাহন) আমাদের অধীন করে দিয়েছেন, অথচ আমরা একে বশীভূত করতে সক্ষম ছিলাম না। নিশ্চয়ই আমরা আমাদের রবের কাছেই ফিরে যাব। (সফরের শুরুতে পড়ার সুন্নত দোয়া — সহিহ মুসলিম)",
+          "meaningEn": "Glory be to the One who has subjected this (transport) to us, though we were not capable of it ourselves. And indeed, to our Lord we will surely return. (The Sunnah supplication for setting out on a journey — Sahih Muslim)",
+          "audioAsset": null
+        }
+      ],
+      "story": {
+        "titleBn": "সর্বোত্তম পাথেয়",
+        "titleEn": "The Best Provision",
+        "bodyBn": "প্রাচীন যুগে ইয়েমেনের কিছু মানুষ কোনো খাবার বা পাথেয় সঙ্গে না নিয়েই হজ-উমরাহর সফরে বের হতো। তারা বলত, \"আমরা তো আল্লাহর উপর ভরসাকারী (মুতাওয়াক্কিল)।\" অথচ পথে গিয়ে তারা অন্যদের কাছে হাত পাততো ও ভিক্ষা করত। তখন আল্লাহ আয়াত নাযিল করলেন: \"তোমরা পাথেয় সংগ্রহ করো, আর নিশ্চয়ই সর্বোত্তম পাথেয় হলো তাকওয়া।\" (সূরা বাকারা, ২:১৯৭)। এ থেকে আমরা শিখি — সঠিক প্রস্তুতি নেওয়া এবং আল্লাহর উপর ভরসা করা, দুটোই একসাথে চলে। কাগজপত্র, স্বাস্থ্য ও প্রয়োজনীয় জিনিস গুছিয়ে নিন; আর সবচেয়ে বড় যে জিনিসটি সঙ্গে নেবেন, তা হলো তাকওয়া।",
+        "bodyEn": "In earlier times some people from Yemen would set out for Hajj and Umrah with no food or provisions, saying, \"We are those who rely on Allah (the mutawakkilun).\" Yet on the way they would beg from others. Then Allah revealed: \"And take provision, but indeed the best provision is taqwa (God-consciousness).\" (Surah al-Baqarah 2:197). From this we learn that proper preparation and reliance on Allah go together. Organise your documents, health, and essentials — and the greatest thing to carry with you is taqwa.",
+        "imageAsset": "assets/images/stories/ch2.png",
+        "audioAsset": null
+      }
     },
     {
       "id": "umrah_ch3",
@@ -61,10 +94,43 @@
       "titleEn": "Know the Holy Places",
       "icon": "map",
       "sections": [
-        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+        {
+          "type": "intro",
+          "order": 1,
+          "bodyBn": "উমরাহর প্রতিটি আমল নির্দিষ্ট কিছু স্থানে সম্পন্ন হয়। এই স্থানগুলো আগে থেকে চিনে রাখলে সেখানে গিয়ে আর বিভ্রান্তি বা ভয় থাকে না — বিশেষ করে ভিড়ের মধ্যে সহজে পথ খুঁজে পাওয়া যায়। মক্কার প্রাণকেন্দ্রে রয়েছে মসজিদুল হারাম, আর তার ভেতরেই রয়েছে কাবা শরীফ, হাজরে আসওয়াদ, মাকামে ইবরাহিম, যমযম কূপ এবং সাফা-মারওয়া। এই অধ্যায়ে গুরুত্বপূর্ণ স্থানগুলোর সাথে পরিচিত হয়ে নিন।",
+          "bodyEn": "Every rite of Umrah takes place at a specific location. Knowing these places in advance removes confusion and fear when you arrive — and helps you find your way in the crowds. At the heart of Makkah stands Masjid al-Haram, and within it are the Ka'bah, the Black Stone, the Station of Ibrahim, the well of Zamzam, and Safa & Marwah. This chapter introduces you to the key places before the rites begin."
+        },
+        {
+          "type": "steps",
+          "order": 2,
+          "bodyBn": "মসজিদুল হারাম — পৃথিবীর সবচেয়ে বড় ও পবিত্র মসজিদ, যার কেন্দ্রে রয়েছে কাবা শরীফ। এখানেই তাওয়াফ ও সাঈ হয়।\nকাবা শরীফ — আল্লাহর ঘর ও মুসলিমদের কিবলা; কালো গিলাফ (কিসওয়া) দিয়ে আবৃত ঘনক্রাকার এই ঘরকে ঘিরেই তাওয়াফ করা হয়।\nহাজরে আসওয়াদ — কাবার এক কোণে স্থাপিত কালো পাথর; এখান থেকেই তাওয়াফ শুরু ও শেষ হয়।\nরুকনে ইয়ামানি — কাবার আরেকটি কোণ, যা তাওয়াফের সময় সম্ভব হলে হাত দিয়ে স্পর্শ করা সুন্নত।\nমাকামে ইবরাহিম — যে পাথরের উপর দাঁড়িয়ে ইবরাহিম (আঃ) কাবা নির্মাণ করেছিলেন; তাওয়াফের পর এর কাছে দুই রাকাত নামাজ পড়া হয়।\nযমযম — কাবার নিকটবর্তী বরকতময় কূপের পানি, যা পান করা সুন্নত।\nসাফা ও মারওয়া — দুটি ছোট পাহাড়, যেগুলোর মাঝে সাঈ করা হয়; এখন এগুলো মসজিদের ভেতরেই অবস্থিত।\nমিকাত — নির্দিষ্ট সীমানা, যা অতিক্রম করার আগেই ইহরাম বাঁধা আবশ্যক।",
+          "bodyEn": "Masjid al-Haram — the largest and most sacred mosque on earth, with the Ka'bah at its centre. Tawaf and Sa'i take place here.\nThe Ka'bah — the House of Allah and the Qiblah of the Muslims; the cube-shaped structure draped in the black cloth (kiswa) that pilgrims circle in Tawaf.\nThe Black Stone (Hajar al-Aswad) — set in one corner of the Ka'bah; Tawaf begins and ends here.\nThe Yamani Corner (Rukn Yamani) — another corner of the Ka'bah, touched by hand during Tawaf when possible (it is Sunnah).\nMaqam Ibrahim — the stone on which Ibrahim (peace be upon him) stood while building the Ka'bah; two rak'ahs are prayed near it after Tawaf.\nZamzam — the blessed well near the Ka'bah; drinking its water is Sunnah.\nSafa & Marwah — two small hills between which Sa'i is performed; today they lie within the mosque.\nThe Miqat — the fixed boundary that must not be crossed without first entering ihram."
+        },
+        {
+          "type": "tip",
+          "order": 3,
+          "bodyBn": "মসজিদুল হারাম অনেক বড় এবং সবসময় ভিড়ে পূর্ণ থাকে। তাই প্রতিটি গেটের নম্বর খেয়াল রাখুন এবং আপনার দল বা মুয়াল্লিমের সাথে একটি নির্দিষ্ট মিলনস্থল ঠিক করে নিন, যাতে হারিয়ে গেলে সহজে খুঁজে পাওয়া যায়। ভিড়ের মধ্যে তাড়াহুড়া বা ধাক্কাধাক্কি করবেন না — বিশেষত বয়স্ক ও দুর্বলদের জন্য এটি ঝুঁকিপূর্ণ। মনে রাখবেন, বিমানে যাত্রার সময়ই অনেক ক্ষেত্রে মিকাত অতিক্রম করা হয় (পাইলট ঘোষণা দেন), তাই তার আগেই ইহরামের প্রস্তুতি নিয়ে রাখুন।",
+          "bodyEn": "Masjid al-Haram is very large and always crowded. Note the number of each gate, and agree on a fixed meeting point with your group or muallim so you can be found if you get separated. Do not rush or push in the crowds — this is especially risky for the elderly and the frail. Remember that for many pilgrims the Miqat is crossed while still on the plane (the pilot announces it), so be ready to be in ihram before then."
+        }
       ],
-      "duas": [],
-      "story": null
+      "duas": [
+        {
+          "id": "umrah_ch3_dua_enter_masjid",
+          "arabic": "اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+          "translitBn": "আল্লা-হুম্মাফ্‌তাহ লী আবওয়া-বা রাহমাতিক।",
+          "meaningBn": "হে আল্লাহ, আমার জন্য আপনার রহমতের দরজাসমূহ খুলে দিন। (মসজিদে প্রবেশের সময় ডান পা দিয়ে প্রবেশ করে পড়ার সুন্নত দোয়া — সহিহ মুসলিম)",
+          "meaningEn": "O Allah, open for me the doors of Your mercy. (The Sunnah supplication when entering a mosque, entering with the right foot — Sahih Muslim)",
+          "audioAsset": null
+        }
+      ],
+      "story": {
+        "titleBn": "আল্লাহর ঘর নির্মাণ",
+        "titleEn": "Building the House of Allah",
+        "bodyBn": "আল্লাহর আদেশে যখন ইবরাহিম (আঃ) ও তাঁর পুত্র ইসমাইল (আঃ) কাবা শরীফের ভিত্তি স্থাপন করছিলেন, তখন তাঁরা কাজ করতে করতে দোয়া করছিলেন: \"হে আমাদের রব, আমাদের পক্ষ থেকে এটি কবুল করুন; নিশ্চয়ই আপনি সর্বশ্রোতা, সর্বজ্ঞ।\" (সূরা বাকারা, ২:১২৭)। এই কাবা-ই হলো মানুষের জন্য প্রতিষ্ঠিত সর্বপ্রথম ইবাদতের ঘর (সূরা আলে ইমরান, ৩:৯৬)। আপনি যখন এই ঘরের সামনে দাঁড়াবেন, মনে রাখবেন — দুই নবী নিজ হাতে এই ঘর গড়েছিলেন এবং কবুলের জন্য দোয়া করেছিলেন। আপনিও নিজের জন্য একই দোয়া করুন।",
+        "bodyEn": "When, at Allah's command, Ibrahim (peace be upon him) and his son Ismail (peace be upon him) raised the foundations of the Ka'bah, they prayed as they worked: \"Our Lord, accept this from us. Indeed You are the All-Hearing, the All-Knowing.\" (Surah al-Baqarah 2:127). This Ka'bah is the very first house established for the worship of Allah (Surah Aal 'Imran 3:96). As you stand before it, remember that two prophets built it with their own hands, praying for acceptance — and make that same prayer for yourself.",
+        "imageAsset": "assets/images/stories/ch3.png",
+        "audioAsset": null
+      }
     },
     {
       "id": "umrah_ch4",
@@ -74,10 +140,43 @@
       "titleEn": "Ihram",
       "icon": "checkroom",
       "sections": [
-        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+        {
+          "type": "intro",
+          "order": 1,
+          "bodyBn": "ইহরাম হলো উমরাহ বা হজের জন্য একটি বিশেষ পবিত্র অবস্থায় প্রবেশ করা — শুধু সাদা কাপড় পরা নয়, বরং নিয়ত ও তালবিয়াহর মাধ্যমে নিজেকে আল্লাহর জন্য নিবেদিত করা। পুরুষেরা দুই টুকরা সেলাইবিহীন সাদা কাপড় পরেন (একটি কোমরে, একটি কাঁধে), আর নারীরা সাধারণ শালীন পোশাকই পরেন। এই অবস্থায় ধনী-গরিব, রাজা-প্রজা সবাই একই সাদা কাপড়ে দাঁড়িয়ে যায় — যা মানুষে মানুষে সমতা ও আল্লাহর সামনে বিনয়ের প্রতীক। মিকাত অতিক্রম করার আগেই ইহরাম বাঁধা আবশ্যক।",
+          "bodyEn": "Ihram is entering a special sacred state for Umrah or Hajj — not merely wearing white cloth, but dedicating yourself to Allah through the intention (niyyah) and the Talbiyah. Men wear two unstitched white cloths (one around the waist, one over the shoulders), while women wear their ordinary modest clothing. In this state the rich and the poor, the ruler and the subject all stand in the same simple white — a symbol of equality between people and humility before Allah. Ihram must be entered before crossing the Miqat."
+        },
+        {
+          "type": "steps",
+          "order": 2,
+          "bodyBn": "গোসল বা অজু — ইহরামের আগে গোসল করা উত্তম (সুন্নত); সম্ভব না হলে অজু করে নিন।\nসুগন্ধি (ইহরামের আগে) — পুরুষেরা ইহরাম বাঁধার আগে শরীরে সুগন্ধি লাগাতে পারেন (কাপড়ে নয়)। একবার ইহরাম বাঁধার পর আর সুগন্ধি ব্যবহার করা যাবে না।\nইহরামের কাপড় পরিধান — পুরুষেরা দুই টুকরা সাদা কাপড় পরুন; নারীরা শালীন পোশাক পরুন (মুখ খোলা রাখুন — নিকাব বা হাতমোজা নয়)।\nদুই রাকাত নামাজ — সম্ভব হলে ইহরামের নিয়তের আগে দুই রাকাত নামাজ পড়ে নিন।\nউমরাহর নিয়ত — অন্তরে উমরাহর নিয়ত করুন এবং নিয়তের দোয়া পড়ুন (নিচে দেওয়া হলো)।\nতালবিয়াহ শুরু — নিয়তের পরপরই তালবিয়াহ পড়া শুরু করুন; এর মাধ্যমেই আপনি ইহরামে প্রবেশ করেন। (তালবিয়াহ সম্পর্কে বিস্তারিত পরের অধ্যায়ে।)",
+          "bodyEn": "Ghusl or wudu — a full bath (ghusl) before ihram is preferred (Sunnah); if not possible, make wudu.\nPerfume (before ihram) — men may apply scent to the body (not the garments) before entering ihram. Once in ihram, no perfume may be used.\nPut on the ihram dress — men wear two white cloths; women wear modest clothing (keep the face uncovered — no niqab or gloves).\nTwo rak'ahs — if possible, pray two rak'ahs before making the intention for ihram.\nIntention for Umrah — make the intention in your heart and recite the intention supplication (given below).\nBegin the Talbiyah — right after the intention, begin reciting the Talbiyah; with this you enter ihram. (The Talbiyah is covered in detail in the next chapter.)"
+        },
+        {
+          "type": "tip",
+          "order": 3,
+          "bodyBn": "ইহরাম অবস্থায় নিচের কাজগুলো নিষিদ্ধ:\n• চুল বা নখ কাটা।\n• সুগন্ধি ব্যবহার করা (শরীরে বা কাপড়ে)।\n• পুরুষদের জন্য: সেলাই করা পোশাক পরা ও মাথা ঢাকা।\n• নারীদের জন্য: মুখ ঢাকা (নিকাব) ও হাতমোজা পরা।\n• স্ত্রী-সহবাস, ঘনিষ্ঠতা বা বিয়ের চুক্তি করা।\n• শিকার করা বা হারামের গাছপালা কাটা।\n• ঝগড়া, গালিগালাজ ও পাপ কাজ করা (কুরআন, ২:১৯৭)।\nকোনো নিষিদ্ধ কাজ ভুলে বা ইচ্ছাকৃতভাবে হয়ে গেলে তার জন্য দম বা কাফফারা লাগতে পারে — বিস্তারিত জানতে একজন নির্ভরযোগ্য আলেমের পরামর্শ নিন।",
+          "bodyEn": "While in ihram, the following are forbidden:\n• Cutting hair or nails.\n• Using perfume (on the body or clothes).\n• For men: wearing stitched clothing or covering the head.\n• For women: covering the face (niqab) or wearing gloves.\n• Marital relations, intimacy, or making a marriage contract.\n• Hunting, or cutting the plants and trees of the Haram.\n• Quarrelling, foul speech, or sinful acts (Qur'an 2:197).\nIf a prohibition is broken, whether by mistake or deliberately, a penalty (dam or kaffarah) may apply — consult a reliable scholar for the details."
+        }
       ],
-      "duas": [],
-      "story": null
+      "duas": [
+        {
+          "id": "umrah_ch4_dua_niyyah",
+          "arabic": "اللَّهُمَّ إِنِّي أُرِيدُ الْعُمْرَةَ فَيَسِّرْهَا لِي وَتَقَبَّلْهَا مِنِّي",
+          "translitBn": "আল্লা-হুম্মা ইন্নী উরীদুল ‘উমরাতা ফা ইয়াসসিরহা- লী ওয়া তাক্বাব্বালহা- মিন্নী।",
+          "meaningBn": "হে আল্লাহ, আমি উমরাহর নিয়ত করছি; আপনি তা আমার জন্য সহজ করে দিন এবং আমার পক্ষ থেকে কবুল করুন। (ইহরামের সময় পড়ার নিয়তের দোয়া — মানাসিকের কিতাবসমূহে বর্ণিত)",
+          "meaningEn": "O Allah, I intend to perform Umrah, so make it easy for me and accept it from me. (The intention supplication for entering ihram, taught in the books of manasik)",
+          "audioAsset": null
+        }
+      ],
+      "story": {
+        "titleBn": "সাদা কাপড়ের শিক্ষা",
+        "titleEn": "The Lesson of the White Cloth",
+        "bodyBn": "ইহরামের সাদা দুই টুকরা কাপড় দেখতে অনেকটা কাফনের কাপড়ের মতো। যখন লক্ষ লক্ষ মানুষ এই একই সাদা কাপড়ে কাবার সামনে দাঁড়ায়, তখন কে রাজা আর কে ভিখারি, কে ধনী আর কে গরিব — তা আর চেনা যায় না। সবাই তখন সমান, সবাই এক আল্লাহর বান্দা। এই দৃশ্য যেন কিয়ামতের দিনের এক মহড়া, যেদিন প্রত্যেক মানুষ কোনো পদ-মর্যাদা ছাড়াই আল্লাহর সামনে দাঁড়াবে। তাই ইহরাম শুধু একটি পোশাক নয় — এটি অহংকার ঝেড়ে ফেলে বিনয় ও সমতার শিক্ষা দেয়। এই কাপড় পরার সময় নিজের অন্তরকেও দুনিয়ার মোহ থেকে পরিষ্কার করে নিন।",
+        "bodyEn": "The two white cloths of ihram look much like a burial shroud (kafan). When millions of people stand before the Ka'bah in this same white cloth, you can no longer tell the king from the beggar or the rich from the poor. All are equal, all servants of one Allah. It is as if it were a rehearsal for the Day of Judgement, when every person will stand before Allah stripped of rank and title. So ihram is not merely a garment — it teaches you to cast off pride and clothe yourself in humility and equality. As you put it on, cleanse your heart too of its attachment to this world.",
+        "imageAsset": "assets/images/stories/ch4.png",
+        "audioAsset": null
+      }
     },
     {
       "id": "umrah_ch5",
@@ -87,23 +186,89 @@
       "titleEn": "Talbiyah",
       "icon": "record_voice_over",
       "sections": [
-        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+        {
+          "type": "intro",
+          "order": 1,
+          "bodyBn": "তালবিয়াহ হলো আল্লাহর ডাকে বান্দার সাড়া — \"লাব্বাইক\" অর্থ \"আমি হাজির\"। ইহরাম বাঁধার পরপরই তালবিয়াহ পাঠ শুরু করতে হয় এবং কাবা শরীফের সামনে গিয়ে তাওয়াফ শুরু করার আগ পর্যন্ত বারবার তা পাঠ করতে হয়। এই ছোট্ট বাক্যে রয়েছে খাঁটি তাওহিদের ঘোষণা — আল্লাহর কোনো শরীক নেই, সকল প্রশংসা ও রাজত্ব একমাত্র তাঁরই। এটিই সেই ডাক, যার কথা প্রথম অধ্যায়ে আমরা জেনেছি।",
+          "bodyEn": "The Talbiyah is the servant's response to Allah's call — \"Labbaik\" means \"Here I am.\" You begin reciting it as soon as you enter ihram, and repeat it again and again until you reach the Ka'bah to begin Tawaf. In this short phrase lies a declaration of pure tawhid — Allah has no partner, and all praise and sovereignty belong to Him alone. This is the very call we learned about in the first chapter."
+        },
+        {
+          "type": "steps",
+          "order": 2,
+          "bodyBn": "শুরু — ইহরামের নিয়তের পরপরই তালবিয়াহ পাঠ শুরু করুন।\nবারবার পাঠ করুন — যাত্রাপথে, ওঠা-নামার সময়, নতুন কোনো দলের সাথে দেখা হলে — বেশি বেশি তালবিয়াহ পড়ুন।\nপুরুষ ও নারী — পুরুষেরা উঁচু আওয়াজে পড়া সুন্নত; নারীরা নিচু আওয়াজে পড়বেন।\nকখন থামবেন — উমরাহর জন্য, কাবার সামনে গিয়ে তাওয়াফ শুরু করার সময় (হাজরে আসওয়াদের কাছে পৌঁছে) তালবিয়াহ পাঠ বন্ধ করে দিন।",
+          "bodyEn": "Begin — start reciting the Talbiyah right after making the intention for ihram.\nRepeat often — recite it abundantly: while travelling, when going up or down, and when meeting a new group.\nMen and women — it is Sunnah for men to raise their voices; women recite it softly.\nWhen to stop — for Umrah, stop reciting the Talbiyah when you reach the Ka'bah to begin Tawaf (as you arrive at the Black Stone)."
+        },
+        {
+          "type": "tip",
+          "order": 3,
+          "bodyBn": "তালবিয়াহ শুধু মুখে নয়, অন্তরের উপস্থিতি ও অর্থ বুঝে পাঠ করুন — কারণ প্রতিটি শব্দে আপনি সত্যিকারভাবে আপনার রবের ডাকে সাড়া দিচ্ছেন। \"লা- শারীকা লাক\" (আপনার কোনো শরীক নেই) — এই অংশে খেয়াল করুন কীভাবে তালবিয়াহ পুরোপুরি এক আল্লাহর প্রতি আত্মসমর্পণের ঘোষণা দেয়। তালবিয়াহর সাথে সাথে দরুদ শরীফ পড়তে ও নিজের জন্য দোয়া করতেও পারেন।",
+          "bodyEn": "Recite the Talbiyah not with the tongue alone but with presence of heart, understanding its meaning — for with every word you are truly answering the call of your Lord. Notice how \"la sharika lak\" (You have no partner) makes the Talbiyah a complete declaration of surrender to Allah alone. Along with the Talbiyah, you may also send salawat upon the Prophet (peace be upon him) and make du'a for yourself."
+        }
       ],
-      "duas": [],
-      "story": null
+      "duas": [
+        {
+          "id": "umrah_ch5_dua_talbiyah",
+          "arabic": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ",
+          "translitBn": "লাব্বাইকা আল্লা-হুম্মা লাব্বাইক, লাব্বাইকা লা- শারীকা লাকা লাব্বাইক, ইন্নাল হামদা ওয়ান্‌নি'মাতা লাকা ওয়াল মুলক, লা- শারীকা লাক।",
+          "meaningBn": "আমি হাজির, হে আল্লাহ, আমি হাজির। আমি হাজির, আপনার কোনো শরীক নেই, আমি হাজির। নিশ্চয়ই সকল প্রশংসা ও নিয়ামত আপনারই এবং সমস্ত রাজত্বও আপনার। আপনার কোনো শরীক নেই। (নবী ﷺ-এর তালবিয়াহ — সহিহ বুখারি ও মুসলিম)",
+          "meaningEn": "Here I am, O Allah, here I am. Here I am; You have no partner; here I am. Indeed all praise, grace, and sovereignty belong to You. You have no partner. (The Talbiyah of the Prophet, peace be upon him — Sahih al-Bukhari & Muslim)",
+          "audioAsset": null
+        }
+      ],
+      "story": {
+        "titleBn": "যখন পাথরও সাড়া দেয়",
+        "titleEn": "When Even the Stones Respond",
+        "bodyBn": "রাসূলুল্লাহ (সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম) বলেছেন: \"যখন কোনো মুসলিম তালবিয়াহ পাঠ করে, তখন তার ডানে-বামে যা কিছু আছে — পাথর, গাছ, মাটির ঢেলা — সবকিছুই তার সাথে তালবিয়াহ পাঠ করে, পৃথিবীর শেষ প্রান্ত পর্যন্ত।\" (জামে তিরমিযি)। একটু ভাবুন — আপনি যখন \"লাব্বাইক\" বলে আল্লাহর ডাকে সাড়া দিচ্ছেন, তখন গোটা সৃষ্টিজগৎ আপনার কণ্ঠে কণ্ঠ মেলাচ্ছে। তাই তালবিয়াহ মুখে নয়, অন্তর দিয়ে পাঠ করুন — যেন প্রতিটি শব্দে আপনি সত্যিই আপনার রবের সামনে হাজির হচ্ছেন।",
+        "bodyEn": "The Prophet (peace be upon him) said: \"There is no Muslim who recites the Talbiyah but that everything to his right and his left — stones, trees, and clods of earth — recites it along with him, to the very ends of the earth.\" (Jami' at-Tirmidhi). Pause and imagine it — as you answer Allah's call with \"Labbaik,\" the whole of creation joins its voice to yours. So recite the Talbiyah not with your tongue alone but with your heart, so that with every word you are truly presenting yourself before your Lord.",
+        "imageAsset": "assets/images/stories/ch5.png",
+        "audioAsset": null
+      }
     },
     {
       "id": "umrah_ch6",
       "order": 6,
       "phase": "rites",
       "titleBn": "মসজিদুল হারামে প্রবেশ ও কাবা দর্শন",
-      "titleEn": "Entering the Haram",
+      "titleEn": "Entering the Haram & Seeing the Ka'bah",
       "icon": "mosque",
       "sections": [
-        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+        {
+          "type": "intro",
+          "order": 1,
+          "bodyBn": "মক্কায় পৌঁছে তালবিয়াহ পড়তে পড়তে আপনি মসজিদুল হারামে প্রবেশ করবেন — পৃথিবীর সবচেয়ে পবিত্র মসজিদ। এই দুয়ারে পা রাখুন পূর্ণ আদব, বিনয় ও একাগ্রতার সাথে। জীবনের সবচেয়ে আবেগময় মুহূর্তগুলোর একটি হলো — প্রথমবার কাবা শরীফের দিকে চোখ পড়া; অনেকেরই তখন চোখে পানি এসে যায়। এই মুহূর্তটি দোয়ার জন্য এক বিশেষ সময়, তাই এটি হেলায় নষ্ট করবেন না।",
+          "bodyEn": "Having reached Makkah reciting the Talbiyah, you now enter Masjid al-Haram — the most sacred mosque on earth. Step across its threshold with full etiquette, humility, and focus. One of the most emotional moments of a lifetime is the first time your eyes fall upon the Ka'bah; many find tears flowing. This moment is a special time for supplication, so do not let it slip away."
+        },
+        {
+          "type": "steps",
+          "order": 2,
+          "bodyBn": "ডান পা দিয়ে প্রবেশ — মসজিদে প্রবেশের দোয়া পড়ে (তৃতীয় অধ্যায়ে দেওয়া হয়েছে) ডান পা দিয়ে ভেতরে ঢুকুন এবং তালবিয়াহ চালিয়ে যান।\nবিনয়ের সাথে এগিয়ে যান — সম্ভব হলে বাবুস সালাম দিয়ে প্রবেশ করুন; তবে যেকোনো দরজা দিয়ে ঢোকা যায়। চোখ নিচু রেখে ধীরে ধীরে কাবার দিকে এগোন।\nকাবা দর্শন — যখন প্রথমবার কাবা শরীফ চোখে পড়বে, থামুন। \"আল্লাহু আকবার\" ও \"লা- ইলা-হা ইল্লাল্লা-হ\" বলুন এবং হাত তুলে মন খুলে দোয়া করুন।\nনিজের দোয়া করুন — এই মুহূর্তে নিজের, পিতা-মাতার, পরিবারের ও সমস্ত মুসলিমের জন্য দোয়া করুন।",
+          "bodyEn": "Enter with the right foot — recite the mosque-entry supplication (given in Chapter 3), step in with your right foot, and continue the Talbiyah.\nMove forward humbly — enter through Bab as-Salam if you can, though any gate is fine. Keep your gaze lowered and move gently toward the Ka'bah.\nSeeing the Ka'bah — the first time the Ka'bah comes into view, pause. Say \"Allahu Akbar\" and \"La ilaha illa-llah,\" raise your hands, and make heartfelt du'a.\nMake your du'a — in this moment, pray for yourself, your parents, your family, and all Muslims."
+        },
+        {
+          "type": "tip",
+          "order": 3,
+          "bodyBn": "কাবা প্রথম দেখার মুহূর্তটি দোয়ার জন্য এক বিশেষ সময় বলে বর্ণিত হয়েছে — তাই আপনার সবচেয়ে জরুরি দোয়াগুলো আগে থেকেই মনে গুছিয়ে রাখুন। ছবি তোলা বা ভিডিও করায় ব্যস্ত হয়ে এই অমূল্য মুহূর্তটি হারিয়ে ফেলবেন না। ভিড়ের মধ্যে ধীরস্থির থাকুন, ধাক্কাধাক্কি করবেন না, এবং অন্তরকে বিনয়ে পূর্ণ রাখুন।",
+          "bodyEn": "The moment of first seeing the Ka'bah is reported to be a special time for du'a — so prepare your most important supplications in advance. Do not let this priceless moment be lost in taking photos or videos. Stay calm in the crowd, do not push, and keep your heart full of humility."
+        }
       ],
-      "duas": [],
-      "story": null
+      "duas": [
+        {
+          "id": "umrah_ch6_dua_seeing_kabah",
+          "arabic": "اللَّهُمَّ زِدْ هَذَا الْبَيْتَ تَشْرِيفًا وَتَعْظِيمًا وَتَكْرِيمًا وَمَهَابَةً، وَزِدْ مَنْ شَرَّفَهُ وَعَظَّمَهُ مِمَّنْ حَجَّهُ أَوِ اعْتَمَرَهُ تَشْرِيفًا وَتَعْظِيمًا وَتَكْرِيمًا وَبِرًّا",
+          "translitBn": "আল্লা-হুম্মা যিদ হা-যাল বাইতা তাশরীফাঁও ওয়া তা'যীমাঁও ওয়া তাকরীমাঁও ওয়া মাহা-বাহ, ওয়া যিদ মান শাররাফাহু ওয়া 'আযযামাহু মিম্মান হাজ্জাহু আওয়ি'তামারাহু তাশরীফাঁও ওয়া তা'যীমাঁও ওয়া তাকরীমাঁও ওয়া বিররা-।",
+          "meaningBn": "হে আল্লাহ, এই ঘরের সম্মান, মর্যাদা, ইজ্জত ও ভীতি-শ্রদ্ধা আরও বাড়িয়ে দিন; আর যারা হজ ও উমরাহ করে এই ঘরকে সম্মান করে, তাদের সম্মান, মর্যাদা, ইজ্জত ও নেকি আরও বাড়িয়ে দিন। (কাবা দর্শনের সময় প্রচলিত দোয়া — মানাসিকের কিতাবসমূহে বর্ণিত; নির্দিষ্ট কোনো দোয়া বাধ্যতামূলক নয়, তাই মন খুলে নিজের দোয়াও করুন।)",
+          "meaningEn": "O Allah, increase this House in honour, greatness, nobility, and awe; and increase those who honour and revere it through Hajj or Umrah in honour, greatness, nobility, and righteousness. (A du'a commonly recited on seeing the Ka'bah, from the books of manasik; no specific du'a is obligatory, so make your own heartfelt supplication too.)",
+          "audioAsset": null
+        }
+      ],
+      "story": {
+        "titleBn": "আল্লাহর মেহমান",
+        "titleEn": "Guests of Allah",
+        "bodyBn": "রাসূলুল্লাহ (সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম) বলেছেন: \"হাজি ও উমরাহকারীরা আল্লাহর মেহমান; তিনি তাদের ডেকেছেন আর তারা সাড়া দিয়েছে, তারা তাঁর কাছে চাইবে আর তিনি তাদের দেবেন।\" (সুনানে ইবনে মাজাহ)। একটু ভাবুন — আপনি এখন স্বয়ং আল্লাহর ঘরের মেহমান। মেহমানকে খালি হাতে ফেরানো হয় না; আর মেজবান যখন স্বয়ং আল্লাহ, তখন তাঁর দানের কোনো সীমা নেই। তাই কাবার সামনে দাঁড়িয়ে লজ্জা বা সংকোচ না করে মন খুলে চান — দুনিয়া ও আখিরাতের সব কল্যাণ তাঁর কাছেই চেয়ে নিন।",
+        "bodyEn": "The Prophet (peace be upon him) said: \"The pilgrims performing Hajj and Umrah are the guests of Allah; He called them and they answered, and they will ask Him and He will give them.\" (Sunan Ibn Majah). Reflect on this — you are now a guest in the very House of Allah. A guest is not sent away empty-handed; and when the Host is Allah Himself, there is no limit to His giving. So as you stand before the Ka'bah, do not hold back — open your heart and ask Him for every good of this world and the next.",
+        "imageAsset": "assets/images/stories/ch6.png",
+        "audioAsset": null
+      }
     },
     {
       "id": "umrah_ch7",
@@ -113,10 +278,43 @@
       "titleEn": "Tawaf",
       "icon": "rotate_right",
       "sections": [
-        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+        {
+          "type": "intro",
+          "order": 1,
+          "bodyBn": "তাওয়াফ হলো কাবা শরীফকে কেন্দ্র করে সাতবার প্রদক্ষিণ করা — উমরাহর প্রথম বড় রুকন। তাওয়াফ শুরু ও শেষ হয় হাজরে আসওয়াদ (কালো পাথর) থেকে, আর কাবাকে সবসময় নিজের বাম পাশে রেখে বিপরীত ঘড়ির দিকে ঘুরতে হয়। তাওয়াফের জন্য অজু থাকা আবশ্যক (নামাজের মতো পবিত্রতা)। মনে রাখবেন, হাতিম বা হিজরে ইসমাইল কাবার অংশ, তাই তার বাইরে দিয়েই ঘুরতে হবে — এর ভেতর দিয়ে গেলে সেই চক্কর শুদ্ধ হবে না।",
+          "bodyEn": "Tawaf is circling the Ka'bah seven times — the first major pillar of Umrah. It begins and ends at the Black Stone (Hajar al-Aswad), moving anti-clockwise with the Ka'bah always on your left. Wudu is required for Tawaf, just as for prayer. Remember that the Hatim (Hijr Ismail) is part of the Ka'bah, so you must circle outside it — passing through it invalidates that circuit."
+        },
+        {
+          "type": "steps",
+          "order": 2,
+          "bodyBn": "পবিত্রতা ও শুরুর স্থান — অজু অবস্থায় থাকুন এবং হাজরে আসওয়াদ বরাবর (সবুজ বাতি চিহ্নিত স্থান) গিয়ে দাঁড়ান।\nইদতিবা (পুরুষ) — পুরুষেরা তাওয়াফ শুরুর আগে ডান কাঁধ খোলা রাখুন (চাদরের মাঝ অংশ ডান বগলের নিচ দিয়ে বাম কাঁধের উপর নিন); এটি এই তাওয়াফের সাত চক্করেই থাকবে।\nহাজরে আসওয়াদ থেকে শুরু — পাথরের দিকে ফিরে \"বিসমিল্লা-হি আল্লা-হু আকবার\" বলুন। সম্ভব হলে চুমু দিন, নয়তো হাত দিয়ে স্পর্শ করে হাতে চুমু দিন; ভিড়ে সম্ভব না হলে শুধু ডান হাতে ইশারা করে \"আল্লা-হু আকবার\" বলুন — কাউকে ধাক্কা বা কষ্ট দেবেন না।\nসাত চক্কর — কাবাকে বাম পাশে রেখে সাতবার ঘুরুন, প্রতিবার হাতিমের বাইরে দিয়ে।\nরমল (পুরুষ) — প্রথম তিন চক্করে পুরুষেরা ছোট ছোট দ্রুত পদক্ষেপে (রমল) চলুন; শেষ চার চক্করে স্বাভাবিক গতিতে।\nরুকনে ইয়ামানি — ইয়ামানি কোণে পৌঁছে সহজ হলে ডান হাতে স্পর্শ করুন (চুমু নয়); না পারলে কিছু না বলে এগিয়ে যান। ইয়ামানি কোণ ও হাজরে আসওয়াদের মাঝে নিচের দোয়াটি পড়ুন।\nচক্কর শেষ — প্রতি চক্কর হাজরে আসওয়াদে \"আল্লা-হু আকবার\" বলে শেষ করুন; সাত চক্কর পূর্ণ হলে তাওয়াফ শেষ।",
+          "bodyEn": "Purity & starting point — be in wudu and stand in line with the Black Stone (marked by the green light).\nIdtiba (men) — before starting, men uncover the right shoulder (pass the middle of the upper cloth under the right arm and over the left shoulder); keep it so for all seven circuits of this Tawaf.\nBegin at the Black Stone — facing it, say \"Bismillahi, Allahu Akbar.\" Kiss it if you can; otherwise touch it and kiss your hand; if the crowd prevents this, simply point toward it with your right hand and say \"Allahu Akbar\" — never push or harm anyone.\nSeven circuits — circle the Ka'bah seven times keeping it on your left, each time going outside the Hatim.\nRaml (men) — in the first three circuits men walk briskly with short quick steps (raml); walk normally in the last four.\nThe Yamani corner — on reaching it, touch it with the right hand if easy (no kissing); if not, continue without saying anything. Between the Yamani corner and the Black Stone, recite the du'a below.\nEnd of a circuit — end each circuit at the Black Stone saying \"Allahu Akbar\"; when seven are complete, Tawaf is finished."
+        },
+        {
+          "type": "tip",
+          "order": 3,
+          "bodyBn": "হাজরে আসওয়াদে চুমু দেওয়ার জন্য কখনোই ধাক্কাধাক্কি বা কাউকে কষ্ট দেবেন না — দূর থেকে ইশারা করাই যথেষ্ট এবং একই সওয়াব পাওয়া যায়। বয়স্ক ও দুর্বলরা তাওয়াফের বাইরের বলয়ে, উপরের তলায় বা হুইলচেয়ারে তাওয়াফ করতে পারেন। তাওয়াফের মাঝে অজু ভেঙে গেলে অজু করে যেখানে ছিলেন সেখান থেকে আবার শুরু করুন। প্রতি চক্করের জন্য নির্দিষ্ট কোনো দোয়া বাধ্যতামূলক নয় — যিকর, কুরআন তিলাওয়াত ও নিজের ভাষায় দোয়া করতে পারেন।",
+          "bodyEn": "Never push or harm anyone to kiss the Black Stone — pointing from a distance is sufficient and carries the same reward. The elderly and weak may perform Tawaf in the outer ring, on the upper floor, or in a wheelchair. If your wudu breaks during Tawaf, renew it and resume from where you left off. No fixed du'a is required for each circuit — you may make dhikr, recite Qur'an, and supplicate in your own words."
+        }
       ],
-      "duas": [],
-      "story": null
+      "duas": [
+        {
+          "id": "umrah_ch7_dua_rabbana_atina",
+          "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+          "translitBn": "রাব্বানা- আ-তিনা- ফিদ্দুনইয়া- হাসানাতাঁও ওয়া ফিল আ-খিরাতি হাসানাতাঁও ওয়া ক্বিনা- 'আযা-বান্না-র।",
+          "meaningBn": "হে আমাদের রব, আমাদের দুনিয়াতে কল্যাণ দিন এবং আখিরাতেও কল্যাণ দিন, আর আমাদের জাহান্নামের আযাব থেকে রক্ষা করুন। (ইয়ামানি কোণ ও হাজরে আসওয়াদের মাঝে পড়ার দোয়া — কুরআন ২:২০১; সুনানে আবু দাউদ)",
+          "meaningEn": "Our Lord, give us good in this world and good in the Hereafter, and protect us from the punishment of the Fire. (Recited between the Yamani corner and the Black Stone — Qur'an 2:201; Sunan Abi Dawud)",
+          "audioAsset": null
+        }
+      ],
+      "story": {
+        "titleBn": "উমর (রাঃ) ও কালো পাথর",
+        "titleEn": "Umar and the Black Stone",
+        "bodyBn": "উমর ইবনুল খাত্তাব (রাঃ) একবার হাজরে আসওয়াদের কাছে এসে তাতে চুমু দিলেন এবং বললেন: \"আমি জানি তুমি একটি পাথর মাত্র, তুমি কারও উপকারও করতে পারো না, ক্ষতিও করতে পারো না। আমি যদি রাসূলুল্লাহ (সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম)-কে তোমাকে চুমু দিতে না দেখতাম, তবে আমি কখনো তোমাকে চুমু দিতাম না।\" (সহিহ বুখারি ও মুসলিম)। এই ঘটনা আমাদের শেখায় — আমরা পাথরের পূজা করি না; বরং রাসূল (সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম)-এর অনুসরণে, আল্লাহর আদেশ পালন করতেই এটিকে স্পর্শ ও চুমু দিই। তাওয়াফের প্রতিটি কাজ যেন হয় খাঁটি আনুগত্যের প্রকাশ, অন্ধ কুসংস্কারের নয়।",
+        "bodyEn": "Umar ibn al-Khattab (may Allah be pleased with him) once came to the Black Stone, kissed it, and said: \"I know that you are only a stone; you can neither benefit nor harm. Had I not seen the Messenger of Allah (peace be upon him) kissing you, I would never have kissed you.\" (Sahih al-Bukhari & Muslim). This teaches us that we do not worship the stone; rather, we touch and kiss it only in obedience to Allah, following His Messenger (peace be upon him). Let every act of Tawaf be an expression of sincere obedience, never of blind superstition.",
+        "imageAsset": "assets/images/stories/ch7.png",
+        "audioAsset": null
+      }
     },
     {
       "id": "umrah_ch8",
@@ -126,10 +324,43 @@
       "titleEn": "After Tawaf",
       "icon": "local_drink",
       "sections": [
-        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+        {
+          "type": "intro",
+          "order": 1,
+          "bodyBn": "সাত চক্কর তাওয়াফ শেষ হলে দুটি কাজ করতে হয় — মাকামে ইবরাহিমের পেছনে দুই রাকাত নামাজ পড়া এবং যমযমের পানি পান করা। এরপর সাঈর জন্য যাওয়ার আগে সম্ভব হলে আবার হাজরে আসওয়াদ স্পর্শ করা বা ইশারা করা সুন্নত।",
+          "bodyEn": "When the seven circuits of Tawaf are complete, two things follow — praying two rak'ahs behind Maqam Ibrahim, and drinking Zamzam water. Then, before heading to Sa'i, it is Sunnah (if possible) to touch or point again toward the Black Stone."
+        },
+        {
+          "type": "steps",
+          "order": 2,
+          "bodyBn": "কাঁধ ঢাকুন — নামাজের আগে পুরুষেরা ডান কাঁধ আবার ঢেকে নিন (ইদতিবা শুধু তাওয়াফের জন্য ছিল)।\nদুই রাকাত নামাজ — সম্ভব হলে মাকামে ইবরাহিমের পেছনে দুই রাকাত পড়ুন (প্রথম রাকাতে সূরা কাফিরূন ও দ্বিতীয়টিতে সূরা ইখলাস পড়া সুন্নত)। ভিড় থাকলে মসজিদের যেকোনো স্থানে পড়া যায়।\nযমযম পান — কিবলামুখী হয়ে বিসমিল্লাহ বলে তিন শ্বাসে যমযমের পানি তৃপ্তি সহকারে পান করুন এবং দোয়া করুন।\nহাজরে আসওয়াদ (সুন্নত) — সাঈর জন্য যাওয়ার আগে সম্ভব হলে আবার হাজরে আসওয়াদ স্পর্শ বা ইশারা করে \"আল্লা-হু আকবার\" বলুন।",
+          "bodyEn": "Cover the shoulder — before praying, men re-cover the right shoulder (idtiba was only for the Tawaf).\nTwo rak'ahs — if possible, pray two rak'ahs behind Maqam Ibrahim (it is Sunnah to recite Surah al-Kafirun in the first and Surah al-Ikhlas in the second). If it is crowded, you may pray anywhere in the mosque.\nDrink Zamzam — facing the Qiblah, say Bismillah and drink Zamzam to your fill in three breaths, and make du'a.\nThe Black Stone (Sunnah) — before going to Sa'i, if possible touch or point again toward the Black Stone saying \"Allahu Akbar.\""
+        },
+        {
+          "type": "tip",
+          "order": 3,
+          "bodyBn": "মাকামে ইবরাহিমের আশেপাশে প্রচণ্ড ভিড় থাকে — সেখানে জায়গা দখল করে অন্যদের তাওয়াফে বাধা দেবেন না; দুই রাকাত মসজিদের যেকোনো জায়গায় পড়াই যথেষ্ট। যমযমের পানি মসজিদের সব জায়গায় পাওয়া যায়, তাই তাড়াহুড়ার দরকার নেই।",
+          "bodyEn": "The area around Maqam Ibrahim is extremely crowded — do not occupy it and block others' Tawaf; praying the two rak'ahs anywhere in the mosque is perfectly valid. Zamzam is available throughout the mosque, so there is no need to rush."
+        }
       ],
-      "duas": [],
-      "story": null
+      "duas": [
+        {
+          "id": "umrah_ch8_dua_zamzam",
+          "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا وَرِزْقًا وَاسِعًا وَشِفَاءً مِنْ كُلِّ دَاءٍ",
+          "translitBn": "আল্লা-হুম্মা ইন্নী আসআলুকা 'ইলমান না-ফি'আঁও ওয়া রিযক্বাঁও ওয়া-সি'আঁও ওয়া শিফা-আম মিন কুল্লি দা-।",
+          "meaningBn": "হে আল্লাহ, আমি আপনার কাছে উপকারী জ্ঞান, প্রশস্ত রিযিক এবং সব রোগ থেকে আরোগ্য চাই। (যমযম পান করার সময় প্রচলিত দোয়া; নির্দিষ্ট কোনো দোয়া বাধ্যতামূলক নয়, তাই নিজের প্রয়োজন অনুযায়ী নিয়ত করে পান করুন।)",
+          "meaningEn": "O Allah, I ask You for beneficial knowledge, abundant provision, and healing from every disease. (A du'a commonly recited when drinking Zamzam; no specific du'a is obligatory, so drink with an intention for whatever good you need.)",
+          "audioAsset": null
+        }
+      ],
+      "story": {
+        "titleBn": "যে পানি ফুরায় না",
+        "titleEn": "The Water That Never Runs Dry",
+        "bodyBn": "হাজার হাজার বছর আগে ইসমাইল (আঃ)-এর শৈশবে যে যমযম কূপ প্রবাহিত হয়েছিল, তা আজও একইভাবে বয়ে চলেছে — কোটি কোটি হাজি ও উমরাহকারীর তৃষ্ণা মিটিয়েও কখনো ফুরায়নি। রাসূলুল্লাহ (সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম) বলেছেন: \"যমযমের পানি যে উদ্দেশ্যে পান করা হয়, তা-ই।\" (সুনানে ইবনে মাজাহ)। তাই যমযম পান করার সময় শুধু তৃষ্ণা মেটানোর কথা ভাববেন না — বরং সুস্থতা, উপকারী জ্ঞান, রিযিক ও আখিরাতের কল্যাণের নিয়ত করে পান করুন।",
+        "bodyEn": "The well of Zamzam that flowed in the infancy of Ismail (peace be upon him) thousands of years ago still flows the same way today — quenching the thirst of countless pilgrims yet never running dry. The Prophet (peace be upon him) said: \"The water of Zamzam is for whatever it is drunk for.\" (Sunan Ibn Majah). So when you drink Zamzam, do not think only of quenching thirst — drink with an intention for healing, beneficial knowledge, provision, and the good of the Hereafter.",
+        "imageAsset": "assets/images/stories/ch8.png",
+        "audioAsset": null
+      }
     },
     {
       "id": "umrah_ch9",
@@ -139,10 +370,43 @@
       "titleEn": "Sa'i",
       "icon": "directions_walk",
       "sections": [
-        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+        {
+          "type": "intro",
+          "order": 1,
+          "bodyBn": "তাওয়াফ ও দুই রাকাত নামাজের পর সাঈ করতে হয় — সাফা ও মারওয়া পাহাড়ের মাঝে সাতবার আসা-যাওয়া করা। এটি হাজেরা (আঃ)-এর সেই আকুল দৌড়ের স্মৃতি, যা তিনি শিশু ইসমাইলের জন্য পানির খোঁজে করেছিলেন। সাফা থেকে মারওয়া = ১ বার, মারওয়া থেকে সাফা = ২ বার — এভাবে সপ্তম বার মারওয়ায় গিয়ে সাঈ শেষ হয়। সাঈর জন্য অজু থাকা উত্তম, তবে বাধ্যতামূলক নয়।",
+          "bodyEn": "After Tawaf and the two rak'ahs comes Sa'i — walking seven times between the hills of Safa and Marwah. It commemorates the desperate search of Hajar (peace be upon her), running for water for her infant Ismail. Safa to Marwah is one trip, Marwah to Safa is the second — and so the seventh trip ends at Marwah. Wudu for Sa'i is preferred but not obligatory."
+        },
+        {
+          "type": "steps",
+          "order": 2,
+          "bodyBn": "সাফায় যান — সাফার দিকে যেতে যেতে পড়ুন: \"ইন্নাস সাফা- ওয়াল মারওয়াতা মিন শা'আ-ইরিল্লা-হ\" (কুরআন ২:১৫৮) এবং \"আবদাউ বিমা- বাদাআল্লা-হু বিহি\" (আমি সেখান থেকে শুরু করছি যেখান থেকে আল্লাহ শুরু করেছেন)।\nসাফার উপর — কিবলামুখী হয়ে দাঁড়ান, হাত তুলুন, তিনবার \"আল্লা-হু আকবার\" বলুন এবং নিচের যিকর ও দোয়া পড়ুন।\nমারওয়ার দিকে চলুন — হেঁটে যান; পুরুষেরা দুই সবুজ বাতির মাঝে (সামর্থ্য থাকলে) দ্রুত চলবেন, নারীরা স্বাভাবিকভাবে হাঁটবেন। পথে যিকর ও দোয়া করুন।\nমারওয়ায় — সাফার মতোই কিবলামুখী হয়ে যিকর ও দোয়া করুন। এতে এক বার সম্পূর্ণ হলো।\nসাত বার — মোট সাতবার আসা-যাওয়া করুন; সপ্তম বার মারওয়ায় গিয়ে সাঈ শেষ হয়।",
+          "bodyEn": "Go to Safa — as you approach, recite: \"Innas-safa wal-marwata min sha'a'irillah\" (Qur'an 2:158) and \"Abda'u bima bada'allahu bihi\" (I begin with that which Allah began with).\nOn Safa — face the Qiblah, raise your hands, say \"Allahu Akbar\" three times, and recite the dhikr and du'a below.\nWalk to Marwah — men move briskly between the two green lights (if able); women walk normally. Make dhikr and du'a along the way.\nOn Marwah — do as on Safa: face the Qiblah and make dhikr and du'a. That completes one trip.\nSeven trips — make seven trips in all; the seventh ends at Marwah, completing the Sa'i."
+        },
+        {
+          "type": "tip",
+          "order": 3,
+          "bodyBn": "বয়স্ক বা অসুস্থরা হুইলচেয়ারে বা মাঝের নির্দিষ্ট লেন দিয়ে সাঈ করতে পারেন। সবুজ বাতির মাঝে দ্রুত চলা শুধু পুরুষদের জন্য এবং সামর্থ্য থাকলে — কষ্ট হলে হেঁটে গেলেও কোনো সমস্যা নেই। সাঈর জন্য নির্দিষ্ট কোনো দোয়া বাধ্যতামূলক নয়; মন খুলে যিকর ও দোয়া করুন।",
+          "bodyEn": "The elderly or unwell may perform Sa'i in a wheelchair or via the dedicated middle lane. Moving quickly between the green lights is only for men and only if able — there is no harm in walking if it is difficult. No fixed du'a is obligatory for Sa'i; make dhikr and du'a freely."
+        }
       ],
-      "duas": [],
-      "story": null
+      "duas": [
+        {
+          "id": "umrah_ch9_dua_safa",
+          "arabic": "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ، أَنْجَزَ وَعْدَهُ، وَنَصَرَ عَبْدَهُ، وَهَزَمَ الْأَحْزَابَ وَحْدَهُ",
+          "translitBn": "লা- ইলা-হা ইল্লাল্লা-হু ওয়াহদাহু লা- শারীকা লাহ, লাহুল মুলকু ওয়া লাহুল হামদু ওয়া হুওয়া 'আলা- কুল্লি শাইইন ক্বাদীর; লা- ইলা-হা ইল্লাল্লা-হু ওয়াহদাহ, আনজাযা ওয়া'দাহ, ওয়া নাসারা 'আবদাহ, ওয়া হাযামাল আহযা-বা ওয়াহদাহ।",
+          "meaningBn": "আল্লাহ ছাড়া কোনো ইলাহ নেই, তিনি একক, তাঁর কোনো শরীক নেই; রাজত্ব তাঁরই, প্রশংসাও তাঁরই, তিনি সবকিছুর উপর ক্ষমতাবান। আল্লাহ ছাড়া কোনো ইলাহ নেই, তিনি একা; তিনি তাঁর ওয়াদা পূর্ণ করেছেন, তাঁর বান্দাকে সাহায্য করেছেন এবং একাই সকল দলকে পরাজিত করেছেন। (সাফা ও মারওয়ায় নবীজির যিকর — সহিহ মুসলিম)",
+          "meaningEn": "There is no god but Allah alone, with no partner; His is the dominion and His is the praise, and He is over all things capable. There is no god but Allah alone; He fulfilled His promise, aided His servant, and defeated the confederates alone. (The dhikr of the Prophet on Safa and Marwah — Sahih Muslim)",
+          "audioAsset": null
+        }
+      ],
+      "story": {
+        "titleBn": "হাজেরার দৌড় ও যমযমের ঝর্ণা",
+        "titleEn": "Hajar's Run and the Spring of Zamzam",
+        "bodyBn": "বহু আগে ইবরাহিম (আঃ) আল্লাহর আদেশে তাঁর স্ত্রী হাজেরা ও দুধের শিশু ইসমাইলকে জনমানবহীন মক্কার মরুভূমিতে রেখে যান। সঙ্গের সামান্য পানি ফুরিয়ে গেলে শিশু ইসমাইল তৃষ্ণায় কাঁদতে থাকে। মা হাজেরা পানির খোঁজে সাফা পাহাড়ে উঠলেন, কিছু না পেয়ে মারওয়ায় ছুটে গেলেন — এভাবে ব্যাকুল হয়ে দুই পাহাড়ের মাঝে সাতবার ছোটাছুটি করলেন। তখন আল্লাহর হুকুমে শিশু ইসমাইলের পায়ের কাছ থেকে যমযমের ঝর্ণা ফুটে বের হলো। আজ আপনি যখন সাফা-মারওয়ায় সাঈ করছেন, আপনি সেই মহীয়সী মায়ের ভরসা, ধৈর্য ও আল্লাহর উপর নির্ভরতার স্মৃতিই জীবন্ত করে তুলছেন। বিপদে ধৈর্য ধরে চেষ্টা চালিয়ে যান — আল্লাহ অপ্রত্যাশিত পথে সাহায্য পাঠান। (সহিহ বুখারি)",
+        "bodyEn": "Long ago, at Allah's command, Ibrahim (peace be upon him) left his wife Hajar and their nursing infant Ismail in the barren, uninhabited valley of Makkah. When the little water they had ran out and baby Ismail cried from thirst, Hajar climbed the hill of Safa to search for help; seeing nothing, she hurried to Marwah — running desperately between the two hills seven times. Then, by Allah's command, the spring of Zamzam gushed forth near the feet of the infant Ismail. Today, as you perform Sa'i between Safa and Marwah, you bring to life the trust, patience, and reliance upon Allah of that noble mother. In hardship, keep striving with patience — Allah sends help from where you least expect it. (Sahih al-Bukhari)",
+        "imageAsset": "assets/images/stories/ch9.png",
+        "audioAsset": null
+      }
     },
     {
       "id": "umrah_ch10",
@@ -152,10 +416,43 @@
       "titleEn": "Halq or Taqsir",
       "icon": "content_cut",
       "sections": [
-        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+        {
+          "type": "intro",
+          "order": 1,
+          "bodyBn": "সাঈর পর উমরাহর শেষ কাজ — চুল কাটা। পুরুষেরা পুরো মাথা মুণ্ডাবেন (হালক) অথবা পুরো মাথার চুল সমানভাবে ছোট করবেন (তাকসীর); নারীরা চুলের আগা থেকে এক আঙুলের কর পরিমাণ কেটে নেবেন। এর মাধ্যমেই আপনি ইহরাম থেকে বের হয়ে যান এবং উমরাহ সম্পূর্ণ হয়। পুরুষদের জন্য মাথা মুণ্ডানো (হালক) বেশি সওয়াবের।",
+          "bodyEn": "After Sa'i comes the final act of Umrah — cutting the hair. Men shave the whole head (halq) or trim all of it evenly (taqsir); women trim about a fingertip's length from the ends of their hair. With this you exit ihram and the Umrah is complete. For men, shaving the head (halq) carries greater reward."
+        },
+        {
+          "type": "steps",
+          "order": 2,
+          "bodyBn": "পুরুষ — পুরো মাথা মুণ্ডান (হালক, উত্তম) অথবা পুরো মাথার চুল সমানভাবে ছোট করুন (তাকসীর)। শুধু কয়েক গাছি চুল কাটা যথেষ্ট নয়।\nনারী — চুল একত্র করে আগা থেকে প্রায় এক আঙুলের কর (২–৩ সেন্টিমিটার) পরিমাণ কেটে নিন। নারীরা মাথা মুণ্ডাবেন না।\nইহরাম থেকে মুক্তি — চুল কাটা শেষ হলে ইহরামের সব নিষেধাজ্ঞা উঠে যায়; এখন স্বাভাবিক পোশাক ও সুগন্ধি ব্যবহার করা যাবে। উমরাহ সম্পন্ন!\nপরিচ্ছন্নতা — অনুমোদিত ও পরিষ্কার সেলুন ব্যবহার করুন এবং নতুন/জীবাণুমুক্ত ব্লেড নিশ্চিত করুন।",
+          "bodyEn": "Men — shave the whole head (halq, more virtuous) or trim all of it evenly (taqsir). Cutting only a few hairs is not sufficient.\nWomen — gather the hair and trim about a fingertip's length (2–3 cm) from the ends. Women do not shave.\nExiting ihram — once the hair is cut, all ihram restrictions are lifted; you may now wear normal clothes and use perfume. The Umrah is complete!\nHygiene — use a licensed, clean barber and make sure a new / sterile blade is used."
+        },
+        {
+          "type": "tip",
+          "order": 3,
+          "bodyBn": "পুরুষেরা মাথার সামান্য অংশ নয়, পুরো মাথাই মুণ্ডাবেন বা ছোট করবেন। একই ব্লেড একাধিক জনের ওপর ব্যবহার করলে রক্তবাহিত রোগের ঝুঁকি থাকে — তাই নিশ্চিত হয়ে নিন নতুন ব্লেড ব্যবহার হচ্ছে। নারীরা পর্দা রক্ষা করে নিজে অথবা কোনো মাহরাম/নারীর মাধ্যমে চুল ছোট করবেন।",
+          "bodyEn": "Men must shave or trim the whole head, not just a small part. Using the same blade on more than one person risks blood-borne disease — so make sure a new blade is used. Women should trim their hair themselves, or have a mahram or another woman do it, while observing modesty."
+        }
       ],
-      "duas": [],
-      "story": null
+      "duas": [
+        {
+          "id": "umrah_ch10_dua_taqabbal",
+          "arabic": "رَبَّنَا تَقَبَّلْ مِنَّا إِنَّكَ أَنْتَ السَّمِيعُ الْعَلِيمُ",
+          "translitBn": "রাব্বানা- তাক্বাব্বাল মিন্না- ইন্নাকা আন্তাস সামী'উল 'আলীম।",
+          "meaningBn": "হে আমাদের রব, আমাদের পক্ষ থেকে (এই ইবাদত) কবুল করুন; নিশ্চয়ই আপনি সর্বশ্রোতা, সর্বজ্ঞ। (সূরা বাকারা, ২:১২৭ — উমরাহ শেষে কবুলিয়াতের দোয়া হিসেবে পড়া যায়)",
+          "meaningEn": "Our Lord, accept this from us; indeed You are the All-Hearing, the All-Knowing. (Qur'an 2:127 — a fitting du'a for acceptance as the Umrah is completed)",
+          "audioAsset": null
+        }
+      ],
+      "story": {
+        "titleBn": "যারা মাথা মুণ্ডায়, তাদের জন্য রহমত",
+        "titleEn": "Mercy for Those Who Shave",
+        "bodyBn": "বিদায় হজের সময় রাসূলুল্লাহ (সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম) দোয়া করলেন: \"হে আল্লাহ, যারা মাথা মুণ্ডিয়েছে তাদের প্রতি রহমত করুন।\" সাহাবিরা বললেন, \"আর যারা চুল ছোট করেছে, হে আল্লাহর রাসূল?\" তিনি আবারও বললেন, \"হে আল্লাহ, যারা মাথা মুণ্ডিয়েছে তাদের প্রতি রহমত করুন।\" বারবার জিজ্ঞেস করার পর অবশেষে তিনি বললেন, \"এবং যারা চুল ছোট করেছে তাদের প্রতিও।\" (সহিহ বুখারি ও মুসলিম)। এ থেকেই বোঝা যায়, পুরুষদের জন্য মাথা মুণ্ডানো কেন বেশি উত্তম। চুল কাটার এই ছোট্ট কাজটির মধ্য দিয়ে আপনি অহংকার ও সৌন্দর্যের মোহ ত্যাগ করে পূর্ণ বিনয়ে আল্লাহর সামনে আত্মসমর্পণ করছেন।",
+        "bodyEn": "During the Farewell Pilgrimage the Prophet (peace be upon him) prayed: \"O Allah, have mercy on those who shave their heads.\" The Companions asked, \"And those who trim, O Messenger of Allah?\" He repeated, \"O Allah, have mercy on those who shave their heads.\" After they asked again and again, he finally said, \"And those who trim.\" (Sahih al-Bukhari & Muslim). This shows why shaving is more virtuous for men. Through this small act of cutting the hair, you let go of pride and vanity and submit to Allah in complete humility.",
+        "imageAsset": "assets/images/stories/ch10.png",
+        "audioAsset": null
+      }
     },
     {
       "id": "umrah_ch11",
@@ -165,10 +462,43 @@
       "titleEn": "Visiting Madinah",
       "icon": "star",
       "sections": [
-        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+        {
+          "type": "intro",
+          "order": 1,
+          "bodyBn": "মদিনা যিয়ারত উমরাহর অংশ নয় এবং বাধ্যতামূলকও নয়, তবে অত্যন্ত ফজিলতপূর্ণ — তাই প্রায় সব হাজি ও উমরাহকারীই মদিনায় যান। এর মূল উদ্দেশ্য মসজিদে নববীতে নামাজ পড়া, যেখানে এক নামাজ অন্য মসজিদের হাজার নামাজের চেয়ে উত্তম। সেখানে রাসূলুল্লাহ (সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম)-এর রওজা মুবারকে আদবের সাথে সালাম পেশ করা হয় এবং অন্যান্য যিয়ারতের স্থান পরিদর্শন করা যায়।",
+          "bodyEn": "Visiting Madinah is not part of Umrah and is not obligatory, yet it is deeply virtuous — so almost every pilgrim goes. Its main purpose is to pray in Masjid an-Nabawi, where one prayer is better than a thousand prayers elsewhere. There, one sends salam with proper etiquette at the resting place of the Prophet (peace be upon him), and may visit other places of ziyarah."
+        },
+        {
+          "type": "steps",
+          "order": 2,
+          "bodyBn": "নিয়ত — মসজিদে নববীতে নামাজের নিয়তে মদিনায় যান। (রাসূল সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম বলেছেন, তিনটি মসজিদ ছাড়া বিশেষ সওয়াবের আশায় সফর করা যায় না — এর একটি তাঁর মসজিদ।)\nমসজিদে প্রবেশ — ডান পা দিয়ে, প্রবেশের দোয়া পড়ে ঢুকুন এবং দুই রাকাত তাহিয়্যাতুল মসজিদ পড়ুন (সম্ভব হলে রিয়াদুল জান্নাহ/রওজায়, যা নুসুক অ্যাপে অনুমতি নিয়ে যাওয়া যায়; না হলে যেকোনো জায়গায়)।\nসালাম পেশ — শান্তভাবে ও নিচু স্বরে রাসূল (সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম)-এর প্রতি সালাম দিন, এরপর পাশে শায়িত আবু বকর ও উমর (রাঃ)-কে সালাম দিন। রওজার দিকে ফিরে দোয়া করবেন না — দোয়া কেবল আল্লাহর কাছেই, কিবলামুখী হয়ে করুন।\nযিয়ারতের স্থান — সময় থাকলে মসজিদে কুবা (যেখানে দুই রাকাত পড়লে এক উমরাহর সওয়াব), জান্নাতুল বাকি ও ওহুদ প্রভৃতি স্থান পরিদর্শন করুন।",
+          "bodyEn": "Intention — travel to Madinah intending to pray in Masjid an-Nabawi. (The Prophet, peace be upon him, said one should not set out seeking special reward except to three mosques — one of which is his mosque.)\nEnter the mosque — with the right foot, reciting the entry du'a, and pray two rak'ahs of tahiyyatul-masjid (in the Rawdah / Riyad al-Jannah if you can — accessed with a Nusuk permit — otherwise anywhere).\nSend salam — quietly and respectfully send salam upon the Prophet (peace be upon him), then upon Abu Bakr and Umar (may Allah be pleased with them) beside him. Do not turn to the grave to make du'a — supplication is to Allah alone, made facing the Qiblah.\nPlaces of ziyarah — if time allows, visit Masjid Quba (praying two rak'ahs there earns the reward of an Umrah), Jannat al-Baqi', and Uhud."
+        },
+        {
+          "type": "tip",
+          "order": 3,
+          "bodyBn": "রওজার কাছে পূর্ণ আদব বজায় রাখুন — নিচু স্বরে কথা বলুন, জালি স্পর্শ বা চুমু দেবেন না, রওজা তাওয়াফ করবেন না, এবং নিজের প্রয়োজন রাসূলের কাছে নয় বরং একমাত্র আল্লাহর কাছে চাইবেন। রিয়াদুল জান্নাহতে প্রবেশের জন্য নুসুক অ্যাপে অনুমতি লাগে; নারী ও পুরুষদের জন্য আলাদা সময় নির্ধারিত থাকে।",
+          "bodyEn": "Keep full etiquette near the Rawdah — speak softly, do not touch or kiss the grille, do not circle the grave, and ask for your needs from Allah alone, not from the Prophet. Entering Riyad al-Jannah requires a Nusuk permit, and there are separate times for men and women."
+        }
       ],
-      "duas": [],
-      "story": null
+      "duas": [
+        {
+          "id": "umrah_ch11_dua_salam",
+          "arabic": "السَّلَامُ عَلَيْكَ يَا رَسُولَ اللَّهِ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ",
+          "translitBn": "আসসালা-মু 'আলাইকা ইয়া- রাসূলাল্লা-হি ওয়া রাহমাতুল্লা-হি ওয়া বারাকা-তুহ।",
+          "meaningBn": "হে আল্লাহর রাসূল, আপনার উপর সালাম এবং আল্লাহর রহমত ও বরকত বর্ষিত হোক। (মসজিদে নববীতে রাসূল সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম-এর প্রতি সালাম)",
+          "meaningEn": "Peace be upon you, O Messenger of Allah, and the mercy of Allah and His blessings. (The salam sent upon the Prophet, peace be upon him, in Masjid an-Nabawi)",
+          "audioAsset": null
+        }
+      ],
+      "story": {
+        "titleBn": "জান্নাতের বাগান",
+        "titleEn": "A Garden of Paradise",
+        "bodyBn": "রাসূলুল্লাহ (সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম) বলেছেন: \"আমার ঘর ও আমার মিম্বরের মাঝের স্থানটি জান্নাতের বাগানসমূহের একটি বাগান।\" (সহিহ বুখারি ও মুসলিম)। এই স্থানটিই \"রিয়াদুল জান্নাহ\" নামে পরিচিত। তিনি আরও বলেছেন: \"আমার এই মসজিদে এক ওয়াক্ত নামাজ, মসজিদুল হারাম ছাড়া অন্য যেকোনো মসজিদের হাজার নামাজের চেয়ে উত্তম।\" (সহিহ বুখারি ও মুসলিম)। তাই মদিনায় থাকাকালীন প্রতিটি মুহূর্তকে মূল্য দিন — বেশি বেশি নামাজ, দরুদ ও দোয়ায় সময় কাটান, আর নবীর শহরের প্রশান্তি অন্তরে ধারণ করুন।",
+        "bodyEn": "The Prophet (peace be upon him) said: \"Between my house and my pulpit is a garden from the gardens of Paradise.\" (Sahih al-Bukhari & Muslim). This place is known as Riyad al-Jannah. He also said: \"A prayer in this mosque of mine is better than a thousand prayers elsewhere, except for Masjid al-Haram.\" (Sahih al-Bukhari & Muslim). So treasure every moment in Madinah — spend it in abundant prayer, salawat, and du'a, and carry the tranquillity of the Prophet's city in your heart.",
+        "imageAsset": "assets/images/stories/ch11.png",
+        "audioAsset": null
+      }
     }
   ]
 }
