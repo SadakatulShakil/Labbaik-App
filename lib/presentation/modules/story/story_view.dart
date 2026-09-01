@@ -134,7 +134,11 @@ class StoryView extends GetView<StoryController> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          Text(storyTitle, style: Theme.of(context).textTheme.titleLarge),
+          Text(
+            storyTitle,
+            key: controller.titleKey,
+            style: Theme.of(context).textTheme.titleLarge,
+          ),
           if (story.imageAsset != null) ...[
             SizedBox(height: AppDimensions.paddingMd),
             ClipRRect(
@@ -143,7 +147,11 @@ class StoryView extends GetView<StoryController> {
             ),
           ],
           SizedBox(height: AppDimensions.paddingMd),
-          Text(storyBody, style: Theme.of(context).textTheme.bodyLarge),
+          Text(
+            storyBody,
+            key: controller.bodyKey,
+            style: Theme.of(context).textTheme.bodyLarge,
+          ),
         ],
       ),
     );

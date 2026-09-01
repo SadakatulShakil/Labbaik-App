@@ -37,7 +37,15 @@ class HomeView extends GetView<HomeController> {
             await Get.toNamed(Routes.settings);
             controller.load();
           },
-          icon: const Icon(Icons.settings, color: AppColors.textPrimary),
+          icon: Container(
+            decoration: BoxDecoration(
+              color: AppColors.accentGold.withValues(alpha: 0.6),
+              shape: BoxShape.circle,
+            ),
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: const Icon(Icons.settings, color: AppColors.textPrimary),
+              )),
         ),
       ],
       body: Obx(() {

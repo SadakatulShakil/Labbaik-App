@@ -1,3 +1,4 @@
+import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
 
 import '../../../core/constants/app_strings_keys.dart';
@@ -21,6 +22,9 @@ class StoryController extends GetxController {
 
   final isNarrating = false.obs;
   final isLastChapter = false.obs;
+
+  final GlobalKey titleKey = GlobalKey();
+  final GlobalKey bodyKey = GlobalKey();
 
   bool get isBn => (Get.locale?.languageCode ?? 'bn') == 'bn';
 
@@ -47,12 +51,29 @@ class StoryController extends GetxController {
     final s = story;
     if (s == null) return;
 
-    final text = isBn ? s.bodyBn : s.bodyEn;
-    if (text.trim().isEmpty) return;
+    final segments = <(GlobalKey, String)>[
+      (titleKey, isBn ? s.titleBn : s.titleEn),
+      (bodyKey, isBn ? s.bodyBn : s.bodyEn),
+    ];
 
     isNarrating.value = true;
     try {
-      await _tts.speak(text);
+      await _tts.prepare();
+      for (final (key, text) in segments) {
+        if (!isNarrating.value) break;
+        if (text.trim().isEmpty) continue;
+        final ctx = key.currentContext;
+        if (ctx != null && ctx.mounted) {
+          await Scrollable.ensureVisible(
+            ctx,
+            duration: const Duration(milliseconds: 300),
+            alignment: 0.15,
+            curve: Curves.easeInOut,
+          );
+        }
+        if (!isNarrating.value) break;
+        await _tts.speakSegment(text);
+      }
     } finally {
       isNarrating.value = false;
     }

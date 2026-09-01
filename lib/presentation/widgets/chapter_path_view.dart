@@ -36,7 +36,7 @@ class ChapterPathView extends StatelessWidget {
     final ringSize = ChapterNode.nodeSize.w;
     final nodeWidth = _nodeWidth.w;
     final step = ChapterNode.nodeSize.w + 96.h;
-    final topPadding = 56.h;
+    final topPadding = 20.h;
     // Clears the system navigation bar (drawn under, in edge-to-edge mode)
     // plus a little breathing room below the last node.
     final navBarInset = MediaQuery.of(context).padding.bottom;
@@ -80,30 +80,8 @@ class ChapterPathView extends StatelessWidget {
     for (var i = 0; i < chapters.length; i++) {
       final chapter = chapters[i];
       final center = centers[i];
-
-      if (i == 0 || chapter.phase != chapters[i - 1].phase) {
-        final labelY =
-            i == 0 ? topPadding * 0.5 : (centers[i - 1].dy + center.dy) / 2;
-        final chip = _PhaseLabelChip(phase: chapter.phase);
-        children.add(
-          Positioned(
-            top: labelY - 12.h,
-            left: 0,
-            right: 0,
-            child: chapter.phase == 'preparation'
-                ? Align(
-                    alignment: Alignment.centerLeft,
-                    child: Padding(
-                      padding: EdgeInsets.only(left: AppDimensions.paddingLg),
-                      child: chip,
-                    ),
-                  )
-                : Center(child: chip),
-          ),
-        );
-      }
-
       final state = stateOf(chapter);
+
       children.add(
         Positioned(
           left: center.dx - half,
@@ -124,39 +102,6 @@ class ChapterPathView extends StatelessWidget {
         height: totalHeight,
         width: double.infinity,
         child: Stack(children: children),
-      ),
-    );
-  }
-}
-
-class _PhaseLabelChip extends StatelessWidget {
-  const _PhaseLabelChip({required this.phase});
-
-  final String phase;
-
-  @override
-  Widget build(BuildContext context) {
-    final key = switch (phase) {
-      'preparation' => Keys.phasePreparation,
-      'rites' => Keys.phaseRites,
-      'after' => Keys.phaseAfter,
-      _ => Keys.phasePreparation,
-    };
-    return Container(
-      padding: EdgeInsets.symmetric(horizontal: 14.w, vertical: 6.h),
-      decoration: BoxDecoration(
-        color: AppColors.surface.withValues(alpha: 0.9),
-        borderRadius: BorderRadius.circular(AppDimensions.radiusLg),
-        border: Border.all(color: AppColors.divider),
-      ),
-      child: Text(
-        key.tr,
-        style: TextStyle(
-          color: AppColors.textSecondary,
-          fontSize: 12.sp,
-          fontWeight: FontWeight.w700,
-          letterSpacing: 1.1,
-        ),
       ),
     );
   }
