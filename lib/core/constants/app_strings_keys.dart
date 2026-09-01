@@ -8,6 +8,7 @@ abstract class Keys {
   static const english = 'english';
   static const hajj = 'hajj';
   static const umrah = 'umrah';
+  static const journeyTravelCaption = 'journeyTravelCaption';
   static const next = 'next';
   static const continueBtn = 'continueBtn';
   static const settings = 'settings';

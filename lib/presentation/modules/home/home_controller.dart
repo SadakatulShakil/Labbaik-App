@@ -17,6 +17,10 @@ class HomeController extends GetxController {
   final completed = <String>{}.obs;
   final loading = true.obs;
 
+  final isSwitching = false.obs;
+  final switchFrom = 'umrah'.obs;
+  final switchTo = 'hajj'.obs;
+
   @override
   void onInit() {
     super.onInit();
@@ -33,11 +37,17 @@ class HomeController extends GetxController {
     loading.value = false;
   }
 
-  void switchJourney(String j) {
-    if (j == journey.value) return;
+  Future<void> switchJourney(String j) async {
+    if (j == journey.value || isSwitching.value) return;
+    switchFrom.value = journey.value;
+    switchTo.value = j;
+    isSwitching.value = true;
+    await Future.delayed(const Duration(milliseconds: 1100)); // let it establish + the marker travel
     _storage.setSelectedJourney(j);
     journey.value = j;
-    load();
+    await load();                                            // new chapters/progress load under the overlay
+    await Future.delayed(const Duration(milliseconds: 1000)); // hold a beat, then reveal
+    isSwitching.value = false;
   }
 
   ChapterState stateOf(ChapterContent c) {

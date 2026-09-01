@@ -10,6 +10,7 @@ import '../../../core/utils/to_local_digits.dart';
 import '../../../domain/entities/chapter_content.dart';
 import '../../widgets/app_scaffold.dart';
 import '../../widgets/chapter_path_view.dart';
+import '../../widgets/journey_transition_overlay.dart';
 import 'chapter_state.dart';
 import 'home_controller.dart';
 
@@ -48,6 +49,20 @@ class HomeView extends GetView<HomeController> {
               )),
         ),
       ],
+      overlay: Obx(() => IgnorePointer(
+            ignoring: !controller.isSwitching.value,
+            child: AnimatedSwitcher(
+              duration: const Duration(milliseconds: 300),
+              child: controller.isSwitching.value
+                  ? JourneyTransitionOverlay(
+                      key: ValueKey(
+                          '${controller.switchFrom.value}_${controller.switchTo.value}'),
+                      fromJourney: controller.switchFrom.value,
+                      toJourney: controller.switchTo.value,
+                    )
+                  : const SizedBox.shrink(key: ValueKey('none')),
+            ),
+          )),
       body: Obx(() {
         if (controller.loading.value) {
           return const Center(

@@ -20,6 +20,7 @@ class AppScaffold extends StatelessWidget {
     this.actions,
     this.scrimAlpha = 0.15,
     required this.body,
+    this.overlay,
   });
 
   /// Header title widget (e.g. `Text` or `Obx`). Null means no title.
@@ -38,6 +39,10 @@ class AppScaffold extends StatelessWidget {
   final double scrimAlpha;
 
   final Widget body;
+
+  /// Full-screen overlay rendered above everything, including the header.
+  /// Null (the default) leaves other screens unchanged.
+  final Widget? overlay;
 
   static const _statusBarStyle = SystemUiOverlayStyle(
     statusBarColor: Colors.transparent,
@@ -68,6 +73,7 @@ class AppScaffold extends StatelessWidget {
                 ],
               ),
             ),
+            if (overlay != null) Positioned.fill(child: overlay!),
           ],
         ),
       ),
