@@ -87,11 +87,16 @@ class ChapterPathView extends StatelessWidget {
           left: center.dx - half,
           top: center.dy - ringSize / 2,
           width: nodeWidth,
-          child: ChapterNode(
-            chapter: chapter,
-            state: state,
-            isCurrent: isCurrent(chapter),
-            onTap: () => onChapterTap(chapter, state),
+          child: _PopIn(
+            key: ValueKey('pop_${chapter.id}'),
+            index: i,
+            child: ChapterNode(
+              key: ValueKey(chapter.id),
+              chapter: chapter,
+              state: state,
+              isCurrent: isCurrent(chapter),
+              onTap: () => onChapterTap(chapter, state),
+            ),
           ),
         ),
       );
@@ -173,4 +178,45 @@ class _TrailPainter extends CustomPainter {
     return oldDelegate.centers != centers ||
         oldDelegate.solidUpTo != solidUpTo;
   }
+}
+
+/// Scales + fades its child in once, staggered by [index] — the gentle
+/// "bubble" entrance for a chapter node as the path first appears.
+class _PopIn extends StatefulWidget {
+  const _PopIn({super.key, required this.index, required this.child});
+
+  final int index;
+  final Widget child;
+
+  @override
+  State<_PopIn> createState() => _PopInState();
+}
+
+class _PopInState extends State<_PopIn> with SingleTickerProviderStateMixin {
+  late final AnimationController _c = AnimationController(
+    vsync: this,
+    duration: const Duration(milliseconds: 420),
+  );
+  late final Animation<double> _scale =
+      CurvedAnimation(parent: _c, curve: Curves.elasticOut);
+
+  @override
+  void initState() {
+    super.initState();
+    Future.delayed(Duration(milliseconds: 50 + widget.index * 100), () {
+      if (mounted) _c.forward();
+    });
+  }
+
+  @override
+  void dispose() {
+    _c.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) => FadeTransition(
+        opacity: _c,
+        child: ScaleTransition(scale: _scale, child: widget.child),
+      );
 }

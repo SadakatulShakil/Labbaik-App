@@ -69,11 +69,25 @@ class HomeView extends GetView<HomeController> {
               child: _buildProgressRow(context),
             ),
             Expanded(
-              child: ChapterPathView(
-                chapters: controller.chapters,
-                stateOf: controller.stateOf,
-                isCurrent: controller.isCurrent,
-                onChapterTap: _onChapterTap,
+              child: AnimatedSwitcher(
+                duration: const Duration(milliseconds: 350),
+                switchInCurve: Curves.easeOut,
+                switchOutCurve: Curves.easeIn,
+                transitionBuilder: (child, animation) => FadeTransition(
+                  opacity: animation,
+                  child: ScaleTransition(
+                    scale: Tween<double>(begin: 0.92, end: 1.0)
+                        .animate(animation),
+                    child: child,
+                  ),
+                ),
+                child: ChapterPathView(
+                  key: ValueKey(controller.journey.value),
+                  chapters: controller.chapters,
+                  stateOf: controller.stateOf,
+                  isCurrent: controller.isCurrent,
+                  onChapterTap: _onChapterTap,
+                ),
               ),
             ),
           ],
