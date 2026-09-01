@@ -30,6 +30,27 @@ class TtsService extends GetxService {
     await _tts.speak(sanitized);
   }
 
+  /// Sets language/speed once for a run of [speakSegment] calls, so callers
+  /// narrating multiple segments in sequence don't re-negotiate them per call.
+  Future<void> prepare() async {
+    final langCode = Get.locale?.languageCode ?? 'bn';
+    await _tts.setLanguage(langCode == 'bn' ? 'bn-BD' : 'en-US');
+    await _tts.setSpeechRate(_storage.ttsSpeed);
+  }
+
+  /// Speaks one segment of a multi-segment narration. Unlike [speak], it does
+  /// not call [stop] first — the caller sequences segments and owns
+  /// cancellation, so stopping here would cut itself off before starting.
+  Future<void> speakSegment(String text) async {
+    if (!_storage.ttsEnabled) return;
+
+    final langCode = Get.locale?.languageCode ?? 'bn';
+    final sanitized = sanitizeForTts(text, langCode);
+    if (sanitized.isEmpty) return;
+
+    await _tts.speak(sanitized);
+  }
+
   Future<void> stop() => _tts.stop();
 
   @override

@@ -39,6 +39,9 @@ abstract class Keys {
   static const sectionDuas = 'sectionDuas';
   static const listen = 'listen';
   static const stop = 'stop';
+  static const stepWord = 'stepWord';
+  static const nowViewStory = 'nowViewStory';
+  static const nowMarkComplete = 'nowMarkComplete';
   static const markComplete = 'markComplete';
   static const review = 'review';
   static const alreadyDone = 'alreadyDone';

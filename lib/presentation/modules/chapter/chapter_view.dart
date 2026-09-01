@@ -6,7 +6,6 @@ import '../../../core/constants/app_colors.dart';
 import '../../../core/constants/app_dimensions.dart';
 import '../../../core/localization/locale_keys.dart';
 import '../../../core/utils/icon_from_name.dart';
-import '../../../domain/entities/content_section.dart';
 import '../../widgets/app_scaffold.dart';
 import '../../widgets/dua_card.dart';
 import 'chapter_controller.dart';
@@ -37,8 +36,7 @@ class ChapterView extends GetView<ChapterController> {
                   children: [
                     _buildHeader(context),
                     SizedBox(height: AppDimensions.paddingXl),
-                    _buildSections(context),
-                    _buildDuas(context),
+                    _buildReadingBlocks(context),
                   ],
                 ),
               ),
@@ -70,11 +68,11 @@ class ChapterView extends GetView<ChapterController> {
                   ? AppColors.accentGold
                   : AppColors.primary,
             ),
-            child: Icon(
-              iconFromName(controller.chapter.icon),
-              color: AppColors.surface,
-              size: 40.sp,
-            ),
+            child: Image.asset(
+              'assets/images/chapters/${controller.chapter.id}.png',
+              width: 56.w, height: 56.w,
+              errorBuilder: (_, __, ___) => Icon(iconFromName(controller.chapter.icon)), // fallback
+            )
           ),
         ),
         SizedBox(height: AppDimensions.paddingMd),
@@ -102,58 +100,62 @@ class ChapterView extends GetView<ChapterController> {
     });
   }
 
-  Widget _buildSections(BuildContext context) {
-    final sections = [...controller.chapter.sections]
-      ..sort((a, b) => a.order.compareTo(b.order));
+  /// Renders every [ReadingBlock] in order, each wrapped in its own key so
+  /// [ChapterController.narrateChapter] can auto-scroll to it. The gap after
+  /// each block mirrors the spacing the old per-section builders used.
+  Widget _buildReadingBlocks(BuildContext context) {
+    final blocks = controller.blocks;
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        for (final section in sections) ...[
-          _buildSectionHeader(context, section.type),
-          SizedBox(height: AppDimensions.paddingSm),
-          _buildSectionBody(context, section),
-          SizedBox(height: AppDimensions.paddingLg),
+        for (var i = 0; i < blocks.length; i++) ...[
+          KeyedSubtree(
+            key: blocks[i].key,
+            child: _buildBlockContent(context, blocks[i]),
+          ),
+          SizedBox(
+            height: _gapAfter(
+              blocks[i],
+              i + 1 < blocks.length ? blocks[i + 1] : null,
+            ),
+          ),
         ],
       ],
     );
   }
 
-  Widget _buildSectionHeader(BuildContext context, String type) {
-    final key = switch (type) {
-      'intro' => Keys.sectionInShort,
-      'steps' => Keys.sectionSteps,
-      'tip' => Keys.sectionTips,
-      _ => Keys.sectionInShort,
-    };
-    return Text(key.tr, style: Theme.of(context).textTheme.titleLarge);
+  Widget _buildBlockContent(BuildContext context, ReadingBlock block) {
+    switch (block.kind) {
+      case ReadingKind.sectionHeader:
+      case ReadingKind.duaHeader:
+        return Text(block.text!, style: Theme.of(context).textTheme.titleLarge);
+      case ReadingKind.plainBody:
+        return _buildPlainCard(context, block.text!);
+      case ReadingKind.step:
+        return _buildStepCard(context, block.stepNumber!, block.text!);
+      case ReadingKind.tip:
+        return _buildTipCallout(context, block.text!);
+      case ReadingKind.dua:
+        return DuaCard(dua: block.dua!, isBn: controller.isBn);
+    }
   }
 
-  Widget _buildSectionBody(BuildContext context, ContentSection section) {
-    final body = controller.isBn ? section.bodyBn : section.bodyEn;
-
-    if (section.type == 'tip') {
-      return _buildTipCallout(context, body);
+  double _gapAfter(ReadingBlock current, ReadingBlock? next) {
+    switch (current.kind) {
+      case ReadingKind.sectionHeader:
+      case ReadingKind.duaHeader:
+        return AppDimensions.paddingSm;
+      case ReadingKind.step:
+        return next?.kind == ReadingKind.step
+            ? AppDimensions.paddingSm
+            : AppDimensions.paddingLg;
+      case ReadingKind.plainBody:
+      case ReadingKind.tip:
+        return AppDimensions.paddingLg;
+      case ReadingKind.dua:
+        return AppDimensions.paddingSm;
     }
-
-    if (section.type == 'steps' && body.contains('\n')) {
-      final steps = body
-          .split('\n')
-          .map((s) => s.trim())
-          .where((s) => s.isNotEmpty)
-          .toList();
-      return Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [
-          for (var i = 0; i < steps.length; i++) ...[
-            _buildStepCard(context, i + 1, steps[i]),
-            if (i != steps.length - 1) SizedBox(height: AppDimensions.paddingSm),
-          ],
-        ],
-      );
-    }
-
-    return _buildPlainCard(context, body);
   }
 
   Widget _buildPlainCard(BuildContext context, String body) {
@@ -224,22 +226,6 @@ class ChapterView extends GetView<ChapterController> {
           ),
         ],
       ),
-    );
-  }
-
-  Widget _buildDuas(BuildContext context) {
-    if (controller.chapter.duas.isEmpty) return const SizedBox.shrink();
-
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.stretch,
-      children: [
-        Text(Keys.sectionDuas.tr, style: Theme.of(context).textTheme.titleLarge),
-        SizedBox(height: AppDimensions.paddingSm),
-        for (final dua in controller.chapter.duas) ...[
-          DuaCard(dua: dua, isBn: controller.isBn),
-          SizedBox(height: AppDimensions.paddingSm),
-        ],
-      ],
     );
   }
 
