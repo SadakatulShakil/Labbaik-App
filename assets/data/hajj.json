@@ -11,10 +11,34 @@
       "titleEn": "What is Hajj?",
       "icon": "help_outline",
       "sections": [
-        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+        {
+          "type": "intro",
+          "order": 1,
+          "bodyBn": "হজ ইসলামের পঞ্চম স্তম্ভ এবং প্রত্যেক সামর্থ্যবান মুসলিমের উপর জীবনে অন্তত একবার ফরজ। শারীরিক ও আর্থিক সামর্থ্য (ইস্তিতাআত) থাকলে এবং পথ নিরাপদ হলে হজ আদায় করা আবশ্যক হয়ে যায়। এটি জিলহজ মাসের নির্দিষ্ট কয়েকটি দিনে (৮ থেকে ১৩ তারিখ) মক্কা ও তার পার্শ্ববর্তী পবিত্র স্থানসমূহে পালন করা হয়। রাসূলুল্লাহ (সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম) বলেছেন, যে ব্যক্তি অশ্লীলতা ও পাপ থেকে বেঁচে হজ করল, সে সদ্যোজাত শিশুর মতো নিষ্পাপ হয়ে ফিরে আসে।",
+          "bodyEn": "Hajj is the fifth pillar of Islam and is obligatory once in a lifetime upon every Muslim who is able. When one has the physical and financial means (istita'ah) and the way is safe, Hajj becomes a duty. It is performed on specific days of Dhul-Hijjah (the 8th to the 13th) in Makkah and its surrounding sacred places. The Prophet (peace be upon him) said that whoever performs Hajj avoiding foul speech and sin returns as free of sin as the day his mother bore him."
+        },
+        {
+          "type": "steps",
+          "order": 2,
+          "bodyBn": "পঞ্চম স্তম্ভ — হজ ইসলামের পাঁচটি স্তম্ভের একটি।\nজীবনে একবার ফরজ — সামর্থ্যবানদের উপর জীবনে অন্তত একবার হজ ফরজ।\nসামর্থ্য (ইস্তিতাআত) — শারীরিক সুস্থতা, হালাল অর্থ এবং নিরাপদ পথ থাকা শর্ত।\nনির্দিষ্ট সময় — শুধু জিলহজ মাসের ৮–১৩ তারিখে হজ আদায় হয়।\nমহা প্রতিদান — কবুল হজের প্রতিদান জান্নাত।",
+          "bodyEn": "Fifth pillar — Hajj is one of the five pillars of Islam.\nObligatory once — it is a duty once in a lifetime upon those who are able.\nAbility (istita'ah) — physical health, lawful wealth, and a safe route are conditions.\nFixed time — Hajj is performed only on the 8th to 13th of Dhul-Hijjah.\nGreat reward — the reward of an accepted Hajj is Paradise."
+        },
+        {
+          "type": "tip",
+          "order": 3,
+          "bodyBn": "হজ ফরজ হওয়ার পর তা যথাসম্ভব দ্রুত আদায় করা উত্তম, অহেতুক দেরি করা উচিত নয়। যেহেতু হজ একটি কঠিন ও দীর্ঘ ইবাদত, তাই আগে থেকে এর নিয়ম-কানুন শিখে নেওয়া এবং শারীরিকভাবে প্রস্তুত হওয়া জরুরি। এই অ্যাপের প্রতিটি অধ্যায় ধাপে ধাপে আপনাকে সেই প্রস্তুতিতে সাহায্য করবে।",
+          "bodyEn": "Once Hajj becomes obligatory, it is best to perform it as soon as possible without needless delay. Because Hajj is a demanding and lengthy act of worship, it is important to learn its rules in advance and prepare physically. Each chapter of this app will help you prepare, step by step."
+        }
       ],
       "duas": [],
-      "story": null
+      "story": {
+        "titleBn": "কবুল হজের প্রতিদান",
+        "titleEn": "The Reward of an Accepted Hajj",
+        "bodyBn": "রাসূলুল্লাহ (সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম) বলেছেন: \"এক উমরাহ থেকে আরেক উমরাহ মধ্যবর্তী গুনাহের কাফফারা, আর কবুল হজের (হজে মাবরূর) প্রতিদান জান্নাত ছাড়া আর কিছুই নয়।\" (সহিহ বুখারি ও মুসলিম)। \"হজে মাবরূর\" মানে এমন হজ যাতে কোনো পাপ মিশে না এবং যা খাঁটি নিয়তে, হালাল অর্থে ও সুন্নত অনুযায়ী আদায় করা হয়। এত বড় প্রতিদান যে ইবাদতের, তার প্রতিটি কষ্টই সৌভাগ্য। তাই ক্লান্তি বা কষ্টে ধৈর্য হারাবেন না — প্রতিটি কদম আপনাকে জান্নাতের পথে এগিয়ে নিচ্ছে।",
+        "bodyEn": "The Prophet (peace be upon him) said: \"From one Umrah to the next is an expiation for what is between them, and an accepted Hajj (Hajj Mabrur) has no reward except Paradise.\" (Sahih al-Bukhari & Muslim). A \"Hajj Mabrur\" is one untainted by sin, performed with sincere intention, lawful wealth, and according to the Sunnah. When the reward is this great, every hardship along the way is a blessing. So do not lose patience in fatigue or difficulty — every step is carrying you along the path to Paradise.",
+        "imageAsset": "assets/images/stories/hajj_ch1.png",
+        "audioAsset": null
+      }
     },
     {
       "id": "hajj_ch2",
@@ -24,10 +48,34 @@
       "titleEn": "Types of Hajj",
       "icon": "category",
       "sections": [
-        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+        {
+          "type": "intro",
+          "order": 1,
+          "bodyBn": "হজ তিন প্রকারে আদায় করা যায় — তামাত্তু, কিরান ও ইফরাদ। বাংলাদেশসহ বেশিরভাগ বিদেশি হাজি তামাত্তু হজ করেন, তাই এই গাইডটি মূলত তামাত্তু অনুসরণ করে সাজানো হয়েছে। তামাত্তু হজে প্রথমে উমরাহ করা হয়, এরপর ইহরাম খুলে ফেলা হয়, এবং ৮ জিলহজ আবার নতুন করে হজের ইহরাম বাঁধা হয়।",
+          "bodyEn": "Hajj may be performed in three ways — Tamattu, Qiran, and Ifrad. Most overseas pilgrims, including those from Bangladesh, perform Tamattu, so this guide mainly follows Tamattu. In Tamattu, one first performs Umrah, then exits ihram, and re-enters a fresh ihram for Hajj on the 8th of Dhul-Hijjah."
+        },
+        {
+          "type": "steps",
+          "order": 2,
+          "bodyBn": "তামাত্তু — হজের মাসগুলোতে প্রথমে উমরাহ করে ইহরাম খুলে ফেলা, পরে ৮ জিলহজ নতুন করে হজের ইহরাম বাঁধা। (বেশিরভাগ হাজি এটিই করেন।)\nকিরান — উমরাহ ও হজের জন্য একই সাথে এক ইহরামে নিয়ত করা এবং মাঝে ইহরাম না খোলা।\nইফরাদ — শুধু হজের নিয়তে ইহরাম বাঁধা, সাথে উমরাহ না করা।\nকোরবানি — তামাত্তু ও কিরানকারীর উপর একটি কোরবানি (দম/হাদি) ওয়াজিব; ইফরাদকারীর উপর নয়।",
+          "bodyEn": "Tamattu — perform Umrah first in the Hajj months and exit ihram, then re-enter a new ihram for Hajj on the 8th of Dhul-Hijjah. (Most pilgrims do this.)\nQiran — enter one ihram with the intention of both Umrah and Hajj together, without removing ihram in between.\nIfrad — enter ihram for Hajj alone, without an accompanying Umrah.\nSacrifice — a sacrifice (dam/hadi) is obligatory upon those doing Tamattu and Qiran, but not upon those doing Ifrad."
+        },
+        {
+          "type": "tip",
+          "order": 3,
+          "bodyBn": "আপনি কোন প্রকারের হজ করবেন তা আগেই ঠিক করে নিন এবং আপনার কাফেলা বা মুয়াল্লিমের সাথে মিলিয়ে নিন, কারণ এর উপর ইহরামের নিয়ত ও কোরবানির বিষয়টি নির্ভর করে। সন্দেহ হলে যাত্রার আগেই একজন নির্ভরযোগ্য আলেমের পরামর্শ নিন।",
+          "bodyEn": "Decide in advance which type of Hajj you will perform and confirm it with your group or muallim, since your ihram intention and the sacrifice depend on it. If in doubt, consult a reliable scholar before you travel."
+        }
       ],
       "duas": [],
-      "story": null
+      "story": {
+        "titleBn": "বিদায় হজে নবীজির নির্দেশ",
+        "titleEn": "The Prophet's Command on the Farewell Hajj",
+        "bodyBn": "বিদায় হজে সাহাবিদের অনেকে শুধু হজের নিয়তে ইহরাম বেঁধেছিলেন। রাসূলুল্লাহ (সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম) তাঁদের নির্দেশ দিলেন — যাদের সাথে কোরবানির পশু নেই, তারা যেন এই ইহরামকে উমরাহয় পরিণত করে, উমরাহ শেষে ইহরাম খুলে ফেলে, এবং পরে হজের জন্য নতুন ইহরাম বাঁধে। (সহিহ বুখারি ও মুসলিম)। এভাবেই তামাত্তু হজের ভিত্তি প্রতিষ্ঠিত হয়। এটি দূর দেশ থেকে আসা হাজিদের জন্য আল্লাহর পক্ষ থেকে এক সহজতা ও অনুগ্রহ।",
+        "bodyEn": "On the Farewell Hajj, many of the Companions had entered ihram intending Hajj only. The Prophet (peace be upon him) instructed them — those who had not brought sacrificial animals — to turn their ihram into an Umrah, exit ihram after completing it, and then enter a new ihram for Hajj. (Sahih al-Bukhari & Muslim). This established the basis of Tamattu Hajj. It is an ease and a mercy from Allah for pilgrims coming from distant lands.",
+        "imageAsset": "assets/images/stories/hajj_ch2.png",
+        "audioAsset": null
+      }
     },
     {
       "id": "hajj_ch3",
@@ -37,10 +85,34 @@
       "titleEn": "Registration from Bangladesh",
       "icon": "how_to_reg",
       "sections": [
-        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+        {
+          "type": "intro",
+          "order": 1,
+          "bodyBn": "বাংলাদেশ থেকে হজে যেতে হলে সরকারি নিয়ম অনুযায়ী নিবন্ধন করতে হয়, যা মূলত দুই ধাপে সম্পন্ন হয়। প্রথমে প্রাক-নিবন্ধন করে সিরিয়াল নিতে হয়, এরপর প্যাকেজ ঘোষণার পর চূড়ান্ত নিবন্ধন ও বাকি টাকা পরিশোধ করতে হয়। সরকারি ও বেসরকারি — দুই ধরনের ব্যবস্থাপনায় হজ করা যায়।",
+          "bodyEn": "To go for Hajj from Bangladesh you must register through the government system, which is done in two main stages. First you complete pre-registration to reserve a place, then after the package is announced you complete final registration and pay the remaining amount. Hajj can be performed under two types of management — government and private."
+        },
+        {
+          "type": "steps",
+          "order": 2,
+          "bodyBn": "প্রাক-নিবন্ধন — hajj.gov.bd পোর্টালে (বা নির্ধারিত ব্যাংক/এজেন্সির মাধ্যমে) প্রাক-নিবন্ধন করে সিরিয়াল নম্বর নিন।\nসরকারি বা বেসরকারি — সরকারি ব্যবস্থাপনা অথবা কোনো অনুমোদিত হজ এজেন্সির (বেসরকারি) প্যাকেজ বেছে নিন।\nচূড়ান্ত নিবন্ধন — প্যাকেজ ঘোষণার পর নির্ধারিত টাকা পরিশোধ করে চূড়ান্ত নিবন্ধন সম্পন্ন করুন।\nপ্রশিক্ষণ ও ওরিয়েন্টেশন — সরকারের বাধ্যতামূলক হজ প্রশিক্ষণে অংশ নিন, যেখানে আমল, স্বাস্থ্য ও নিরাপত্তা শেখানো হয়।\nনুসুক — সৌদি নিয়ম অনুযায়ী নুসুক অ্যাপ/প্ল্যাটফর্মের মাধ্যমে প্রয়োজনীয় তথ্য ও অনুমতি নিশ্চিত করুন।",
+          "bodyEn": "Pre-registration — pre-register through the hajj.gov.bd portal (or a designated bank/agency) and obtain your serial number.\nGovernment or private — choose either government management or the package of an approved (private) Hajj agency.\nFinal registration — after the package is announced, pay the required amount and complete final registration.\nTraining & orientation — attend the government's mandatory Hajj training, which teaches the rites, health, and safety.\nNusuk — as per Saudi rules, confirm the required information and permissions through the Nusuk app/platform."
+        },
+        {
+          "type": "tip",
+          "order": 3,
+          "bodyBn": "হজের নিয়ম, খরচ ও তারিখ প্রতি বছর পরিবর্তিত হতে পারে, তাই সবসময় সরকারি হজ পোর্টাল (hajj.gov.bd) ও ধর্ম মন্ত্রণালয়ের সর্বশেষ ঘোষণা দেখে নিন। শুধুমাত্র অনুমোদিত হজ এজেন্সির মাধ্যমে লেনদেন করুন এবং সব কাগজপত্রের প্রমাণ সংরক্ষণ করুন। প্রতারণা এড়াতে অপরিচিত মাধ্যমে টাকা দেবেন না।",
+          "bodyEn": "Hajj rules, costs, and dates can change every year, so always check the official Hajj portal (hajj.gov.bd) and the latest announcements from the Ministry of Religious Affairs. Deal only through approved Hajj agencies and keep proof of all documents. To avoid fraud, do not pay through unfamiliar channels."
+        }
       ],
       "duas": [],
-      "story": null
+      "story": {
+        "titleBn": "নিয়তেই সব",
+        "titleEn": "Everything Rests on Intention",
+        "bodyBn": "রাসূলুল্লাহ (সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম) বলেছেন: \"নিশ্চয়ই সকল কাজের ফলাফল নিয়তের উপর নির্ভরশীল, আর প্রত্যেক ব্যক্তি তা-ই পাবে যা সে নিয়ত করেছে।\" (সহিহ বুখারি ও মুসলিম)। কাগজপত্র, টাকা ও প্রশিক্ষণ — এসব প্রস্তুতি জরুরি, কিন্তু এর মূলে থাকতে হবে একটি খাঁটি নিয়ত: শুধু আল্লাহর সন্তুষ্টির জন্য হজ করা। লোক দেখানো, উপাধি বা সামাজিক মর্যাদার জন্য নয়। নিবন্ধনের প্রথম দিন থেকেই নিয়তকে বিশুদ্ধ রাখুন।",
+        "bodyEn": "The Prophet (peace be upon him) said: \"Actions are but by intentions, and every person will have only what he intended.\" (Sahih al-Bukhari & Muslim). Documents, money, and training — these preparations are necessary, but at their root must lie one sincere intention: to perform Hajj solely to please Allah. Not for show, not for a title, nor for social standing. Keep your intention pure from the very first day of registration.",
+        "imageAsset": "assets/images/stories/hajj_ch3.png",
+        "audioAsset": null
+      }
     },
     {
       "id": "hajj_ch4",
@@ -50,10 +122,43 @@
       "titleEn": "Getting Ready",
       "icon": "luggage",
       "sections": [
-        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+        {
+          "type": "intro",
+          "order": 1,
+          "bodyBn": "হজ একটি দীর্ঘ ও পরিশ্রমসাধ্য সফর, যেখানে মিনা, আরাফাহ ও মুযদালিফায় অনেক হাঁটাচলা ও তীব্র গরম সহ্য করতে হয়। তাই ব্যবহারিক ও আত্মিক — দুই দিক থেকেই ভালো প্রস্তুতি নেওয়া জরুরি। যাত্রার আগে কারও হক বা ঋণ থাকলে তা মিটিয়ে দিন, খাঁটি তওবা করুন এবং একটি অসিয়তনামা (উইল) লিখে রাখুন।",
+          "bodyEn": "Hajj is a long and physically demanding journey involving much walking and intense heat in Mina, Arafah, and Muzdalifah. So good preparation is essential — both practical and spiritual. Before you travel, settle any debts or dues you owe others, make sincere repentance, and write a will (wasiyyah)."
+        },
+        {
+          "type": "steps",
+          "order": 2,
+          "bodyBn": "কাগজপত্র — পাসপোর্ট, ভিসা, নিবন্ধনের কাগজ ও পরিচয়পত্রের একাধিক কপি গুছিয়ে রাখুন।\nইহরাম ও পোশাক — ইহরামের কাপড় (পুরুষ), শালীন পোশাক (নারী), আরামদায়ক স্যান্ডেল ও গরমের উপযোগী কাপড় নিন।\nস্বাস্থ্য — মেনিনজাইটিস টিকা নিন এবং নিয়মিত ওষুধ, প্রেসক্রিপশন, খাবার স্যালাইন ও ছোট ফার্স্ট-এইড সঙ্গে রাখুন।\nদল ও মুয়াল্লিম — আপনার কাফেলা, মুয়াল্লিম ও মাকতাব (তাঁবু) নম্বর জেনে রাখুন; হারিয়ে গেলে কীভাবে যোগাযোগ করবেন তা মুখস্থ করুন।\nমিনার প্রস্তুতি — মিনায় তাঁবুতে থাকতে হবে; হালকা ব্যাগ, পানির বোতল ও ছাতা রাখুন।",
+          "bodyEn": "Documents — organise multiple copies of your passport, visa, registration papers, and ID.\nIhram & clothing — bring ihram cloth (men), modest clothing (women), comfortable sandals, and heat-appropriate clothes.\nHealth — get the meningitis vaccine and carry regular medicines, prescriptions, oral rehydration salts, and a small first-aid kit.\nGroup & muallim — know your caravan, muallim, and maktab (tent) number; memorise how to make contact if you get lost.\nMina readiness — you will stay in tents in Mina; keep a light bag, a water bottle, and an umbrella."
+        },
+        {
+          "type": "tip",
+          "order": 3,
+          "bodyBn": "হজের সবচেয়ে কঠিন দিনগুলোতে (৮–১৩ জিলহজ) প্রচুর হাঁটতে হয়, তাই এখন থেকেই নিয়মিত হাঁটার অভ্যাস করে শরীরকে প্রস্তুত করুন। গরম ও ভিড়ে অসুস্থ হওয়া এড়াতে বেশি বেশি পানি পান করুন, ছাতা ব্যবহার করুন ও বিশ্রাম নিন। ধৈর্য ও উত্তম আচরণই হজের অন্যতম বড় ইবাদত।",
+          "bodyEn": "The hardest days of Hajj (8th to 13th Dhul-Hijjah) involve a great deal of walking, so build a regular walking habit now and prepare your body. To avoid falling ill in the heat and crowds, drink plenty of water, use an umbrella, and rest. Patience and good conduct are among the greatest acts of worship in Hajj."
+        }
       ],
-      "duas": [],
-      "story": null
+      "duas": [
+        {
+          "id": "hajj_ch4_dua_safar",
+          "arabic": "سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَٰذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ وَإِنَّا إِلَىٰ رَبِّنَا لَمُنْقَلِبُونَ",
+          "translitBn": "সুবহা-নাল্লাযী সাখখারা লানা- হা-যা- ওয়ামা- কুন্না- লাহু মুক্বরিনীন, ওয়া ইন্না- ইলা- রাব্বিনা- লামুনক্বালিবূন।",
+          "meaningBn": "পবিত্র সেই সত্তা, যিনি এই (বাহন) আমাদের অধীন করে দিয়েছেন, অথচ আমরা একে বশীভূত করতে সক্ষম ছিলাম না। নিশ্চয়ই আমরা আমাদের রবের কাছেই ফিরে যাব। (সফরের শুরুতে পড়ার সুন্নত দোয়া — সহিহ মুসলিম)",
+          "meaningEn": "Glory be to the One who has subjected this (transport) to us, though we were not capable of it ourselves. And indeed, to our Lord we will surely return. (The Sunnah supplication for setting out on a journey — Sahih Muslim)",
+          "audioAsset": null
+        }
+      ],
+      "story": {
+        "titleBn": "হক আদায় করে যাত্রা",
+        "titleEn": "Setting Out with Rights Settled",
+        "bodyBn": "হজে যাওয়ার আগে সাহাবি ও সালাফগণ মানুষের হক আদায় করা, ঋণ পরিশোধ করা এবং সবার কাছে ক্ষমা চেয়ে নেওয়াকে বিশেষ গুরুত্ব দিতেন — যেন তাঁরা সব বোঝা নামিয়ে হালকা হয়ে আল্লাহর ঘরে হাজির হন। কারণ হজ যত বড় ইবাদতই হোক, বান্দার হক আল্লাহ ততক্ষণ ক্ষমা করেন না যতক্ষণ না সেই বান্দা মাফ করে। তাই যাত্রার আগে পরিবার, প্রতিবেশী ও পরিচিতদের সাথে সব হিসাব পরিষ্কার করে, হালাল অর্থ নিয়ে, খাঁটি অন্তরে রওনা হোন।",
+        "bodyEn": "Before setting out for Hajj, the Companions and the early Muslims placed special importance on settling people's rights, repaying debts, and seeking everyone's forgiveness — so that they might arrive at the House of Allah unburdened and light. For however great an act of worship Hajj may be, Allah does not forgive the rights owed to His servants until the wronged one forgives. So before you travel, clear all accounts with family, neighbours, and acquaintances, take lawful wealth, and set out with a sincere heart.",
+        "imageAsset": "assets/images/stories/hajj_ch4.png",
+        "audioAsset": null
+      }
     },
     {
       "id": "hajj_ch5",
@@ -63,10 +168,34 @@
       "titleEn": "Places & Timeline",
       "icon": "map",
       "sections": [
-        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+        {
+          "type": "intro",
+          "order": 1,
+          "bodyBn": "হজের আমলগুলো মক্কার বাইরে কয়েকটি নির্দিষ্ট স্থানে, নির্দিষ্ট দিনে সম্পন্ন হয়। এই স্থানগুলো ও পাঁচ দিনের সময়সূচি আগে থেকে ভালোভাবে বুঝে নিলে হজের দিনগুলোতে আর দিশেহারা লাগবে না। মূল স্থানগুলো হলো — মিনা, আরাফাহ, মুযদালিফা ও জামারাত।",
+          "bodyEn": "The rites of Hajj take place at a few specific locations outside Makkah, on specific days. If you understand these places and the five-day timeline well in advance, the days of Hajj will not feel bewildering. The main places are — Mina, Arafah, Muzdalifah, and the Jamarat."
+        },
+        {
+          "type": "steps",
+          "order": 2,
+          "bodyBn": "মিনা — মক্কার কাছে তাঁবুর শহর; ৮ জিলহজ এখানে অবস্থান ও রাত যাপন।\nআরাফাহ — বিশাল ময়দান; ৯ জিলহজ দুপুর থেকে সূর্যাস্ত পর্যন্ত এখানে অবস্থান (ওকুফে আরাফাহ) — হজের মূল রুকন।\nমুযদালিফা — ৯ জিলহজের রাতে আরাফাহ থেকে এসে এখানে রাত যাপন ও কঙ্কর সংগ্রহ।\nজামারাত — মিনার তিনটি স্তম্ভ, যেখানে ১০–১৩ জিলহজ কঙ্কর নিক্ষেপ করা হয়।\nমক্কা — ১০ জিলহজ কোরবানি ও মাথা মুণ্ডানোর পর তাওয়াফে ইফাদা ও সাঈর জন্য মক্কায় ফেরা।",
+          "bodyEn": "Mina — a city of tents near Makkah; on the 8th of Dhul-Hijjah you stay and spend the night here.\nArafah — a vast plain; on the 9th you stand here from noon until sunset (Wuquf al-Arafah) — the essential pillar of Hajj.\nMuzdalifah — on the night of the 9th you come here from Arafah, spend the night, and gather pebbles.\nJamarat — the three pillars in Mina where pebbles are cast on the 10th to 13th.\nMakkah — on the 10th, after the sacrifice and shaving, you return to Makkah for Tawaf al-Ifadah and Sa'i."
+        },
+        {
+          "type": "tip",
+          "order": 3,
+          "bodyBn": "হজের এই পাঁচ দিনের সময়সূচি (৮ থেকে ১৩ জিলহজ) মনে গেঁথে নিন — কোন দিন কোথায় থাকবেন তা জানা থাকলে ভিড় ও ক্লান্তির মধ্যেও আপনি শান্ত থাকতে পারবেন। প্রতিটি স্থানের জন্য এই অ্যাপে আলাদা অধ্যায় আছে; দিনভিত্তিক অধ্যায়গুলো ভালো করে দেখে নিন।",
+          "bodyEn": "Commit this five-day timeline (8th to 13th Dhul-Hijjah) to memory — knowing where you will be on each day will keep you calm amid the crowds and fatigue. This app has a separate chapter for each stage; study the day-by-day chapters carefully."
+        }
       ],
       "duas": [],
-      "story": null
+      "story": {
+        "titleBn": "যেখানে আদম ও হাওয়া মিলিত হলেন",
+        "titleEn": "Where Adam and Hawwa Were Reunited",
+        "bodyBn": "বর্ণিত আছে, জান্নাত থেকে পৃথিবীতে পাঠানোর পর আদম (আঃ) ও হাওয়া (আঃ) দীর্ঘকাল একে অপরের থেকে বিচ্ছিন্ন ছিলেন। অবশেষে আল্লাহর রহমতে তাঁরা আরাফাহর ময়দানে পুনরায় মিলিত হন — আর তাই এর নাম \"আরাফাহ\" (পরিচিতি/মিলন)। আজও প্রতি বছর সেই একই ময়দানে পৃথিবীর নানা প্রান্ত থেকে লক্ষ লক্ষ মানুষ এসে এক কাতারে দাঁড়ায়, যেন কিয়ামতের ময়দানেরই এক ছবি। এই স্থানগুলোর ইতিহাস জানলে হজের প্রতিটি কদম আরও অর্থবহ হয়ে ওঠে।",
+        "bodyEn": "It is related that after being sent down to earth from Paradise, Adam and Hawwa (peace be upon them) were separated from one another for a long time. At last, by Allah's mercy, they were reunited on the plain of Arafah — and so it is called \"Arafah\" (recognition/meeting). To this day, every year, millions from every corner of the earth gather on that same plain and stand together as one, like an image of the Day of Gathering. Knowing the history of these places makes every step of Hajj more meaningful.",
+        "imageAsset": "assets/images/stories/hajj_ch5.png",
+        "audioAsset": null
+      }
     },
     {
       "id": "hajj_ch6",
@@ -76,10 +205,34 @@
       "titleEn": "Umrah (for Tamattu)",
       "icon": "brightness_3",
       "sections": [
-        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+        {
+          "type": "intro",
+          "order": 1,
+          "bodyBn": "তামাত্তু হজকারী হিসেবে আপনি মক্কায় পৌঁছে প্রথমে একটি পূর্ণ উমরাহ আদায় করবেন — ইহরাম, তাওয়াফ, সাঈ ও চুল কাটা। উমরাহ শেষে ইহরাম খুলে ফেলবেন এবং ৮ জিলহজ পর্যন্ত স্বাভাবিক অবস্থায় থাকবেন। এই উমরাহর প্রতিটি ধাপ এই অ্যাপের \"উমরাহ\" অংশে বিস্তারিতভাবে দেওয়া আছে।",
+          "bodyEn": "As a Tamattu pilgrim, upon reaching Makkah you first perform a complete Umrah — ihram, Tawaf, Sa'i, and cutting the hair. After the Umrah you exit ihram and remain in your normal state until the 8th of Dhul-Hijjah. Every step of this Umrah is explained in detail in the \"Umrah\" section of this app."
+        },
+        {
+          "type": "steps",
+          "order": 2,
+          "bodyBn": "ইহরাম — মিকাত থেকে উমরাহর নিয়তে ইহরাম বাঁধুন ও তালবিয়াহ পড়ুন।\nতাওয়াফ — কাবা শরীফের চারপাশে সাতবার তাওয়াফ করুন।\nসাঈ — সাফা ও মারওয়ার মাঝে সাতবার সাঈ করুন।\nচুল কাটা — মাথা মুণ্ডান বা চুল ছোট করুন; এতে উমরাহ সম্পন্ন ও ইহরাম শেষ।\nঅপেক্ষা — এবার ৮ জিলহজ পর্যন্ত মক্কায় স্বাভাবিক অবস্থায় ইবাদতে সময় কাটান।",
+          "bodyEn": "Ihram — enter ihram from the Miqat intending Umrah and recite the Talbiyah.\nTawaf — circle the Ka'bah seven times.\nSa'i — perform Sa'i seven times between Safa and Marwah.\nCut the hair — shave or trim; with this the Umrah is complete and ihram ends.\nWait — now spend the time in worship in Makkah, in your normal state, until the 8th of Dhul-Hijjah."
+        },
+        {
+          "type": "tip",
+          "order": 3,
+          "bodyBn": "যেহেতু উমরাহর বিস্তারিত নিয়ম, দোয়া ও সতর্কতা এই অ্যাপের \"উমরাহ\" অংশে আলাদাভাবে দেওয়া আছে, তামাত্তু হাজিরা সেই অধ্যায়গুলো ভালো করে দেখে নিন। উমরাহ ও হজের মাঝের দিনগুলোতে বেশি বেশি নফল তাওয়াফ, নামাজ ও দোয়ায় সময় দিন।",
+          "bodyEn": "Since the detailed rules, du'as, and cautions of Umrah are given separately in the \"Umrah\" section of this app, Tamattu pilgrims should study those chapters well. In the days between Umrah and Hajj, spend your time in abundant voluntary Tawaf, prayer, and du'a."
+        }
       ],
       "duas": [],
-      "story": null
+      "story": {
+        "titleBn": "সহজ করে দেওয়া দ্বীন",
+        "titleEn": "A Religion Made Easy",
+        "bodyBn": "আল্লাহ বলেন: \"আল্লাহ তোমাদের জন্য সহজ চান, কঠিন চান না।\" (সূরা বাকারা, ২:১৮৫)। তামাত্তু হজ এই সহজতারই একটি উদাহরণ — দূর দেশ থেকে আসা হাজিরা যেন দীর্ঘ সময় ইহরামের কষ্টে না থেকে মাঝে কিছুটা স্বস্তি পান, সেজন্য উমরাহ ও হজের মাঝে ইহরাম খোলার অনুমতি দেওয়া হয়েছে। আল্লাহর প্রতিটি বিধানেই রয়েছে বান্দার প্রতি রহমত। এই সহজতার জন্য আল্লাহর শুকরিয়া আদায় করুন এবং সময়টুকু তাঁর ইবাদতে কাজে লাগান।",
+        "bodyEn": "Allah says: \"Allah intends ease for you, and does not intend hardship for you.\" (Surah al-Baqarah 2:185). Tamattu Hajj is an example of this ease — so that pilgrims coming from distant lands are not kept long in the difficulty of ihram, they are permitted to exit ihram between the Umrah and the Hajj. In every ruling of Allah there is mercy for His servant. Give thanks to Allah for this ease, and use the time in His worship.",
+        "imageAsset": "assets/images/stories/hajj_ch6.png",
+        "audioAsset": null
+      }
     },
     {
       "id": "hajj_ch7",
@@ -89,10 +242,43 @@
       "titleEn": "8th: Tarwiyah",
       "icon": "looks_one",
       "sections": [
-        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+        {
+          "type": "intro",
+          "order": 1,
+          "bodyBn": "৮ জিলহজকে বলা হয় \"ইয়াওমুত তারবিয়াহ\" (পানি সংগ্রহের দিন), কারণ পুরনো যুগে হাজিরা এই দিন আরাফাহ ও মিনার জন্য পানি সংগ্রহ করতেন। এই দিনই হজের কার্যক্রম শুরু হয়। তামাত্তু হাজিরা আজ নতুন করে হজের ইহরাম বাঁধবেন এবং মিনার উদ্দেশ্যে রওনা হবেন।",
+          "bodyEn": "The 8th of Dhul-Hijjah is called \"Yawm at-Tarwiyah\" (the day of watering), because in earlier times pilgrims would gather water on this day for Arafah and Mina. On this day the rites of Hajj begin. Today, Tamattu pilgrims enter a fresh ihram for Hajj and set out for Mina."
+        },
+        {
+          "type": "steps",
+          "order": 2,
+          "bodyBn": "হজের ইহরাম — নিজের অবস্থানস্থল থেকে গোসল/অজু করে হজের নিয়তে ইহরাম বাঁধুন এবং তালবিয়াহ পড়া শুরু করুন।\nমিনায় যাত্রা — সকালে মিনার উদ্দেশ্যে রওনা হন।\nমিনায় নামাজ — মিনায় জোহর, আসর, মাগরিব ও ইশা এবং পরদিন ফজর — মোট পাঁচ ওয়াক্ত নামাজ আদায় করুন (প্রতিটি নিজ সময়ে)।\nইবাদত ও বিশ্রাম — রাত মিনায় কাটান; বেশি বেশি তালবিয়াহ, যিকর ও দোয়া করুন এবং পরদিনের জন্য বিশ্রাম নিন।",
+          "bodyEn": "Ihram for Hajj — from your place of stay, perform ghusl/wudu, enter ihram intending Hajj, and begin reciting the Talbiyah.\nTravel to Mina — set out for Mina in the morning.\nPrayers in Mina — pray Dhuhr, Asr, Maghrib, and Isha in Mina, and Fajr the next morning — five prayers in all (each at its own time).\nWorship & rest — spend the night in Mina; recite the Talbiyah, dhikr, and du'a abundantly, and rest for the day ahead."
+        },
+        {
+          "type": "tip",
+          "order": 3,
+          "bodyBn": "হজের ইহরাম বাঁধার পর আবার ইহরামের সব নিষেধাজ্ঞা কার্যকর হয়ে যায় (চুল-নখ না কাটা, সুগন্ধি না লাগানো ইত্যাদি) — যা \"ইহরাম\" অধ্যায়ে দেওয়া আছে। মিনায় তাঁবুর নম্বর ও অবস্থান ভালো করে চিনে রাখুন, কারণ লক্ষ লক্ষ তাঁবুর মাঝে পথ হারানো সহজ। বেশি বেশি পানি পান করুন ও শক্তি সঞ্চয় করুন।",
+          "bodyEn": "After entering ihram for Hajj, all the ihram prohibitions come into effect again (no cutting hair or nails, no perfume, and so on) — as given in the \"Ihram\" chapter. Learn your tent number and location in Mina well, for it is easy to lose your way among millions of tents. Drink plenty of water and conserve your strength."
+        }
       ],
-      "duas": [],
-      "story": null
+      "duas": [
+        {
+          "id": "hajj_ch7_dua_niyyah",
+          "arabic": "اللَّهُمَّ إِنِّي أُرِيدُ الْحَجَّ فَيَسِّرْهُ لِي وَتَقَبَّلْهُ مِنِّي",
+          "translitBn": "আল্লা-হুম্মা ইন্নী উরীদুল হাজ্জা ফা ইয়াসসিরহু লী ওয়া তাক্বাব্বালহু মিন্নী।",
+          "meaningBn": "হে আল্লাহ, আমি হজের নিয়ত করছি; আপনি তা আমার জন্য সহজ করে দিন এবং আমার পক্ষ থেকে কবুল করুন। (হজের ইহরামের সময় পড়ার নিয়তের দোয়া — মানাসিকের কিতাবসমূহে বর্ণিত)",
+          "meaningEn": "O Allah, I intend to perform Hajj, so make it easy for me and accept it from me. (The intention supplication for entering ihram for Hajj, taught in the books of manasik)",
+          "audioAsset": null
+        }
+      ],
+      "story": {
+        "titleBn": "তারবিয়াহর দিনের প্রস্তুতি",
+        "titleEn": "Preparing on the Day of Tarwiyah",
+        "bodyBn": "রাসূলুল্লাহ (সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম) ৮ জিলহজ সাহাবিদের নিয়ে মিনায় গমন করেন এবং সেখানে জোহর থেকে পরদিন ফজর পর্যন্ত পাঁচ ওয়াক্ত নামাজ আদায় করেন। (সহিহ মুসলিম)। তিনি তাড়াহুড়ো করে সরাসরি আরাফাহ যাননি, বরং মিনায় এক রাত অবস্থান করে ধীরস্থিরভাবে হজের সবচেয়ে বড় দিন আরাফাহর জন্য প্রস্তুত হন। এই সুন্নত আমাদের শেখায় — বড় ইবাদতের আগে মন ও শরীরকে শান্তভাবে প্রস্তুত করা উত্তম।",
+        "bodyEn": "On the 8th of Dhul-Hijjah the Prophet (peace be upon him) went with the Companions to Mina and prayed five prayers there, from Dhuhr until the next morning's Fajr. (Sahih Muslim). He did not hurry straight to Arafah, but stayed a night in Mina, calmly preparing for Arafah, the greatest day of Hajj. This Sunnah teaches us that it is best to prepare the heart and body calmly before a great act of worship.",
+        "imageAsset": "assets/images/stories/hajj_ch7.png",
+        "audioAsset": null
+      }
     },
     {
       "id": "hajj_ch8",
@@ -102,23 +288,89 @@
       "titleEn": "9th: Day of Arafah",
       "icon": "looks_two",
       "sections": [
-        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+        {
+          "type": "intro",
+          "order": 1,
+          "bodyBn": "৯ জিলহজ, আরাফাহর দিন — হজের সবচেয়ে গুরুত্বপূর্ণ দিন। রাসূলুল্লাহ (সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম) বলেছেন, \"হজই হলো আরাফাহ\" — অর্থাৎ আরাফাহর ময়দানে অবস্থান (ওকুফ) ছাড়া হজ হয় না। এই দিন দুপুর (যাওয়াল) থেকে সূর্যাস্ত পর্যন্ত আরাফাহর ময়দানে অবস্থান করা হজের মূল রুকন।",
+          "bodyEn": "The 9th of Dhul-Hijjah, the Day of Arafah, is the most important day of Hajj. The Prophet (peace be upon him) said, \"Hajj is Arafah\" — meaning that without standing (wuquf) on the plain of Arafah there is no Hajj. Standing on the plain of Arafah from noon (zawal) until sunset on this day is the essential pillar of Hajj."
+        },
+        {
+          "type": "steps",
+          "order": 2,
+          "bodyBn": "আরাফাহয় গমন — ফজরের পর মিনা থেকে আরাফাহর উদ্দেশ্যে রওনা হন।\nনামাজ — ইমাম/কাফেলার নির্দেশনা অনুযায়ী জোহর ও আসর আরাফাহয় আদায় করুন।\nওকুফে আরাফাহ — যাওয়াল (দুপুর) থেকে সূর্যাস্ত পর্যন্ত আরাফাহর সীমানার ভেতরে অবস্থান করুন; সূর্যাস্তের আগে আরাফাহ ত্যাগ করবেন না।\nদোয়া — কিবলামুখী হয়ে হাত তুলে বেশি বেশি দোয়া, ইস্তিগফার ও তালবিয়াহ পড়ুন — এটি দোয়া কবুলের শ্রেষ্ঠ সময়।\nমুযদালিফায় যাত্রা — সূর্যাস্তের পর ধীরস্থিরভাবে মুযদালিফার উদ্দেশ্যে রওনা হন।\nমুযদালিফায় — মাগরিব ও ইশা একসাথে (ইশার সময়) আদায় করুন, রাত যাপন করুন এবং জামারাতের জন্য কঙ্কর সংগ্রহ করুন।",
+          "bodyEn": "Go to Arafah — after Fajr, set out from Mina toward Arafah.\nPrayers — pray Dhuhr and Asr at Arafah as directed by the imam/your caravan.\nWuquf al-Arafah — remain within the boundary of Arafah from noon (zawal) until sunset; do not leave Arafah before sunset.\nSupplication — facing the Qiblah with raised hands, make abundant du'a, istighfar, and Talbiyah — this is the best time for accepted supplication.\nMove to Muzdalifah — after sunset, set out calmly for Muzdalifah.\nAt Muzdalifah — pray Maghrib and Isha together (at Isha's time), spend the night, and gather pebbles for the Jamarat."
+        },
+        {
+          "type": "tip",
+          "order": 3,
+          "bodyBn": "আরাফাহর দিন গরম খুব তীব্র হতে পারে — ছাতা ব্যবহার করুন, বেশি পানি পান করুন এবং অসুস্থ হলে বিশ্রাম নিন, কিন্তু দোয়ার এই মূল্যবান সময় হেলায় নষ্ট করবেন না। সূর্যাস্তের আগে আরাফাহ ছাড়বেন না, তবে ভিড়ে ধাক্কাধাক্কি বা তাড়াহুড়া করবেন না। নামাজ একসাথে পড়ার নিয়মে মাযহাবভেদে সামান্য পার্থক্য আছে, তাই কাফেলার আলেম/ইমামের নির্দেশনা অনুসরণ করুন।",
+          "bodyEn": "The Day of Arafah can be intensely hot — use an umbrella, drink plenty of water, and rest if you feel unwell, but do not waste this precious time for du'a. Do not leave Arafah before sunset, yet do not push or rush in the crowds. There is slight variation between the schools in how the prayers are combined, so follow the guidance of your caravan's scholar/imam."
+        }
       ],
-      "duas": [],
-      "story": null
+      "duas": [
+        {
+          "id": "hajj_ch8_dua_arafah",
+          "arabic": "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+          "translitBn": "লা- ইলা-হা ইল্লাল্লা-হু ওয়াহদাহু লা- শারীকা লাহ, লাহুল মুলকু ওয়া লাহুল হামদু ওয়া হুওয়া 'আলা- কুল্লি শাইইন ক্বাদীর।",
+          "meaningBn": "আল্লাহ ছাড়া কোনো ইলাহ নেই, তিনি একক, তাঁর কোনো শরীক নেই; রাজত্ব তাঁরই, প্রশংসাও তাঁরই, তিনি সবকিছুর উপর ক্ষমতাবান। (নবীজি বলেছেন, আরাফাহর দিনের শ্রেষ্ঠ দোয়া এটি — জামে তিরমিযি)",
+          "meaningEn": "There is no god but Allah alone, with no partner; His is the dominion and His is the praise, and He is over all things capable. (The Prophet said this is the best du'a of the Day of Arafah — Jami' at-Tirmidhi)",
+          "audioAsset": null
+        }
+      ],
+      "story": {
+        "titleBn": "বিদায় হজের ভাষণ",
+        "titleEn": "The Farewell Sermon",
+        "bodyBn": "আরাফাহর ময়দানে, বিদায় হজের দিন, রাসূলুল্লাহ (সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম) লক্ষাধিক সাহাবির সামনে তাঁর ঐতিহাসিক ভাষণ দেন। তিনি মানুষের জান-মাল ও সম্মানের পবিত্রতা, নারীর অধিকার, সুদ ও জাহেলিয়াতের প্রথা বাতিল এবং একে অপরের প্রতি ন্যায়বিচারের কথা বলেন। তিনি বলেন — \"আমি তোমাদের মাঝে দুটি জিনিস রেখে যাচ্ছি; যতদিন তোমরা এ দুটি আঁকড়ে থাকবে পথভ্রষ্ট হবে না — আল্লাহর কিতাব ও আমার সুন্নত।\" আরাফাহর এই ময়দানেই নাযিল হয় সেই আয়াত: \"আজ আমি তোমাদের জন্য তোমাদের দ্বীনকে পূর্ণ করে দিলাম।\" (সূরা মায়িদা, ৫:৩)।",
+        "bodyEn": "On the plain of Arafah, on the day of the Farewell Hajj, the Prophet (peace be upon him) delivered his historic sermon before over a hundred thousand Companions. He spoke of the sanctity of people's lives, property, and honour, the rights of women, the abolition of usury and the customs of ignorance, and justice toward one another. He said — \"I leave among you two things; as long as you hold fast to them you will never go astray — the Book of Allah and my Sunnah.\" It was on this very plain that the verse was revealed: \"This day I have perfected for you your religion.\" (Surah al-Ma'idah 5:3).",
+        "imageAsset": "assets/images/stories/hajj_ch8.png",
+        "audioAsset": null
+      }
     },
     {
       "id": "hajj_ch9",
       "order": 9,
       "phase": "rites",
-      "titleBn": "১০ জিলহজ: কোরবানি ও ঈদ",
+      "titleBn": "১০ জিলহজ: কোরবানি ও ঈদের দিন",
       "titleEn": "10th: Day of Sacrifice",
       "icon": "looks_3",
       "sections": [
-        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+        {
+          "type": "intro",
+          "order": 1,
+          "bodyBn": "১০ জিলহজ, ইয়াওমুন নাহর (কোরবানির দিন) — হজের সবচেয়ে ব্যস্ত দিন। এই একদিনে চারটি বড় কাজ করতে হয়: বড় জামারায় কঙ্কর নিক্ষেপ, কোরবানি, মাথা মুণ্ডানো বা চুল ছোট করা, এবং মক্কায় গিয়ে তাওয়াফে ইফাদা ও সাঈ। এই দিনটি সারা বিশ্বের মুসলিমদের জন্য ঈদুল আযহা।",
+          "bodyEn": "The 10th of Dhul-Hijjah, Yawm an-Nahr (the Day of Sacrifice), is the busiest day of Hajj. On this single day four major acts are performed: casting pebbles at the large Jamarah, the sacrifice, shaving or trimming the hair, and going to Makkah for Tawaf al-Ifadah and Sa'i. This day is Eid al-Adha for Muslims around the world."
+        },
+        {
+          "type": "steps",
+          "order": 2,
+          "bodyBn": "মুযদালিফা ত্যাগ — ফজরের পর, সূর্যোদয়ের আগে মুযদালিফা থেকে মিনায় রওনা হন।\nবড় জামারায় কঙ্কর — জামারাতুল আকাবা (বড় শয়তান)-এ সাতটি কঙ্কর নিক্ষেপ করুন, প্রতিটির সাথে \"আল্লা-হু আকবার\" বলুন। এরপর তালবিয়াহ বন্ধ।\nকোরবানি — তামাত্তু হাজির উপর ওয়াজিব কোরবানি আদায় করুন (সাধারণত ব্যাংক/নুসুক ভাউচারের মাধ্যমে)।\nমাথা মুণ্ডানো — পুরুষেরা মাথা মুণ্ডান বা চুল ছোট করুন; নারীরা আগা থেকে সামান্য কাটুন। এখন ইহরামের বেশিরভাগ নিষেধাজ্ঞা উঠে যায়।\nতাওয়াফে ইফাদা ও সাঈ — মক্কায় গিয়ে হজের ফরজ তাওয়াফ (তাওয়াফে ইফাদা) ও সাঈ আদায় করুন।",
+          "bodyEn": "Leave Muzdalifah — after Fajr and before sunrise, set out from Muzdalifah to Mina.\nStone the large Jamarah — cast seven pebbles at Jamarat al-Aqaba (the large pillar), saying \"Allahu Akbar\" with each. The Talbiyah now stops.\nSacrifice — offer the sacrifice that is obligatory upon the Tamattu pilgrim (usually through a bank/Nusuk voucher).\nShave the head — men shave or trim; women trim a little from the ends. Now most ihram restrictions are lifted.\nTawaf al-Ifadah & Sa'i — go to Makkah and perform the obligatory Tawaf of Hajj (Tawaf al-Ifadah) and Sa'i."
+        },
+        {
+          "type": "tip",
+          "order": 3,
+          "bodyBn": "এই দিনের কাজগুলো উপরের ক্রমেই করা উত্তম, তবে ভিড় বা অসুবিধার কারণে ক্রম কিছুটা এদিক-ওদিক হলে সাধারণত ক্ষমাযোগ্য — সন্দেহ হলে আলেমের পরামর্শ নিন। জামারায় কঙ্কর নিক্ষেপের সময় ভিড়ে ধাক্কাধাক্কি প্রাণঘাতী হতে পারে, তাই বয়স্ক ও দুর্বলরা সুবিধাজনক সময়ে বা কারও মাধ্যমে (বদলি) নিক্ষেপের ব্যবস্থা নিন। কঙ্কর ছুড়ে মারার উদ্দেশ্য কাউকে আঘাত করা নয়, বরং শয়তানকে প্রত্যাখ্যানের প্রতীক।",
+          "bodyEn": "It is best to perform this day's acts in the order above, but if the order shifts somewhat due to crowds or difficulty it is generally excused — consult a scholar if in doubt. Pushing in the crowds at the Jamarat can be deadly, so the elderly and weak should stone at a convenient time or arrange for someone to do it on their behalf (badal). The aim of casting the pebbles is not to strike anyone, but is a symbol of rejecting Shaytan."
+        }
       ],
-      "duas": [],
-      "story": null
+      "duas": [
+        {
+          "id": "hajj_ch9_dua_nahr",
+          "arabic": "بِسْمِ اللَّهِ وَاللَّهُ أَكْبَرُ",
+          "translitBn": "বিসমিল্লা-হি ওয়াল্লা-হু আকবার।",
+          "meaningBn": "আল্লাহর নামে, আল্লাহ সর্বমহান। (কোরবানির সময় এটি বলা হয়; আর জামারায় প্রতিটি কঙ্কর নিক্ষেপের সাথে \"আল্লা-হু আকবার\" বলা হয়)",
+          "meaningEn": "In the name of Allah; Allah is the Greatest. (Said when offering the sacrifice; and \"Allahu Akbar\" is said with each pebble cast at the Jamarah)",
+          "audioAsset": null
+        }
+      ],
+      "story": {
+        "titleBn": "ইবরাহিমের কোরবানি",
+        "titleEn": "The Sacrifice of Ibrahim",
+        "bodyBn": "আল্লাহ ইবরাহিম (আঃ)-কে স্বপ্নে তাঁর প্রিয় পুত্র ইসমাইল (আঃ)-কে কোরবানি করার আদেশ দেন। পিতা-পুত্র উভয়েই আল্লাহর আদেশে পূর্ণ আত্মসমর্পণ করেন — ইসমাইল (আঃ) বলেন, \"হে আব্বাজান, আপনাকে যা আদেশ করা হয়েছে তা-ই করুন; ইনশাআল্লাহ আপনি আমাকে ধৈর্যশীলদের মধ্যে পাবেন।\" (সূরা সাফফাত, ৩৭:১০২)। যখন ইবরাহিম (আঃ) ছুরি চালাতে উদ্যত হলেন, আল্লাহ তাঁর পরিবর্তে একটি দুম্বা পাঠিয়ে ইসমাইলকে মুক্ত করে দিলেন। পথে শয়তান বারবার ইবরাহিম (আঃ)-কে আদেশ থেকে ফেরাতে চাইলে তিনি তাকে কঙ্কর মেরে তাড়িয়ে দেন। আজ কোরবানি ও কঙ্কর নিক্ষেপে আমরা সেই আত্মসমর্পণ ও শয়তান-প্রত্যাখ্যানকেই স্মরণ করি।",
+        "bodyEn": "Allah commanded Ibrahim (peace be upon him) in a dream to sacrifice his beloved son Ismail (peace be upon him). Both father and son submitted completely to Allah's command — Ismail said, \"O my father, do as you are commanded; you will find me, Allah willing, among the patient.\" (Surah as-Saffat 37:102). As Ibrahim moved to draw the knife, Allah sent a ram in Ismail's place and ransomed him. When Shaytan tried again and again to turn Ibrahim from the command, he drove him away by pelting him with pebbles. Today, in the sacrifice and the casting of pebbles, we remember that submission and that rejection of Shaytan.",
+        "imageAsset": "assets/images/stories/hajj_ch9.png",
+        "audioAsset": null
+      }
     },
     {
       "id": "hajj_ch10",
@@ -128,10 +380,43 @@
       "titleEn": "Days of Tashreeq",
       "icon": "looks_4",
       "sections": [
-        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+        {
+          "type": "intro",
+          "order": 1,
+          "bodyBn": "১১, ১২ ও ১৩ জিলহজকে বলা হয় \"আইয়ামুত তাশরিক\"। এই দিনগুলোতে হাজিরা মিনায় অবস্থান করেন এবং প্রতিদিন তিনটি জামারায় (ছোট, মধ্যম ও বড়) কঙ্কর নিক্ষেপ করেন। এগুলো খাওয়া-দাওয়া ও আল্লাহর যিকরের দিন।",
+          "bodyEn": "The 11th, 12th, and 13th of Dhul-Hijjah are called \"Ayyam at-Tashreeq.\" On these days the pilgrims stay in Mina and each day cast pebbles at all three Jamarat (small, middle, and large). These are days of eating, drinking, and the remembrance of Allah."
+        },
+        {
+          "type": "steps",
+          "order": 2,
+          "bodyBn": "মিনায় অবস্থান — এই দিনগুলোতে রাত মিনায় কাটানো ওয়াজিব।\nতিন জামারায় কঙ্কর — প্রতিদিন যাওয়ালের (দুপুরের) পর ক্রমানুসারে ছোট, মধ্যম ও বড় জামারায় সাতটি করে কঙ্কর নিক্ষেপ করুন।\nদোয়া — ছোট ও মধ্যম জামারায় কঙ্কর নিক্ষেপের পর কিবলামুখী হয়ে হাত তুলে দোয়া করুন।\nতাকবির — এই দিনগুলোতে প্রতি ফরজ নামাজের পর তাকবিরে তাশরিক পড়ুন।\nবিদায় — ১২ জিলহজ সূর্যাস্তের আগে মিনা ত্যাগ করলে ১৩ তারিখের কঙ্কর মাফ (নফরে আওয়াল); নতুবা ১৩ তারিখও কঙ্কর নিক্ষেপ করে যেতে হবে।",
+          "bodyEn": "Stay in Mina — spending the nights in Mina on these days is obligatory.\nStone the three Jamarat — each day after zawal (noon), cast seven pebbles at the small, then the middle, then the large Jamarah, in order.\nDu'a — after stoning the small and middle Jamarat, face the Qiblah, raise your hands, and make du'a.\nTakbir — on these days recite the Takbir at-Tashreeq after each obligatory prayer.\nLeaving — if you leave Mina before sunset on the 12th, the 13th's stoning is waived (nafr awwal); otherwise you must also stone on the 13th before leaving."
+        },
+        {
+          "type": "tip",
+          "order": 3,
+          "bodyBn": "কঙ্কর নিক্ষেপের সময় ভিড় সবচেয়ে বেশি থাকে দুপুরের পরপরই — বয়স্ক ও দুর্বলরা একটু দেরিতে (বিকেল/সন্ধ্যায়) গেলে ভিড় কম পাবেন। নিজে না পারলে অন্য কাউকে বদলি হিসেবে কঙ্কর নিক্ষেপের দায়িত্ব দিতে পারেন। এই দিনগুলোকে দুঃখ-কষ্টের নয়, বরং আল্লাহর যিকর ও শুকরিয়ার আনন্দের দিন হিসেবে কাটান।",
+          "bodyEn": "The crowds at the Jamarat are heaviest just after noon — the elderly and weak will find them lighter a little later (late afternoon/evening). If you cannot do it yourself, you may appoint someone to cast the pebbles on your behalf (badal). Spend these days not in distress but in the joy of Allah's remembrance and gratitude."
+        }
       ],
-      "duas": [],
-      "story": null
+      "duas": [
+        {
+          "id": "hajj_ch10_dua_takbir",
+          "arabic": "اللَّهُ أَكْبَرُ اللَّهُ أَكْبَرُ لَا إِلَهَ إِلَّا اللَّهُ وَاللَّهُ أَكْبَرُ اللَّهُ أَكْبَرُ وَلِلَّهِ الْحَمْدُ",
+          "translitBn": "আল্লা-হু আকবার, আল্লা-হু আকবার, লা- ইলা-হা ইল্লাল্লা-হু, ওয়াল্লা-হু আকবার, আল্লা-হু আকবার, ওয়া লিল্লা-হিল হামদ।",
+          "meaningBn": "আল্লাহ সর্বমহান, আল্লাহ সর্বমহান, আল্লাহ ছাড়া কোনো ইলাহ নেই, আল্লাহ সর্বমহান, আল্লাহ সর্বমহান, আর সকল প্রশংসা আল্লাহরই। (তাশরিকের দিনগুলোতে প্রতি ফরজ নামাজের পর পড়া তাকবির)",
+          "meaningEn": "Allah is the Greatest, Allah is the Greatest, there is no god but Allah, Allah is the Greatest, Allah is the Greatest, and to Allah belongs all praise. (The Takbir recited after each obligatory prayer during the days of Tashreeq)",
+          "audioAsset": null
+        }
+      ],
+      "story": {
+        "titleBn": "খাওয়া, পান ও যিকরের দিন",
+        "titleEn": "Days of Eating, Drinking, and Remembrance",
+        "bodyBn": "রাসূলুল্লাহ (সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম) বলেছেন: \"তাশরিকের দিনগুলো হলো খাওয়া, পান করা এবং আল্লাহর যিকরের দিন।\" (সহিহ মুসলিম)। হজের এই শেষ দিনগুলো কষ্ট আর ক্লান্তির নয়, বরং কোরবানির গোশত খাওয়া, শুকরিয়া আদায় ও আল্লাহর প্রশংসায় ভরা আনন্দের দিন। মিনার তাঁবুতে ভাইদের সাথে এই সময়টুকু আল্লাহর যিকরে কাটান — কারণ এটিই হজের পূর্ণতা ও শান্তির স্বাদ।",
+        "bodyEn": "The Prophet (peace be upon him) said: \"The days of Tashreeq are days of eating, drinking, and the remembrance of Allah.\" (Sahih Muslim). These final days of Hajj are not for hardship and exhaustion, but are days of joy — eating the meat of the sacrifice, giving thanks, and praising Allah. Spend this time in the tents of Mina with your brothers in the remembrance of Allah — for this is the completion of Hajj and a taste of its peace.",
+        "imageAsset": "assets/images/stories/hajj_ch10.png",
+        "audioAsset": null
+      }
     },
     {
       "id": "hajj_ch11",
@@ -141,10 +426,43 @@
       "titleEn": "Farewell Tawaf",
       "icon": "waving_hand",
       "sections": [
-        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+        {
+          "type": "intro",
+          "order": 1,
+          "bodyBn": "হজের সব কাজ শেষে, মক্কা ত্যাগ করার আগে সর্বশেষ যে কাজটি করতে হয় তা হলো বিদায়ী তাওয়াফ (তাওয়াফুল বিদা)। এটি কাবা শরীফকে বিদায় জানানোর তাওয়াফ এবং হানাফি মাযহাব অনুযায়ী দূর থেকে আসা হাজিদের উপর ওয়াজিব। এই তাওয়াফের মাধ্যমেই আপনার হজ পূর্ণতা পায়।",
+          "bodyEn": "After all the rites of Hajj are complete, the last thing to do before leaving Makkah is the Farewell Tawaf (Tawaf al-Wada). It is the Tawaf of bidding farewell to the Ka'bah and, in the Hanafi school, is obligatory upon pilgrims who have come from afar. With this Tawaf your Hajj reaches its completion."
+        },
+        {
+          "type": "steps",
+          "order": 2,
+          "bodyBn": "সবশেষে — মক্কা ত্যাগের ঠিক আগে এই তাওয়াফ করুন, যেন এটিই আপনার শেষ কাজ হয়।\nসাত চক্কর — অন্যান্য তাওয়াফের মতোই কাবা শরীফের চারপাশে সাতবার প্রদক্ষিণ করুন (এতে রমল বা ইদতিবা নেই)।\nদুই রাকাত — তাওয়াফের পর মাকামে ইবরাহিমের কাছে বা মসজিদের যেকোনো স্থানে দুই রাকাত নামাজ পড়ুন।\nদোয়া — কাবার দিকে ফিরে মন খুলে দোয়া করুন এবং কবুল হজ ও পুনরায় আসার তাওফিক প্রার্থনা করুন।\nনারীদের ক্ষেত্রে — ঋতুমতী নারীদের উপর বিদায়ী তাওয়াফ মাফ।",
+          "bodyEn": "Do it last — perform this Tawaf just before leaving Makkah, so that it is your final act there.\nSeven circuits — circle the Ka'bah seven times as in other Tawafs (there is no raml or idtiba here).\nTwo rak'ahs — after the Tawaf, pray two rak'ahs near Maqam Ibrahim or anywhere in the mosque.\nDu'a — turning toward the Ka'bah, make heartfelt du'a and ask for an accepted Hajj and the means to return.\nFor women — the Farewell Tawaf is waived for menstruating women."
+        },
+        {
+          "type": "tip",
+          "order": 3,
+          "bodyBn": "বিদায়ী তাওয়াফের পর মক্কায় বেশি সময় দেরি না করাই উত্তম — এই তাওয়াফকে যথাসম্ভব শেষ কাজ হিসেবে রাখুন। এই মুহূর্তটি অত্যন্ত আবেগময়; অনেক হাজির চোখে পানি এসে যায়, কারণ কে জানে আবার এই ঘরে ফেরা হবে কিনা। তাই কাবাকে বিদায় দিন কৃতজ্ঞ ও বিনম্র হৃদয়ে, আর কবুল হজের জন্য দোয়া করুন।",
+          "bodyEn": "After the Farewell Tawaf it is best not to linger long in Makkah — keep this Tawaf as much as possible your final act. This moment is deeply emotional; many pilgrims find tears in their eyes, for who knows whether they will return to this House again. So bid farewell to the Ka'bah with a grateful and humble heart, and pray for an accepted Hajj."
+        }
       ],
-      "duas": [],
-      "story": null
+      "duas": [
+        {
+          "id": "hajj_ch11_dua_taqabbal",
+          "arabic": "رَبَّنَا تَقَبَّلْ مِنَّا إِنَّكَ أَنْتَ السَّمِيعُ الْعَلِيمُ",
+          "translitBn": "রাব্বানা- তাক্বাব্বাল মিন্না- ইন্নাকা আন্তাস সামী'উল 'আলীম।",
+          "meaningBn": "হে আমাদের রব, আমাদের পক্ষ থেকে (এই হজ) কবুল করুন; নিশ্চয়ই আপনি সর্বশ্রোতা, সর্বজ্ঞ। (সূরা বাকারা, ২:১২৭)",
+          "meaningEn": "Our Lord, accept this from us; indeed You are the All-Hearing, the All-Knowing. (Qur'an 2:127)",
+          "audioAsset": null
+        }
+      ],
+      "story": {
+        "titleBn": "নবজাতকের মতো নিষ্পাপ",
+        "titleEn": "As Pure as a Newborn",
+        "bodyBn": "রাসূলুল্লাহ (সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম) বলেছেন: \"যে ব্যক্তি আল্লাহর উদ্দেশ্যে হজ করল এবং কোনো অশ্লীল কথা বা পাপ কাজ করল না, সে সেই দিনের মতো (নিষ্পাপ হয়ে) ফিরে আসে যেদিন তার মা তাকে জন্ম দিয়েছিল।\" (সহিহ বুখারি ও মুসলিম)। ভাবুন — একটি কবুল হজ আপনার অতীতের সব গুনাহ মুছে আপনাকে সদ্যোজাত শিশুর মতো পবিত্র করে দিতে পারে। কাবাকে বিদায় জানানোর সময় এই মহা অনুগ্রহের কথা স্মরণ করুন এবং সংকল্প করুন — এই পবিত্রতাকে সারাজীবন ধরে রাখবেন, আগের পাপে আর ফিরে যাবেন না।",
+        "bodyEn": "The Prophet (peace be upon him) said: \"Whoever performs Hajj for the sake of Allah and utters no obscenity and commits no sin returns as (pure as) the day his mother gave birth to him.\" (Sahih al-Bukhari & Muslim). Reflect — a single accepted Hajj can erase all your past sins and make you as pure as a newborn child. As you bid farewell to the Ka'bah, remember this immense grace and resolve to hold on to that purity for the rest of your life, never returning to your former sins.",
+        "imageAsset": "assets/images/stories/hajj_ch11.png",
+        "audioAsset": null
+      }
     },
     {
       "id": "hajj_ch12",
@@ -154,10 +472,43 @@
       "titleEn": "Visiting Madinah",
       "icon": "star",
       "sections": [
-        { "type": "intro", "order": 1, "bodyBn": "[content in Phase 8]", "bodyEn": "[content in Phase 8]" }
+        {
+          "type": "intro",
+          "order": 1,
+          "bodyBn": "মদিনা যিয়ারত হজের অংশ নয় এবং বাধ্যতামূলকও নয়, তবে অত্যন্ত ফজিলতপূর্ণ — তাই প্রায় সব হাজিই মদিনায় যান। এর মূল উদ্দেশ্য মসজিদে নববীতে নামাজ পড়া, যেখানে এক নামাজ অন্য মসজিদের হাজার নামাজের চেয়ে উত্তম। সেখানে রাসূলুল্লাহ (সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম)-এর রওজা মুবারকে আদবের সাথে সালাম পেশ করা হয় এবং অন্যান্য যিয়ারতের স্থান পরিদর্শন করা যায়।",
+          "bodyEn": "Visiting Madinah is not part of Hajj and is not obligatory, yet it is deeply virtuous — so almost every pilgrim goes. Its main purpose is to pray in Masjid an-Nabawi, where one prayer is better than a thousand prayers elsewhere. There, one sends salam with proper etiquette at the resting place of the Prophet (peace be upon him), and may visit other places of ziyarah."
+        },
+        {
+          "type": "steps",
+          "order": 2,
+          "bodyBn": "নিয়ত — মসজিদে নববীতে নামাজের নিয়তে মদিনায় যান। (রাসূল সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম বলেছেন, তিনটি মসজিদ ছাড়া বিশেষ সওয়াবের আশায় সফর করা যায় না — এর একটি তাঁর মসজিদ।)\nমসজিদে প্রবেশ — ডান পা দিয়ে, প্রবেশের দোয়া পড়ে ঢুকুন এবং দুই রাকাত তাহিয়্যাতুল মসজিদ পড়ুন (সম্ভব হলে রিয়াদুল জান্নাহ/রওজায়, যা নুসুক অ্যাপে অনুমতি নিয়ে যাওয়া যায়; না হলে যেকোনো জায়গায়)।\nসালাম পেশ — শান্তভাবে ও নিচু স্বরে রাসূল (সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম)-এর প্রতি সালাম দিন, এরপর পাশে শায়িত আবু বকর ও উমর (রাঃ)-কে সালাম দিন। রওজার দিকে ফিরে দোয়া করবেন না — দোয়া কেবল আল্লাহর কাছেই, কিবলামুখী হয়ে করুন।\nযিয়ারতের স্থান — সময় থাকলে মসজিদে কুবা (যেখানে দুই রাকাত পড়লে এক উমরাহর সওয়াব), জান্নাতুল বাকি ও ওহুদ প্রভৃতি স্থান পরিদর্শন করুন।",
+          "bodyEn": "Intention — travel to Madinah intending to pray in Masjid an-Nabawi. (The Prophet, peace be upon him, said one should not set out seeking special reward except to three mosques — one of which is his mosque.)\nEnter the mosque — with the right foot, reciting the entry du'a, and pray two rak'ahs of tahiyyatul-masjid (in the Rawdah / Riyad al-Jannah if you can — accessed with a Nusuk permit — otherwise anywhere).\nSend salam — quietly and respectfully send salam upon the Prophet (peace be upon him), then upon Abu Bakr and Umar (may Allah be pleased with them) beside him. Do not turn to the grave to make du'a — supplication is to Allah alone, made facing the Qiblah.\nPlaces of ziyarah — if time allows, visit Masjid Quba (praying two rak'ahs there earns the reward of an Umrah), Jannat al-Baqi', and Uhud."
+        },
+        {
+          "type": "tip",
+          "order": 3,
+          "bodyBn": "রওজার কাছে পূর্ণ আদব বজায় রাখুন — নিচু স্বরে কথা বলুন, জালি স্পর্শ বা চুমু দেবেন না, রওজা তাওয়াফ করবেন না, এবং নিজের প্রয়োজন রাসূলের কাছে নয় বরং একমাত্র আল্লাহর কাছে চাইবেন। রিয়াদুল জান্নাহতে প্রবেশের জন্য নুসুক অ্যাপে অনুমতি লাগে; নারী ও পুরুষদের জন্য আলাদা সময় নির্ধারিত থাকে।",
+          "bodyEn": "Keep full etiquette near the Rawdah — speak softly, do not touch or kiss the grille, do not circle the grave, and ask for your needs from Allah alone, not from the Prophet. Entering Riyad al-Jannah requires a Nusuk permit, and there are separate times for men and women."
+        }
       ],
-      "duas": [],
-      "story": null
+      "duas": [
+        {
+          "id": "hajj_ch12_dua_salam",
+          "arabic": "السَّلَامُ عَلَيْكَ يَا رَسُولَ اللَّهِ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ",
+          "translitBn": "আসসালা-মু 'আলাইকা ইয়া- রাসূলাল্লা-হি ওয়া রাহমাতুল্লা-হি ওয়া বারাকা-তুহ।",
+          "meaningBn": "হে আল্লাহর রাসূল, আপনার উপর সালাম এবং আল্লাহর রহমত ও বরকত বর্ষিত হোক। (মসজিদে নববীতে রাসূল সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম-এর প্রতি সালাম)",
+          "meaningEn": "Peace be upon you, O Messenger of Allah, and the mercy of Allah and His blessings. (The salam sent upon the Prophet, peace be upon him, in Masjid an-Nabawi)",
+          "audioAsset": null
+        }
+      ],
+      "story": {
+        "titleBn": "জান্নাতের বাগান",
+        "titleEn": "A Garden of Paradise",
+        "bodyBn": "রাসূলুল্লাহ (সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম) বলেছেন: \"আমার ঘর ও আমার মিম্বরের মাঝের স্থানটি জান্নাতের বাগানসমূহের একটি বাগান।\" (সহিহ বুখারি ও মুসলিম)। এই স্থানটিই \"রিয়াদুল জান্নাহ\" নামে পরিচিত। তিনি আরও বলেছেন: \"আমার এই মসজিদে এক ওয়াক্ত নামাজ, মসজিদুল হারাম ছাড়া অন্য যেকোনো মসজিদের হাজার নামাজের চেয়ে উত্তম।\" (সহিহ বুখারি ও মুসলিম)। তাই মদিনায় থাকাকালীন প্রতিটি মুহূর্তকে মূল্য দিন — বেশি বেশি নামাজ, দরুদ ও দোয়ায় সময় কাটান, আর নবীর শহরের প্রশান্তি অন্তরে ধারণ করুন।",
+        "bodyEn": "The Prophet (peace be upon him) said: \"Between my house and my pulpit is a garden from the gardens of Paradise.\" (Sahih al-Bukhari & Muslim). This place is known as Riyad al-Jannah. He also said: \"A prayer in this mosque of mine is better than a thousand prayers elsewhere, except for Masjid al-Haram.\" (Sahih al-Bukhari & Muslim). So treasure every moment in Madinah — spend it in abundant prayer, salawat, and du'a, and carry the tranquillity of the Prophet's city in your heart.",
+        "imageAsset": "assets/images/stories/hajj_ch2.png",
+        "audioAsset": null
+      }
     }
   ]
 }
